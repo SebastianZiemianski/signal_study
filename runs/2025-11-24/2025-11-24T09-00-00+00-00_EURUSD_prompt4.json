@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-24T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, the RSI(14) is unavailable based on the given conditions, and the price is hovering near the neutral zone. This suggests that there is no clear buying or selling pressure, leading to a HOLD signal as the market could remain stable without strong directional momentum.",
+  "invalidation": "Should the price move substantially either above 1.16021 (indicative of a bullish trend) or below 1.15021 (indicative of a bearish trend), a reassessment would be necessary.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.15321,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.15321,
+    "warnings": []
+  }
+}

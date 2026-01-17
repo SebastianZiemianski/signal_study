@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-16T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.7,
+  "entry": 102.80007,
+  "stop": 102.76007,
+  "targets": [
+    102.85007,
+    102.89007
+  ],
+  "rationale": "The market shows bullish momentum as it has been respecting a support level around the current price vicinity. The oscillator readings indicate buying pressure with a potential upswing. The entry price is set slightly above the current market price, anticipating a quick breakout. The stop loss is tightly placed to allow for a minimal risk, and the targets are achievable given the current volatility.",
+  "invalidation": "If the price drops below 102.76007, the bullish thesis would be invalidated.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 102.79007,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 102.79007,
+    "warnings": []
+  }
+}

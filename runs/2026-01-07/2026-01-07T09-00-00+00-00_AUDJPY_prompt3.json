@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-07T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.7,
+  "entry": 105.485,
+  "stop": 105.46,
+  "targets": [
+    105.5,
+    105.52,
+    105.54
+  ],
+  "rationale": "After analyzing the current 5-minute market conditions for AUDJPY, the price is showing a slight upward momentum with potential resistance at 105.500. A buy signal is justified as the price is just below this resistance level, and pulled back to the 105.485 area, offering a good entry point. The RSI indicator shows values near 55, indicating bullish momentum. The stop loss is determined at 105.460, just below the recent swing low.",
+  "invalidation": "If prices drop below 105.460, the bullish momentum can be considered invalid as it would indicate a breakdown from this support level.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 105.48428,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 105.48428,
+    "warnings": []
+  }
+}

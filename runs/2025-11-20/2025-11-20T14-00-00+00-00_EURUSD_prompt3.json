@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-20T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.1535,
+  "stop": 1.1525,
+  "targets": [
+    1.154,
+    1.1545
+  ],
+  "rationale": "The current market price is at 1.15328, and the price action shows a recent breakout above a consolidation pattern with increasing bullish momentum. There's also a positive divergence present in the RSI indicator, suggesting strengthening bullish momentum. The entry point of 1.15350 is slightly above the current price, allowing for a short-term upward trend capture. The stop loss is set below the recent swing low at 1.15250 to limit potential losses. Target prices are set at 1.15400 and 1.15450, which are reasonable bullish targets based on recent price action.",
+  "invalidation": "If the market price falls below 1.15250, it would invalidate the bullish thesis as it would break below recent support levels.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.15328,
+  "entry_distance_pips": 0.02,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.02,
+    "current_price": 1.15328,
+    "warnings": []
+  }
+}

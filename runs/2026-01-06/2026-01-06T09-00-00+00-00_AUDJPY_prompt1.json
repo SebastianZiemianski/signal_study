@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-06T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, the price of AUDJPY at 105.06068 is within a consolidation phase. There has been no clear breakout above the recent range high or below the recent range low, indicating a lack of momentum. Therefore, without a distinct breakout direction, this leads to a HOLD signal.",
+  "invalidation": "If a strong breakout occurs above 105.15068 or below 104.96068, reassess for potential entry signals.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 105.06068,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 105.06068,
+    "warnings": []
+  }
+}

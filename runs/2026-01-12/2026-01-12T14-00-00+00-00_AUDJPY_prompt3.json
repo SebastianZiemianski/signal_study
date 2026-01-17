@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-12T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 105.98147,
+  "stop": 106.00147,
+  "targets": [
+    105.95147,
+    105.93147
+  ],
+  "rationale": "Current market structure shows a potential reversal as the price has reached a local resistance area around 106.00 and has begun to show signs of weakness with recent bearish candles on the 5-minute chart. Additionally, the RSI is indicating overbought conditions, which supports the bearish outlook. Selling near the current price serves to capitalize on this weakness as it aligns with potential target levels below the current price. The 5-minute price action suggests fading this rally, especially as sellers may take control near the resistance range.",
+  "invalidation": "If the price closes above 106.00 on a 5-minute candle, the bullish pressure may increase, invalidating the short-term bearish bias.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 105.99147,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 105.99147,
+    "warnings": []
+  }
+}

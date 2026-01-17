@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-03T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 102.44,
+  "stop": 102.49,
+  "targets": [
+    102.41,
+    102.4,
+    102.39
+  ],
+  "rationale": "The AUDJPY is currently in a downtrend on the 5-minute chart. Recent price action shows consistent lower highs and lower lows, indicating bearish momentum. With the current price at 102.44472, entering a short position at 102.4400 is viable, providing a small cushion above the recent high for a stop loss while targeting immediate support levels.",
+  "invalidation": "If the price rises above 102.4900, it would invalidate the bearish view, suggesting a reversal to bullish conditions.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 102.44472,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 102.44472,
+    "warnings": []
+  }
+}

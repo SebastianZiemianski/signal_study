@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-18T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.1725,
+  "stop": 1.1745,
+  "targets": [
+    1.171,
+    1.17
+  ],
+  "rationale": "The current market price of 1.17303 shows signs of a minor bearish trend, with several recent lower highs forming in the 5-minute timeframe. Additionally, the RSI indicates that the asset is nearing overbought levels, suggesting a potential reversal. A sell entry at 1.17250 is feasible within the next hour, which is also within the permissible range of 100 pips.",
+  "invalidation": "If the price exceeds 1.17450, the bearish signal may be invalidated.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.17303,
+  "entry_distance_pips": 0.05,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.05,
+    "current_price": 1.17303,
+    "warnings": []
+  }
+}

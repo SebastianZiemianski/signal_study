@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-23T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, there is no clear breakout from a defined consolidation range on the 5-minute chart for AUDJPY. The price is hovering around the level of 104.20684 and has not broken out significantly above the range high or below the range low. Therefore, it is best to hold off on making a trade until a clearer direction is established.",
+  "invalidation": "If the price breaks above 104.30684 or below 104.10684 with momentum, this signal will need to be re-evaluated.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 104.20684,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 104.20684,
+    "warnings": []
+  }
+}

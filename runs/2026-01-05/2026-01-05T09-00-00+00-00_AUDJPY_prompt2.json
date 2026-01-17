@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-05T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 104.73,
+  "stop": 104.7,
+  "targets": [
+    104.75,
+    104.77,
+    104.79
+  ],
+  "rationale": "The AUDJPY pair is showing bullish momentum with recent upward price action, supported by a break of the previous resistance level around 104.72. Current market conditions reflect positive sentiment for the Australian dollar due to recent economic data, which suggests a potential continuation of this upward trend in the short term.",
+  "invalidation": "If the price drops below 104.70000, this would invalidate the bullish outlook.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 104.72474,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 104.72474,
+    "warnings": []
+  }
+}

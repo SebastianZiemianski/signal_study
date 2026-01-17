@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-12T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.16776,
+  "stop": 1.16976,
+  "targets": [
+    1.16576,
+    1.16476,
+    1.16376
+  ],
+  "rationale": "The current market condition shows a bearish trend with recent lower highs and lower lows on the 5-minute chart. The price is approaching minor resistance at 1.16900, suggesting a possible reversal. Entering a short position at 1.16776 with a stop loss above resistance offers a good risk/reward ratio based on the recent price action observed today.",
+  "invalidation": "If price moves above 1.16976, the bearish thesis would be invalidated, suggesting a reversal or continuation of bullish momentum.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.16876,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.16876,
+    "warnings": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-09T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 105.37346,
+  "stop": 105.32346,
+  "targets": [
+    105.42346,
+    105.47346,
+    105.52346
+  ],
+  "rationale": "The current price at 105.36346 shows a bullish sentiment as the market has recently bounced off a support level around 105.3500. The RSI indicator is currently at 60, indicating that the market is in a slightly overbought condition but has room to move higher. Additionally, the 5m chart shows a series of higher lows which further supports a bullish setup. I'm suggesting an entry at 105.37346 which is 10 pips above the current price, allowing a stop at 105.32346 for a tight risk management approach. Targets are based on recent resistance levels which are seen at 105.42346, 105.47346, and 105.52346, providing multiple profit-taking opportunities as the price advances.",
+  "invalidation": "If price drops below 105.32346, this will invalidate the bullish setup, indicating a potential reversal in the trend.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 105.36346,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 105.36346,
+    "warnings": []
+  }
+}

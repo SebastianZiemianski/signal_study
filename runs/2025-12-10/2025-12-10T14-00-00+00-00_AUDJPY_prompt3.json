@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-10T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 103.9,
+  "stop": 104.05,
+  "targets": [
+    103.8,
+    103.7,
+    103.6
+  ],
+  "rationale": "The AUDJPY pair is exhibiting a bearish trend on the 5-minute timeframe with notable resistance at the recent highs around 104.050. Current price at 103.96729 is showing signs of weakness as it failed to maintain upward momentum and is starting to pull back. The stochastic indicator suggests overbought conditions which support further downside potential. Entering a short position at 103.900 provides a reasonable entry point close to the current market price, with a stop-loss above the recent resistance for limited risk.",
+  "invalidation": "Price moving above 104.050 would invalidate the bearish outlook and trigger reconsideration of the trade.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Current market conditions indicate a potential pullback and trend reversal for AUDJPY based on short-term indicators. Immediate selling opportunity can be warranted.",
+  "current_price": 103.96729,
+  "entry_distance_pips": 0.07,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.07,
+    "current_price": 103.96729,
+    "warnings": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-01T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "There is currently no clear breakout above the recent range high or below the recent range low in AUDJPY. Therefore, there is no action to be taken at this moment.",
+  "invalidation": "If a strong breakout above 101.88 or below 101.68 occurs, it may be worth reevaluating the conditions for a trading signal.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 101.77814,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 101.77814,
+    "warnings": []
+  }
+}

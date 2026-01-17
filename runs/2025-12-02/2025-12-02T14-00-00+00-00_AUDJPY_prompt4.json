@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-02T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Based on the current price and market conditions, there is no clear bullish or bearish signal as the Buy and Sell pressures are not evident. Furthermore, the critical RSI thresholds are not provided, resulting in insufficient information to support a directional trade. Therefore, it would be best to HOLD and observe the market for any evolving trends.",
+  "invalidation": "If market price moves decisively beyond 102.53474 (100 pips above) or drops below 102.33474 (100 pips below), then a reevaluation of the trading stance will be necessary.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 102.43474,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 102.43474,
+    "warnings": []
+  }
+}

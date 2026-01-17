@@ -1,0 +1,36 @@
+Provide a comprehensive trading analysis for {SYMBOL} on {TIMEFRAME} using the CURRENT DATE ({CURRENT_DATE}) and TIME ({CURRENT_TIME}).
+
+CRITICAL: Current market price = {CURRENT_PRICE} (Source: {PRICE_SOURCE}, Timestamp: {PRICE_TIMESTAMP})
+
+You MUST use this EXACT current price. Entry price MUST be within 100 PIPS of {CURRENT_PRICE}.
+
+CRITICAL: You MUST use the MOST CURRENT market data from TODAY ({CURRENT_DATE}). Use real-time prices, today's market structure, current volatility patterns, and actual trading setups from TODAY. Do NOT rely on historical data - focus on what is happening TODAY.
+
+Determine the strongest directional signal (BUY or SELL) based on TODAY's current market structure, volatility patterns, and trading setups.
+
+ESSENTIAL ENTRY PRICE REQUIREMENT:
+- Entry price MUST be within 100 PIPS of the CURRENT market price ({CURRENT_PRICE})
+- For JPY pairs (AUDJPY): 100 pips = 1.00 (e.g., if current price is 85.50, entry must be between 84.50-86.50)
+- For major pairs (EURUSD): 100 pips = 0.0100 (e.g., if current price is 1.0850, entry must be between 1.0750-1.0950)
+- For XAUUSD (Gold): 100 pips = 10.00 (e.g., if current price is 2050, entry must be between 2040-2060)
+- Entry must be CLOSE to current market price - maximum 100 pips away
+- If you cannot set an entry within 100 pips of current price, return HOLD
+
+ESSENTIAL TIMING CONSTRAINTS:
+- Trade MUST be executable within the NEXT HOUR from {CURRENT_TIME}
+- Entry must be reachable within 60 minutes from current time based on CURRENT market prices
+- If setup cannot be entered within 1 hour, return HOLD
+- Maximum trade duration: 5 hours
+- Analyze using current market data provided below
+
+SIGNAL GUIDELINES:
+- Provide BUY or SELL if you can identify a trading opportunity based on TODAY's market conditions
+- HOLD is acceptable ONLY when there is genuinely NO trade opportunity - truly neutral market conditions, conflicting signals, or conditions that make trading inadvisable TODAY
+- Include detailed rationale and specific invalidation conditions based on CURRENT market analysis
+- Set entry, stop, and targets accordingly for short-term scalping-style trades that can be initiated within the next hour using CURRENT price levels
+
+
+simple prompt - sonst keine erfassbare daten
+structured prompt
+indicator based prompt - RSI 
+Screen prompt - wenn zeit 

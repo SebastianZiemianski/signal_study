@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-01T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.1635,
+  "stop": 1.165,
+  "targets": [
+    1.162,
+    1.1615
+  ],
+  "rationale": "Currently, the EURUSD is showing a bearish trend with a recent breakdown below a key support level at 1.16450. The Relative Strength Index (RSI) is also indicating overbought conditions, suggesting a pullback may be likely. The price action has formed a lower high, reinforcing the bearish sentiment. Selling at 1.16350 ensures we enter just under the previous resistance level, allowing for a tight stop loss at 1.16500 to manage risk effectively. Targets are set at 1.16200 and 1.16150 to capture short-term downward movement.",
+  "invalidation": "If the price moves above 1.16500, the bearish setup would be invalidated, indicating a potential trend reversal. This is the level to watch closely as a break above would suggest further bullish momentum.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Analysis based on current price levels indicating a bearish setup. Enter a short position to capitalize on the expected pullback in the next hour.",
+  "current_price": 1.16425,
+  "entry_distance_pips": 0.08,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.08,
+    "current_price": 1.16425,
+    "warnings": []
+  }
+}

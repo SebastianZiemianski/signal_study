@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-26T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.17839,
+  "stop": 1.17739,
+  "targets": [
+    1.18039,
+    1.18139,
+    1.18239
+  ],
+  "rationale": "The current RSI value suggests the market is oversold as it is approaching 30 based on the recent price action. This typically provides a favorable bias towards buying as the price is likely to rebound. Given the current price of 1.17939 and favorable conditions around the RSI, we recommend entering a buy position near 1.17839, which is within 100 pips of the current price (1.17939).",
+  "invalidation": "If the price drops below 1.17739, it would suggest that the buying momentum is failing, and the position should be invalidated.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.17939,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.17939,
+    "warnings": []
+  }
+}

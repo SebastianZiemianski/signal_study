@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-24T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 100.251,
+  "stop": 100.351,
+  "targets": [
+    100.151,
+    100.051
+  ],
+  "rationale": "The AUDJPY is currently exhibiting bearish momentum, having formed a series of lower highs on the 5-minute chart. Additionally, the RSI indicates overbought conditions at 70, suggesting a potential pullback. A sell entry can be placed at 100.251, very close to the current market price, with initial targets set at 100.151 and 100.051.",
+  "invalidation": "If the price moves above 100.351, this would invalidate the bearish scenario and suggest a potential reversal.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 101.251,
+  "entry_distance_pips": 1.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 1.0,
+    "current_price": 101.251,
+    "warnings": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-19T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 103.67,
+  "stop": 103.6,
+  "targets": [
+    103.75,
+    103.8
+  ],
+  "rationale": "The AUDJPY is showing signs of upward momentum as it approaches the recent resistance level at 103.7500. Today's movement indicates buyer strength, making it a viable opportunity to enter a long position.",
+  "invalidation": "If price falls below 103.6000, it would indicate a change in market sentiment and warrant exiting the trade.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Market showing upward momentum; consider entering at 103.6700.",
+  "current_price": 103.6675,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 103.6675,
+    "warnings": []
+  }
+}

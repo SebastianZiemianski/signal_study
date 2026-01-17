@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-21T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 101.15,
+  "stop": 101.25,
+  "targets": [
+    101.1,
+    101.05,
+    100.95
+  ],
+  "rationale": "The current price of AUDJPY at 101.187 is showing signs of a bearish trend with recent price action demonstrating lower highs and lower lows on the 5-minute timeframe. The RSI indicates that the market is approaching overbought territory but has not yet diverged, suggesting potential for a price correction. With the entry point set at 101.150, this is within the acceptable range of 100 pips. The target levels are set below the current price reflecting the anticipated downward movement, while the stop loss at 101.250 will help manage risk in case of an unfavorable move.",
+  "invalidation": "If the price rises above 101.250, this invalidates the sell signal as it indicates a break in the current bearish structure, potentially leading to a reversal.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 101.187,
+  "entry_distance_pips": 0.04,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.04,
+    "current_price": 101.187,
+    "warnings": []
+  }
+}

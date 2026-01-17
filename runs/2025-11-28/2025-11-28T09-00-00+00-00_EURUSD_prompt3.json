@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-28T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.1565,
+  "stop": 1.158,
+  "targets": [
+    1.155,
+    1.154
+  ],
+  "rationale": "The current market price of 1.15701 shows signs of bearish pressure as recent price action has failed to break above previous resistance levels and is showing lower highs on the 5-minute chart. Additionally, the RSI is indicating overbought conditions, suggesting potential reversal points. Therefore, a sell entry at 1.15650 aligns with the market trend, targeting immediate support levels for profit.",
+  "invalidation": "If the price breaks above 1.15800 and holds, it could indicate a reversal of the current bearish sentiment.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.15701,
+  "entry_distance_pips": 0.05,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.05,
+    "current_price": 1.15701,
+    "warnings": []
+  }
+}

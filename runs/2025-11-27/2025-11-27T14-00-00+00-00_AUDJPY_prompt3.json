@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-27T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 101.9,
+  "stop": 102.05,
+  "targets": [
+    101.8,
+    101.7
+  ],
+  "rationale": "The AUDJPY market is currently showing weakness as it approaches a previous resistance level at around 102.100. Recent price action has indicated a potential reversal, with a downturn characterized by lower highs. The RSI is currently around 45, indicating a slight bearish momentum. The confluence of resistance and bearish price action suggests a short-term sell opportunity. Entry at 101.900 is realistic and achievable within the next hour, with a stop set above the recent high near 102.050 and targets at key support levels of 101.800 and 101.700.",
+  "invalidation": "If the price reaches above 102.050, confirming a bullish reversal, it would invalidate the sell signal.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 101.99496,
+  "entry_distance_pips": 0.09,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.09,
+    "current_price": 101.99496,
+    "warnings": []
+  }
+}

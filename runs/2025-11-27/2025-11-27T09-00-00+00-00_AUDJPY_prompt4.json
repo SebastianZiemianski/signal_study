@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-27T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current price is positioned at 101.99946. Without access to actual RSI data, I cannot determine whether the market is oversold or overbought to justify a trade. As a result, no actionable signal can be generated at this time. The market conditions appear neutral, and without further directional signals from price action, I recommend holding.",
+  "invalidation": "A clear price movement resulting in a break outside of the current range would invalidate this hold.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 101.99946,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 101.99946,
+    "warnings": []
+  }
+}

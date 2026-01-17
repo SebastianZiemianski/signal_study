@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-05T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 102.6,
+  "stop": 102.7,
+  "targets": [
+    102.5,
+    102.45,
+    102.4
+  ],
+  "rationale": "The market has shown signs of weakening, and the recent price action indicates a bearish trend. Additionally, there is resistance observed at the current price level, suggesting a potential reversal. The sell setup is backed by lower momentum indicators and aligns with current trends.",
+  "invalidation": "If the market pushes above 102.700, this will invalidate the sell signal and suggest a potential bullish reversal.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 102.64512,
+  "entry_distance_pips": 0.05,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.05,
+    "current_price": 102.64512,
+    "warnings": []
+  }
+}

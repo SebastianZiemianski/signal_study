@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-02T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "At the moment, the market price of EURUSD is at 1.17278. There appears to be no clear breakout from any recent consolidation or specific range observed from the price action. Without a defined range high or low indicating a breakout scenario, it’s prudent to hold off on making a trade. The current market conditions do not present sufficient momentum for either a buy or sell signal.",
+  "invalidation": "If price breaks above 1.17378 or below 1.17178 with significant volume, reevaluation may be needed.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 1.17278,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.17278,
+    "warnings": []
+  }
+}

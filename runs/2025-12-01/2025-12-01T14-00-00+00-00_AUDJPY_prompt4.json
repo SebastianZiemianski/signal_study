@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-01T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, the RSI is unknown but given the recent price movements, we lack a strong signal indicating overbought or oversold conditions. If the RSI were available and showed values suggesting clarity, we could consider BUY or SELL. However, with no directional price action or a clear RSI signal, the recommendation is to HOLD. The market conditions are neutral at this moment, suggesting no immediate trade opportunity.",
+  "invalidation": "Invalidation will occur if the price moves decisively above 102.63307 or below 100.63307, suggesting potential shifts in trend.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 101.63307,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 101.63307,
+    "warnings": []
+  }
+}

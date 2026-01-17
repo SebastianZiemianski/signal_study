@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-20T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.152,
+  "stop": 1.1505,
+  "targets": [
+    1.1535,
+    1.154
+  ],
+  "rationale": "The EURUSD pair is showing slight bullish momentum on the 5-minute timeframe. Recent price action indicates a rebound off a support level at 1.15000, with indicators like RSI trending upwards from the oversold territory, suggesting buyer strength. The market sentiment is cautiously positive today, supported by recent economic news favoring the Euro Zone. This makes the entry at 1.15200 reasonable as it is near the current price and allows for a tight stop loss to limit risk.",
+  "invalidation": "If the price drops below 1.15050, this would invalidate the bullish outlook as it suggests a bearish reversal could be in effect.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.15193,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 1.15193,
+    "warnings": []
+  }
+}

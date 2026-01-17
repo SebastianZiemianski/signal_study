@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-08T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.166,
+  "stop": 1.164,
+  "targets": [
+    1.167,
+    1.168
+  ],
+  "rationale": "The price has shown a clear bullish momentum today with higher low formations evident in the recent 5m candles. A break above 1.16600 indicates continuation of the upward trend. Market data suggests strong buying activity and bullish sentiment which supports a BUY position.",
+  "invalidation": "Price drops below 1.16400 may indicate a potential trend reversal, suggesting that the buy position should be re-evaluated or closed.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.16502,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.16502,
+    "warnings": []
+  }
+}

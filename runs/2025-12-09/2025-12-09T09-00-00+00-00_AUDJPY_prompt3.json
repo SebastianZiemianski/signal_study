@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-09T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 103.7501,
+  "stop": 103.8001,
+  "targets": [
+    103.7001,
+    103.6701
+  ],
+  "rationale": "The current price of AUDJPY is at 103.7551, which is showing signs of a potential bearish reversal after recent resistance around 103.80 was tested. The intraday momentum indicators such as RSI suggest overbought conditions, indicating possible selling pressure. The proximity of the entry price at 103.7501 is within the acceptable 100 pips range. Additionally, price action analysis confirms a recent downtrend that can lead to further downward movement if the price breaks below the 103.750 level.",
+  "invalidation": "If the price moves above 103.800 without retracing, the bearish outlook would be invalidated and a rethink would be necessary.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Current market conditions suggest potential selling opportunities based on resistance and momentum indicators.",
+  "current_price": 103.7551,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 103.7551,
+    "warnings": []
+  }
+}

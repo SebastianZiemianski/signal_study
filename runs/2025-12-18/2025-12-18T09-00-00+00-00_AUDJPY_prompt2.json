@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-18T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 102.97,
+  "stop": 103.03,
+  "targets": [
+    102.95,
+    102.92,
+    102.9
+  ],
+  "rationale": "The market appears to be showing downward pressure based on the recent price action and momentum indicators. Selling near the current price level is indicated as there is resistance observed around 103.000 with a potential for reaching 102.900 in the near term.",
+  "invalidation": "A move above 103.030 would invalidate the bearish case and suggest a trend change.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 102.97882,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 102.97882,
+    "warnings": []
+  }
+}

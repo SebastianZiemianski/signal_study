@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-24T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.18,
+  "stop": 1.1785,
+  "targets": [
+    1.181,
+    1.182,
+    1.183
+  ],
+  "rationale": "The EURUSD has shown a bullish trend recently, with the price crossing above the previous resistance level. Momentum indicators suggest continued strength. The recent price movement indicates a potential for further upside in the short term, making a BUY position favorable.",
+  "invalidation": "If the price drops below 1.17850, this would invalidate the bullish view and suggest a potential downward trend.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.17998,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 1.17998,
+    "warnings": []
+  }
+}

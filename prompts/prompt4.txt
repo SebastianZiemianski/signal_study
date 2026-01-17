@@ -1,0 +1,28 @@
+Analyze {SYMBOL} on {TIMEFRAME} using RSI-based indicator logic with the CURRENT DATE ({CURRENT_DATE}) and TIME ({CURRENT_TIME}).
+
+CRITICAL: Current market price = {CURRENT_PRICE} (Source: {PRICE_SOURCE}, Timestamp: {PRICE_TIMESTAMP})
+
+You MUST use this EXACT current price. Entry price MUST be within 100 PIPS of {CURRENT_PRICE}.
+
+Use RSI(14) as the primary signal:
+- RSI <= 30 suggests oversold (bias to BUY)
+- RSI >= 70 suggests overbought (bias to SELL)
+- RSI between 45 and 55 suggests neutral (bias to HOLD unless price action is clearly directional)
+
+If RSI is not available, infer it from the price action and volatility described in today's market conditions and state the uncertainty.
+
+ENTRY PRICE REQUIREMENT:
+- Entry price MUST be within 100 PIPS of the CURRENT market price ({CURRENT_PRICE})
+- For JPY pairs (AUDJPY): 100 pips = 1.00
+- For major pairs (EURUSD): 100 pips = 0.0100
+- For XAUUSD (Gold): 100 pips = 10.00
+- If you cannot set an entry within 100 pips of current price, return HOLD
+
+TIMING REQUIREMENTS:
+- Trade must be executable within the NEXT HOUR from {CURRENT_TIME}
+- Maximum trade duration: 5 hours
+
+OUTPUT REQUIREMENTS:
+- Provide BUY, SELL, or HOLD with entry, stop, and 2-3 targets
+- Include a brief rationale referencing RSI and current price context
+- Provide a clear invalidation condition

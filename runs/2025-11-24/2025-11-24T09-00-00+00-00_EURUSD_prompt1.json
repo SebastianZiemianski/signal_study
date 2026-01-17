@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-24T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The market is currently at 1.15321, and I observe no clear breakout above the recent consolidation range. The price remains unstable and is not definitively breaking above or below any established range boundaries at this moment. Therefore, a HOLD signal is warranted as there is no clear opportunity for actionable trades.",
+  "invalidation": "If the price breaks decisively above 1.15450 (high) or below 1.15200 (low) with significant momentum, a different signal may be warranted.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 1.15321,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.15321,
+    "warnings": []
+  }
+}

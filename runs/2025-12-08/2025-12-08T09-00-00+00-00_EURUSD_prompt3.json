@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-08T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.166,
+  "stop": 1.164,
+  "targets": [
+    1.167,
+    1.168
+  ],
+  "rationale": "The current price of 1.16557 shows a bullish trend supported by a recent bounce off a key support level around 1.16500. Additionally, the RSI indicates upward momentum, suggesting a continuation of this trend in the short term.",
+  "invalidation": "If the price falls below 1.16400, this would invalidate the bullish outlook.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.16557,
+  "entry_distance_pips": 0.04,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.04,
+    "current_price": 1.16557,
+    "warnings": []
+  }
+}

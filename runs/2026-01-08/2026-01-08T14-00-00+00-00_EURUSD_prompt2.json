@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-08T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.167,
+  "stop": 1.165,
+  "targets": [
+    1.168,
+    1.169,
+    1.17
+  ],
+  "rationale": "The recent market movement indicates bullish sentiment in EURUSD, with momentum suggesting a potential rise. The entry point is set slightly above the current price to capture upward momentum.",
+  "invalidation": "If price falls below 1.16500, consider the uptrend invalidated and exit the position.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.16658,
+  "entry_distance_pips": 0.04,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.04,
+    "current_price": 1.16658,
+    "warnings": []
+  }
+}

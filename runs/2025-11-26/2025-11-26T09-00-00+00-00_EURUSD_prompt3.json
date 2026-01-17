@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-26T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.158,
+  "stop": 1.156,
+  "targets": [
+    1.16,
+    1.1615
+  ],
+  "rationale": "The current price of EURUSD is 1.15724, and it has recently broken above a short-term resistance level indicating bullish momentum. The RSI shows level above 50, confirming upward momentum while not indicating overbought conditions. Additionally, price action suggests potential upward movement based on the last few candlesticks showing strong buying pressure. Setting the entry slightly above the current price provides a good risk-to-reward ratio with clear targets based on nearby recent highs.",
+  "invalidation": "If the price falls below 1.15600, it could signify a breakdown, suggesting that the bullish scenario is invalidated, and a reassessment would be necessary.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.15724,
+  "entry_distance_pips": 0.08,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.08,
+    "current_price": 1.15724,
+    "warnings": []
+  }
+}

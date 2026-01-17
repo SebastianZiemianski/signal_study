@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-19T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.173,
+  "stop": 1.1715,
+  "targets": [
+    1.174,
+    1.175
+  ],
+  "rationale": "The current market price of 1.17289 is showing bullish momentum, supported by RSI indicating an upward trend and possible price consolidation around the 1.17200 region. As the price is expected to break above 1.17300, a BUY signal is appropriate with the entry set slightly above the current price.",
+  "invalidation": "If EURUSD breaks below 1.17150, the bullish scenario would be invalidated, indicating a potential downturn.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Market structure indicates upward movement, RSI is supportive of bullish positions. Entry at 1.17300 offers a close target for a potential move up to 1.17400 and further to 1.17500.",
+  "current_price": 1.17289,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 1.17289,
+    "warnings": []
+  }
+}

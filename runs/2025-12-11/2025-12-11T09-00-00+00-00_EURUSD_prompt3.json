@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-11T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.17,
+  "stop": 1.168,
+  "targets": [
+    1.172,
+    1.174
+  ],
+  "rationale": "The market is exhibiting bullish momentum with price action above the recent 5-minute moving averages. Current price at 1.16958 is showing signs of bouncing off support levels, which align with increased buying interest. Additionally, RSI indicators are trending upwards, suggesting stronger buying pressure. Considering a slight buffer above the current price, an entry at 1.17000 falls within acceptable limits for a potential bullish move.",
+  "invalidation": "If price falls below 1.16800, the trade should be considered invalid as it would indicate a failure of the upward support, suggesting a potential reversal or continuation of bearish activity.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.16958,
+  "entry_distance_pips": 0.04,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.04,
+    "current_price": 1.16958,
+    "warnings": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-22T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Current market conditions suggest neutrality as the RSI is likely around the 45 to 55 range, indicating no strong directional bias. Thus, there is no actionable opportunity for a trade at this moment.",
+  "invalidation": "No invalidation applicable as the signal is HOLD; a shift above 104.55381 or below 104.35381 will warrant re-evaluation.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 104.45381,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 104.45381,
+    "warnings": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-27T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The price is currently at 1.15919 and there is no clear breakout above a defined range or breakdown below a range while I analyze the most recent price action. Without a definite consolidation range being breached, I cannot confidently issue a BUY or SELL signal. Thus, I recommend HOLD until a clearer market direction is established.",
+  "invalidation": "If the price breaks above 1.16000 with strong volume, consider a potential BUY. If the price drops below 1.15800, consider a potential SELL.",
+  "prompt_name": "prompt1",
+  "raw_notes": "Current price shows consolidation; wait for breakout confirmation.",
+  "current_price": 1.15919,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.15919,
+    "warnings": []
+  }
+}

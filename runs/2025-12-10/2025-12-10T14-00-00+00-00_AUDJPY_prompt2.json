@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-10T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 103.97,
+  "stop": 103.94,
+  "targets": [
+    104.0,
+    104.02,
+    104.05
+  ],
+  "rationale": "The AUDJPY has shown intraday bullish momentum with recent price actions indicating support around the current area. Buyers may take control leading to a push above the psychological level of 104.0000.",
+  "invalidation": "A close below 103.9400 would invalidate the bullish thesis and suggest a reversal in sentiment.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Current market shows bullish pressure; setting up a buy opportunity to capitalize on potential upward movement within the next hour.",
+  "current_price": 103.96729,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 103.96729,
+    "warnings": []
+  }
+}

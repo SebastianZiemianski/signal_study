@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-26T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, with the price at 104.81299, I would typically analyze RSI behavior to determine if there are opportunities to buy or sell. However, without specific RSI data available, it's challenging to gauge potential overbought or oversold conditions. If RSI indicates neutrality (45-55), then I would suggest holding as there’s no strong bias toward either direction currently. Furthermore, there is no actionable entry price within the required range based on current market conditions.",
+  "invalidation": "If the market price moves beyond 105.81299 (100 pips above) or below 103.81299 (100 pips below) without a clear directional signal, this trade consideration could be invalidated.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 104.81299,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 104.81299,
+    "warnings": []
+  }
+}

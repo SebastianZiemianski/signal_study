@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-18T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 1.17388,
+  "stop": 1.17688,
+  "targets": [
+    1.17288,
+    1.17188
+  ],
+  "rationale": "There is a clear bearish trend developing in EURUSD after a resistance level at 1.17600 has held firm. The price has retraced and shows selling pressure at current levels, further reinforced by RSI indicating overbought conditions. Additionally, a bearish divergence on the 5m timeframe supports a potential downward move. The entry point is set close to current market price, allowing for a reasonable risk-to-reward setup with defined targets just below recent support levels.",
+  "invalidation": "If the price exceeds 1.17700, this would invalidate the bearish view, indicating a potential reversal.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Market shows bearish signals; selling pressure at resistance. Targets set near recent low support levels with stop above resistance.",
+  "current_price": 1.17488,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.17488,
+    "warnings": []
+  }
+}

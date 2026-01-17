@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-06T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.172,
+  "stop": 1.1705,
+  "targets": [
+    1.173,
+    1.1745
+  ],
+  "rationale": "The market is currently showing bullish strength as indicated by an upward trend on the 5-minute chart with increasing volume. The price is near a support level at 1.17000 and has bounced back, suggesting a potential upward movement. A valid entry point is set at 1.17200, which is within the 100 pips range from the current price. Additionally, the RSI is showing a bullish divergence, indicating further upward movement may occur. The target is set at 1.17300, with a secondary target at 1.17450. The stop loss is placed slightly below the recent support level at 1.17050 to minimize risk.",
+  "invalidation": "An invalidation point would be if the price drops below 1.17050, indicating a failure to hold the upward trend and suggesting a potential reversal.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.17136,
+  "entry_distance_pips": 0.06,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.06,
+    "current_price": 1.17136,
+    "warnings": []
+  }
+}

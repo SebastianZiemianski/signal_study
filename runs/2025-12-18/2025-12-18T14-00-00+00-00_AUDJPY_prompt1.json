@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-18T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "No clear breakout observed, market is still within the defined range. Awaiting confirmation before taking a position.",
+  "invalidation": "Watch for a breakout above 103.0502 or below 102.9502 for future trade opportunities.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 103.0302,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 103.0302,
+    "warnings": []
+  }
+}

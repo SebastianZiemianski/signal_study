@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-01T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, AUDJPY is at 101.63307. Upon reviewing the recent price action on the 5-minute chart, there hasn't been a clear consolidation range established in the immediate term that indicates a breakout opportunity. As such, the price is still in a state of indecision with no significant momentum in either direction. Therefore, I cannot provide a definitive BUY or SELL signal at this moment.",
+  "invalidation": "If the price breaks either above 101.73 or below 101.53 with strong momentum, that may present fresh signals in the coming hours, but as of now, there's no actionable trade opportunity.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 101.63307,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 101.63307,
+    "warnings": []
+  }
+}

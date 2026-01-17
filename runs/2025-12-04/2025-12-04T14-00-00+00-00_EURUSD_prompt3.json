@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-04T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.167,
+  "stop": 1.165,
+  "targets": [
+    1.168,
+    1.169
+  ],
+  "rationale": "The EURUSD has recently shown strength with higher lows and is currently bouncing off a support level near 1.1660. The RSI indicates upward momentum, confirming that this bullish trend may continue. Entry at 1.16700 provides a practical point slightly above the current price, ensuring it captures potential upside immediately. The stop loss is set at 1.16500 to minimize risk if the price reacts adversely.",
+  "invalidation": "If the price falls below 1.16500, it may indicate a breakdown of the current support and would trigger an exit from the position.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.16673,
+  "entry_distance_pips": 0.03,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.03,
+    "current_price": 1.16673,
+    "warnings": []
+  }
+}

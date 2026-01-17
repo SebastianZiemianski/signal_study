@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-25T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 100.905,
+  "stop": 100.885,
+  "targets": [
+    100.935,
+    100.955
+  ],
+  "rationale": "The current market price is showing a bullish trend on the 5-minute chart, confirmed by recent price action and a supportive RSI indicator that is above the 50 level, indicating bullish momentum. Additionally, the price is above the 20-period moving average, which supports the buying decision. The entry point is set slightly above the current market price to ensure a trade is executed smoothly in the current bullish environment.",
+  "invalidation": "If the price falls below 100.885, it would invalidate the bullish signal and suggest a potential reversal or correction in the market.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 100.90173,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 100.90173,
+    "warnings": []
+  }
+}

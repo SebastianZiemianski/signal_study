@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-29T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 1.176,
+  "stop": 1.178,
+  "targets": [
+    1.175,
+    1.174,
+    1.173
+  ],
+  "rationale": "Current market conditions show bearish momentum with lower highs forming. A recent pullback to 1.17600 could provide an opportunity to enter short due to expected additional weakness in the euro against the USD in the short term. The economic data released today suggests a continuation of this trend, along with recent technical indicators signaling selling pressure.",
+  "invalidation": "Buy if price exceeds 1.17800 (stop loss) indicating a potential bullish reversal beyond this level.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.17713,
+  "entry_distance_pips": 0.11,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.11,
+    "current_price": 1.17713,
+    "warnings": []
+  }
+}

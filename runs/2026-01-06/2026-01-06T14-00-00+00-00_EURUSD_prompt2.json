@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-06T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.172,
+  "stop": 1.1705,
+  "targets": [
+    1.174,
+    1.1755,
+    1.177
+  ],
+  "rationale": "The EURUSD is currently showing bullish momentum, with recent price action indicating a breakout above short-term resistance. Market sentiment appears positive, and there is a high likelihood of a continued upward movement in the short term. Given the entry price and the proximity to current market price, a BUY signal is warranted.",
+  "invalidation": "If the price breaks below 1.17050, this bearish reaction would invalidate the bullish thesis and suggest an exit from the trade.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.17136,
+  "entry_distance_pips": 0.06,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.06,
+    "current_price": 1.17136,
+    "warnings": []
+  }
+}

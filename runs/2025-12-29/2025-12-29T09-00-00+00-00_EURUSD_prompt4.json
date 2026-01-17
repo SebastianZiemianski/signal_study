@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-29T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current market price of EURUSD is at 1.17757, and given current market conditions and the lack of available RSI data, there is no significant signal for a directional trade (BUY or SELL). As such, HOLD is the most appropriate action until clearer signals arise or market conditions change.",
+  "invalidation": "No invalidation applies as the decision is to HOLD.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.17757,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.17757,
+    "warnings": []
+  }
+}

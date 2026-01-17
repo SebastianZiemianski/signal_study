@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-12T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Current market conditions suggest a neutral bias, with no clear oversold or overbought signals indicated by RSI. Given the current price of 105.7886, and without an actionable trend or price movement, we recommend holding.",
+  "invalidation": "No clear invalidation as we are recommending to hold due to neutral conditions.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 105.7886,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 105.7886,
+    "warnings": []
+  }
+}

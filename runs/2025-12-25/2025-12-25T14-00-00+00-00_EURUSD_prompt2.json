@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-25T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.179,
+  "stop": 1.1775,
+  "targets": [
+    1.1795,
+    1.18
+  ],
+  "rationale": "The market has shown a bullish momentum recently as evidenced by buyers entering the market around the current price level. With the price hovering near the support level of 1.17800 and a previous resistance now acting as support, there is a high probability of a short-term upward movement. This upward movement should be leveraged given the recent bullish activity and the current positioning of market participants.",
+  "invalidation": "If price drops below 1.17750, the bullish thesis would be invalidated indicating a potential reversal or further downtrend.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.17877,
+  "entry_distance_pips": 0.02,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.02,
+    "current_price": 1.17877,
+    "warnings": []
+  }
+}

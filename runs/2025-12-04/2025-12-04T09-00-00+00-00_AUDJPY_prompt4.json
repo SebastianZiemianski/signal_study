@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-04T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current market price is 102.48204, and without accessible RSI data, it is difficult to gauge whether the momentum favors buying or selling. The price action does not indicate a clear trend, and any trade opportunity is uncertain given the current conditions.",
+  "invalidation": "No clear entry or exit signal identified.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 102.48204,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 102.48204,
+    "warnings": []
+  }
+}

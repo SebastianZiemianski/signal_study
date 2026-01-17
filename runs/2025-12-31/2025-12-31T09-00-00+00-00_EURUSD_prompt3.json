@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-31T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.173,
+  "stop": 1.1705,
+  "targets": [
+    1.175,
+    1.1775
+  ],
+  "rationale": "The current market structure shows a bullish trend with recent price action highlighting a breakout above resistance around 1.17200. Additionally, the RSI indicates upward momentum, supporting a buy opportunity. Given the close proximity of the suggested entry to the current price, it aligns well within the necessary parameters for a short-term scalp.",
+  "invalidation": "If the price drops below 1.17050 before the trade can be executed, the bullish outlook would be invalidated, requiring reassessment.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.17236,
+  "entry_distance_pips": 0.06,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.06,
+    "current_price": 1.17236,
+    "warnings": []
+  }
+}

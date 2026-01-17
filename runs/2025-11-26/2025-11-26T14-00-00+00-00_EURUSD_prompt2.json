@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-26T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.156,
+  "stop": 1.154,
+  "targets": [
+    1.157,
+    1.158
+  ],
+  "rationale": "The price is showing upward momentum with recent bullish candlestick patterns observed on the 5-minute chart. There is also support around the current price level, indicating a potential upward movement. Market sentiment appears positive based on today's trading conditions, suggesting a buy opportunity.",
+  "invalidation": "If the price drops below 1.15400, the bullish thesis would be invalidated as it would indicate a break of immediate support.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.15501,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.15501,
+    "warnings": []
+  }
+}

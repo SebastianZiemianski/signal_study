@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-22T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The RSI is not available, and based on current price action and conditions, there is no clear directional bias to suggest a strong trade opportunity. The price (104.57289) is currently in a neutral area, which leads to a HOLD signal until further market confirmation occurs.",
+  "invalidation": "A clear move above 104.67289 could invalidate the current neutral position leading to a possible BUY opportunity.",
+  "prompt_name": "prompt4",
+  "raw_notes": "No adequate conditions present for a BUY or SELL signal; hence, HOLD is warranted.",
+  "current_price": 104.57289,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 104.57289,
+    "warnings": []
+  }
+}

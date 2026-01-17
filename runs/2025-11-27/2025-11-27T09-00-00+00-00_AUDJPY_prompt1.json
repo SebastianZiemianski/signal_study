@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-27T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The analysis of the recent 5-minute price action shows no clear consolidation range or established breakout. As the price remains within the same level without any momentum-driven breakout beyond previous highs or lows, there are insufficient signals to warrant an actionable trade signal at this time. Therefore, HOLD is the appropriate recommendation until clearer price action develops.",
+  "invalidation": "Any significant price movement outside a clearly defined range could change the outlook.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 101.99946,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 101.99946,
+    "warnings": []
+  }
+}

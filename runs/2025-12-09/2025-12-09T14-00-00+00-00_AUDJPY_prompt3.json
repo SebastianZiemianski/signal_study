@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-09T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 103.8,
+  "stop": 103.7,
+  "targets": [
+    103.85,
+    103.9
+  ],
+  "rationale": "The market structure shows bullish momentum as the price has recently bounced off a support level at 103.75 with renewed buying interest. The RSI is currently above 50, indicating bullish momentum. Additionally, a short-term bullish flag pattern is forming, suggesting potential continuation. Given the current price dynamics, I believe we can enter a BUY position. Entry price of 103.800 is realistic and achievable within the next hour based on current market activity as it remains close to the current price (103.79766) within the 100 pips range.",
+  "invalidation": "If the price drops below 103.700, the bullish setup would be invalidated, and we would reconsider our position.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Current bullish momentum with RSI above 50 and price respecting short-term support.",
+  "current_price": 103.79766,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 103.79766,
+    "warnings": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-01T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.1606,
+  "stop": 1.1631,
+  "targets": [
+    1.1591,
+    1.1581
+  ],
+  "rationale": "The EURUSD market is currently exhibiting a bearish pattern based on recent price action and momentum indicators. The price is trading below the previous resistance line and has broken below recent support at 1.1620. Current RSI readings indicate overbought conditions, suggesting a potential reversal. A SELL signal is warranted with an entry at 1.1606, which is within a safe range of 100 pips from the current market price. The short-term target levels are set at 1.1591 and 1.1581 to capture potential profit within a declining market context.",
+  "invalidation": "If the price rises above 1.1631, that would invalidate the bearish outlook and suggest re-evaluation of the position.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.1616,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.1616,
+    "warnings": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-02T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 102.22,
+  "stop": 102.29,
+  "targets": [
+    102.18,
+    102.15,
+    102.1
+  ],
+  "rationale": "The market is showing a bearish trend with clear lower highs in the recent price action. Currently, the 5-minute RSI is around 40, indicating bearish momentum. We have a potential entry point just below the current market price at 102.220, within the 100 pips criterion, which aligns with recent resistance levels. The stop loss is set just above last resistance at 102.290 to manage risk. Targets are established at 102.180 and further down to 102.100, aiming for a quick scalp as volatility allows for swift movements.",
+  "invalidation": "If price moves above 102.290 and holds above that structure, reassess the bearish bias for potential long signals.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 102.22417,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 102.22417,
+    "warnings": []
+  }
+}

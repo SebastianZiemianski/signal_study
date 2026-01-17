@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-25T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current market price is within the range, and there has not been a clear breakout above or below the recent consolidation area on the 5m chart. As such, with the price fluctuating around 104.55951, I advise holding off on any trades until there is a more definitive breakout signal.",
+  "invalidation": "Should the price break convincingly above 104.60 or below 104.50, that would suggest a reconsideration of the strategy.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 104.55951,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 104.55951,
+    "warnings": []
+  }
+}

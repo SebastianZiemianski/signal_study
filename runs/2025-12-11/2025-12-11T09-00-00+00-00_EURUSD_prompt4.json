@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-11T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 1.169,
+  "stop": 1.17,
+  "targets": [
+    1.168,
+    1.1675,
+    1.167
+  ],
+  "rationale": "The current market is near overbought conditions with RSI likely above 70, indicating a potential price pullback. Given the price proximity to this threshold, a SELL signal is justified as traders might capitalize on a reversion to the mean in the short term. Recent bullish momentum seems to be slowing down which adds to the selling opportunity.",
+  "invalidation": "Invalidation above 1.17000 would suggest continued strength and an invalidation of this short bias.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.16958,
+  "entry_distance_pips": 0.06,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.06,
+    "current_price": 1.16958,
+    "warnings": []
+  }
+}

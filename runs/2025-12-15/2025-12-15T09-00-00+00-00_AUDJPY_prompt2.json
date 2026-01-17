@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-15T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 103.17,
+  "stop": 103.14,
+  "targets": [
+    103.2,
+    103.23,
+    103.25
+  ],
+  "rationale": "Recent bullish momentum has developed in the 5-minute timeframe, with the price holding above the 103.1500 level and showing strength. A slight pullback has created a buying opportunity close to the current price, with technical indicators supporting a bullish outlook. Given today's market conditions, entering a buy position is recommended as the price is expected to rally further.",
+  "invalidation": "If AUDJPY breaks below 103.1400, reassess the bullish outlook, as this would indicate a potential reversal.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 103.1615,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 103.1615,
+    "warnings": []
+  }
+}

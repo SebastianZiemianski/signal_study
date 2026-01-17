@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-11T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.2,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The RSI values are not provided, and based on given price action and volatility, the current price of 1.17361 is tested in the recent range with no clear oversold or overbought signals. Thus, it's best to hold on without taking a trade at this moment due to lack of clear direction.",
+  "invalidation": "If the price breaks decisively above 1.17561 or below 1.17261, reevaluate for potential trades.",
+  "prompt_name": "prompt4",
+  "raw_notes": "RSI not available; price consolidation observed at 1.17361.",
+  "current_price": 1.17361,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.17361,
+    "warnings": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-12T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.1732,
+  "stop": 1.1715,
+  "targets": [
+    1.174,
+    1.175
+  ],
+  "rationale": "The current market structure indicates a bullish momentum as the price has shown signs of recovering from recent lows. The RSI is indicating an upward trend, suggesting that momentum is on the buy side. The price action exhibits higher lows, confirming the strength of the uptrend. Entry can be set just above the current price to capture continuation.",
+  "invalidation": "If the price falls below 1.17150, it would invalidate this bullish outlook, indicating a potential reversal.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.17297,
+  "entry_distance_pips": 0.02,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.02,
+    "current_price": 1.17297,
+    "warnings": []
+  }
+}

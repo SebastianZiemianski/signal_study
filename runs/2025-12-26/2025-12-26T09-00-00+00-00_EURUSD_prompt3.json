@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-26T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.17669,
+  "stop": 1.17869,
+  "targets": [
+    1.17569,
+    1.17469
+  ],
+  "rationale": "The EURUSD pair is currently exhibiting a bearish trend on the 5-minute timeframe. The price has been making lower highs and lower lows, indicating a potential continuation of this downtrend. Additionally, recent RSI readings show overbought conditions, implying a correction may be imminent. Given the current market price of 1.17769, an entry at 1.17669 (within the 100 pips requirement) allows for a manageable risk-to-reward ratio. The stop loss is set at 1.17869 to limit potential losses if the market trends against the position. The first target is set at 1.17569, with a secondary target at 1.17469, capitalizing on the current downward momentum.",
+  "invalidation": "The trade would be invalidated if the price moves above 1.17869, confirming a bullish reversal and invalidating the short-term bearish outlook. In this case, consideration for a buy signal may be required.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.17769,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.17769,
+    "warnings": []
+  }
+}

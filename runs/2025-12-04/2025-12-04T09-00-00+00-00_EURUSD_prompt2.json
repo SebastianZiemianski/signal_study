@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-04T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.1675,
+  "stop": 1.166,
+  "targets": [
+    1.1685,
+    1.1695
+  ],
+  "rationale": "Current price action shows a bullish trend with a possible support level forming at 1.16600. The market sentiment for today indicates positive momentum, making a BUY setup favorable.",
+  "invalidation": "If the price falls below 1.16600, the bullish expectation would be invalidated, suggesting re-evaluation of the trade.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Market conditions today indicate bullish sentiment in EURUSD with positive trends leading up to this moment. Additionally, the recent movement shows potential upward momentum, further supporting a buying opportunity.",
+  "current_price": 1.16748,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 1.16748,
+    "warnings": []
+  }
+}

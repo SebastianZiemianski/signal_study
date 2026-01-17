@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-28T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.15699,
+  "stop": 1.15999,
+  "targets": [
+    1.155,
+    1.154
+  ],
+  "rationale": "The current market price of 1.15799 shows a bearish sentiment in recent price action, as the pair has been oscillating below key resistance levels. Considering the recent high of 1.15850 and the downward pressure due to a series of lower highs on the 5-minute chart, a sell opportunity is identified near 1.15700 with a target near 1.15500, supported by RSI levels suggesting overbought conditions. Additionally, the MACD indicator shows a bearish crossover that reinforces this shorting opportunity. The stop loss is placed above the recent swing high at 1.15999, to allow for adequate movement without being stopped out prematurely.",
+  "invalidation": "If the price reaches above 1.15999, it would invalidate the bearish view and suggest that we may have a continuation of the bullish trend.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.15799,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.15799,
+    "warnings": []
+  }
+}

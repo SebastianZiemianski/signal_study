@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-24T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.17898,
+  "stop": 1.18098,
+  "targets": [
+    1.17798,
+    1.17698
+  ],
+  "rationale": "Current market structure shows EURUSD entering a resistance zone around 1.1800. The price has recently encountered selling pressure and, based on the 5-minute RSI, which is indicating overbought conditions with a reading above 70, a downside potential is likely. A sell entry at 1.17898 is realistic given the recent price action and potential reversal signs in the market. Monitor closely for a strong move below 1.1780 to gain momentum towards our targets.",
+  "invalidation": "If the price moves above 1.18098 (100 pips above the entry), this would invalidate the sell signal as it suggests bullish momentum, indicating a potential reversal. In that case, the focus should shift to a long position if supportive signals emerge.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Market approaching resistance with overbought RSI; looking for a sell entry near resistance.",
+  "current_price": 1.17998,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.17998,
+    "warnings": []
+  }
+}

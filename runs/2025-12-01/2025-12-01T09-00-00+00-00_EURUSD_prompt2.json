@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-01T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 1.16,
+  "stop": 1.1625,
+  "targets": [
+    1.159,
+    1.158,
+    1.157
+  ],
+  "rationale": "The EURUSD is currently showing bearish momentum with recent price movement indicating a potential downward trend. The selling pressure has been observed as the price approaches resistance levels around 1.1620 - 1.1630. A break below 1.1610 would confirm further downside potential. Given the current market conditions, a sell order is recommended with a tight stop to manage risk effectively.",
+  "invalidation": "Price above 1.1625 would invalidate this bearish setup and suggest potential for upward correction.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.1616,
+  "entry_distance_pips": 0.16,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.16,
+    "current_price": 1.1616,
+    "warnings": []
+  }
+}

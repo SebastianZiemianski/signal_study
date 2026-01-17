@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-23T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.179,
+  "stop": 1.1775,
+  "targets": [
+    1.1795,
+    1.18
+  ],
+  "rationale": "The current price of 1.17878 shows a bullish trend supported by a recent bounce from the 1.17750 level, which acts as a strong support zone on the 5-minute chart. Additionally, RSI is indicating oversold conditions, supporting a potential upward movement. Given the proximity of the suggested entry price to the current market price and the high probability of hitting targets based on short-term momentum, this presents a favorable buying opportunity.",
+  "invalidation": "If the price falls below 1.17750, it would invalidate the bullish scenario, indicating a break of support and potential for further downside.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.17878,
+  "entry_distance_pips": 0.02,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.02,
+    "current_price": 1.17878,
+    "warnings": []
+  }
+}

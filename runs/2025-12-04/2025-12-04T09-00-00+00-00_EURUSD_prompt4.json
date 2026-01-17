@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-04T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.167,
+  "stop": 1.165,
+  "targets": [
+    1.168,
+    1.169,
+    1.17
+  ],
+  "rationale": "The RSI analysis indicates that the price has recently dipped below the oversold threshold of 30, suggesting a bullish reversal is likely as the market is currently undervalued. The price action shows potential for a short-term upward movement. The current market price is 1.16748 and the entry point has been set at 1.16700, which is within 48 pips and suitable for execution within the next hour.",
+  "invalidation": "If the price drops below 1.16500, it would invalidate the bullish outlook as it would signal continued bearish pressure.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.16748,
+  "entry_distance_pips": 0.05,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.05,
+    "current_price": 1.16748,
+    "warnings": []
+  }
+}

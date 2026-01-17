@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-16T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 1.17673,
+  "stop": 1.17873,
+  "targets": [
+    1.17573,
+    1.17473
+  ],
+  "rationale": "Current market conditions indicate bearish momentum for EURUSD. The price is approaching a resistance level around 1.17800, with indicators such as RSI showing overbought conditions. A minor retracement is likely, providing a good short-term sell opportunity.",
+  "invalidation": "If the price moves above 1.17873, the bullish momentum would be confirmed, invalidating this sell setup.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.17773,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.17773,
+    "warnings": []
+  }
+}

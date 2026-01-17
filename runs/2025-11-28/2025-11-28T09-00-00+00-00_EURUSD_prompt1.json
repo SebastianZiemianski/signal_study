@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-28T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "There is no clear breakout above the recent resistance or below the support to indicate a definitive trade opportunity at this time based on the current market price. Prices remain within a potential consolidation zone without a momentum breakout.",
+  "invalidation": "If the price breaks above 1.15801 or below 1.15601 with strong momentum, it could indicate a change in direction.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 1.15701,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.15701,
+    "warnings": []
+  }
+}

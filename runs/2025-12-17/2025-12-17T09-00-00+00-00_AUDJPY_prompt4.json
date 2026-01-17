@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-17T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, the market price is at 102.98152. Given the absence of specific RSI data, it is challenging to determine an actionable sentiment. If RSI were available and suggested oversold or overbought conditions, I could recommend a trade. However, without that information, no clear directional bias exists based on price action alone, leading to a neutral decision.",
+  "invalidation": "Should the price move towards 103.98152 or 101.98152 without revealing clear RSI signals, re-evaluation will be required.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 102.98152,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 102.98152,
+    "warnings": []
+  }
+}

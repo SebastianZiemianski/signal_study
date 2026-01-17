@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-03T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, the price of EURUSD at 1.16437 is showing no clear breakout from the recent consolidation range. The price remains within the established range, indicating uncertainty and lack of momentum for a breakout. No trading opportunity is identified at this time.",
+  "invalidation": "If the price decisively breaks above 1.16537 or below 1.16337, reevaluate for potential signals.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 1.16437,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.16437,
+    "warnings": []
+  }
+}

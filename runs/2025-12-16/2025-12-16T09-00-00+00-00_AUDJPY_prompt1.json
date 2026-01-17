@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-16T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, the market price of AUDJPY is at 102.82835. Without access to the recent 5m chart, I cannot identify a specific range or breakout direction. Therefore, there is no clear trading opportunity at this moment, and I suggest holding.",
+  "invalidation": "Trade conditions are not met; no breakout signal.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 102.82835,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 102.82835,
+    "warnings": []
+  }
+}

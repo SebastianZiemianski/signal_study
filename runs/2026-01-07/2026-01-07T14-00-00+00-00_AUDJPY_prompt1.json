@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-07T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The market appears to be trading within a consolidation range around 105.43 with no clear momentum indicating a breakout direction. No defined range high or low has been established for a valid breakout signal at this moment.",
+  "invalidation": "If the price breaks above 105.54 or below 105.34 with strong momentum, that could indicate a potential entry point for future analysis.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 105.43775,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 105.43775,
+    "warnings": []
+  }
+}

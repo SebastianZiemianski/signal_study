@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-24T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, the market shows no clear trend or actionable signal based on today's volatility and price action analysis. The price has been fluctuating around the current level with equal support and resistance zones that indicate a lack of direction. Therefore, it is prudent to hold off on any trading actions at this time.",
+  "invalidation": "If the price moves decisively above 1.15421 or below 1.15221, new trading signals may emerge.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Current price is stable with no strong bullish or bearish signals. RSI indicators show neutral levels with no significant divergence, reinforcing the HOLD decision.",
+  "current_price": 1.15321,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.15321,
+    "warnings": []
+  }
+}

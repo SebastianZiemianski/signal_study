@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-05T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Current market price is at 1.16541. Without RSI data, current price action does not indicate a clear oversold or overbought condition. The absence of a definitive price trend suggests continuing to observe rather than take action. Therefore, no actionable signal can be established within the given parameters.",
+  "invalidation": "If the price moves outside the range of 1.16441 to 1.16641 without any significant market indicators showing a trend, reassess for potential trade opportunities.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.16541,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.16541,
+    "warnings": []
+  }
+}

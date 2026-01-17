@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-05T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 1.16741,
+  "stop": 1.16941,
+  "targets": [
+    1.16541,
+    1.16441
+  ],
+  "rationale": "The current price has shown a bearish trend on the 5-minute chart with several lower highs. Given the recent weakness in the price action, a sell opportunity presents itself. The market sentiment looks to be favoring a downward move.",
+  "invalidation": "If the price breaches 1.16941, it indicates a strong reversal; I would then consider a buy position instead.",
+  "prompt_name": "prompt2",
+  "raw_notes": "The price action is consolidating with a downward bias; there's potential for further downside based on the current candlestick formations and volume.",
+  "current_price": 1.16841,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.16841,
+    "warnings": []
+  }
+}

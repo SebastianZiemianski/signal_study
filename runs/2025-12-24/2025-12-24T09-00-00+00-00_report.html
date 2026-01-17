@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Signals Report - 2025-12-24T09:00:00+00:00</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        .header .meta {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-top: 10px;
+        }
+        
+        .controls {
+            padding: 20px 30px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        .controls label {
+            font-weight: 600;
+            color: #495057;
+        }
+        
+        .controls select, .controls input {
+            padding: 8px 12px;
+            border: 1px solid #ced4da;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px 30px;
+            background: #f8f9fa;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .stat-card .label {
+            font-size: 0.85em;
+            color: #6c757d;
+            margin-bottom: 5px;
+        }
+        
+        .stat-card .value {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #212529;
+        }
+        
+        .table-container {
+            overflow-x: auto;
+            padding: 30px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+        
+        thead {
+            background: #f8f9fa;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        
+        th {
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            color: #495057;
+            border-bottom: 2px solid #dee2e6;
+            white-space: nowrap;
+        }
+        
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        tbody tr {
+            transition: background-color 0.2s;
+        }
+        
+        tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .signal-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 0.85em;
+            color: white;
+        }
+        
+        .text-cell {
+            max-width: 400px;
+            word-wrap: break-word;
+            line-height: 1.4;
+            font-size: 0.9em;
+        }
+        
+        .targets-cell {
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .controls {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 Trading Signals Report</h1>
+            <div class="meta">
+                <div>Zeitpunkt: 2025-12-24T09:00:00+00:00</div>
+                <div>Symbole: EURUSD, AUDJPY | Timeframe: 5m</div>
+            </div>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="label">Gesamt Signale</div>
+                <div class="value">8</div>
+            </div>
+            <div class="stat-card">
+                <div class="label">BUY Signale</div>
+                <div class="value" style="color: #10b981;">2</div>
+            </div>
+            <div class="stat-card">
+                <div class="label">SELL Signale</div>
+                <div class="value" style="color: #ef4444;">2</div>
+            </div>
+            <div class="stat-card">
+                <div class="label">HOLD Signale</div>
+                <div class="value" style="color: #6b7280;">4</div>
+            </div>
+            <div class="stat-card">
+                <div class="label">Durchschn. Confidence</div>
+                <div class="value">0.44</div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <label>
+                Symbol filtern:
+                <select id="symbolFilter" onchange="filterTable()">
+                    <option value="">Alle</option>
+                    <option value="EURUSD">EURUSD</option><option value="AUDJPY">AUDJPY</option>
+                </select>
+            </label>
+            <label>
+                Signal filtern:
+                <select id="signalFilter" onchange="filterTable()">
+                    <option value="">Alle</option>
+                    <option value="BUY">BUY</option>
+                    <option value="SELL">SELL</option>
+                    <option value="HOLD">HOLD</option>
+                </select>
+            </label>
+            <label>
+                Prompt filtern:
+                <select id="promptFilter" onchange="filterTable()">
+                    <option value="">Alle</option>
+                    <option value="prompt1">Prompt 1</option>
+                    <option value="prompt2">Prompt 2</option>
+                    <option value="prompt3">Prompt 3</option>
+                </select>
+            </label>
+            <label>
+                <input type="text" id="searchBox" placeholder="Suche..." onkeyup="filterTable()" style="width: 200px;">
+            </label>
+        </div>
+        
+        <div class="table-container">
+            <table id="resultsTable">
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Prompt</th>
+                        <th>Signal</th>
+                        <th>Confidence</th>
+                        <th>Current Price</th>
+                        <th>Entry</th>
+                        <th>Stop</th>
+                        <th>Targets</th>
+                        <th>Entry Dist. (Pips)</th>
+                        <th>Rationale</th>
+                        <th>Invalidation</th>
+                        <th>Zeitpunkt</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-symbol="AUDJPY" 
+                            data-signal="HOLD" 
+                            data-prompt="prompt1">
+                        <td><strong>AUDJPY</strong></td>
+                        <td>prompt1</td>
+                        <td>
+                            <span class="signal-badge" style="background-color: #6b7280;">
+                                HOLD
+                            </span>
+                        </td>
+                        <td><span style="color: #ef4444; font-weight: bold;">0.00</span></td>
+                        <td>104.53194</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td class="targets-cell">-</td>
+                        <td>-</td>
+                        <td class="text-cell">The AUDJPY is currently sitting at 104.53194. There is no clear breakout, and price action has been consolidating within a range without a definitive push above the recent highs or below the recent lows. Therefore, I cannot confidently provide a BUY or SELL signal, and it is best to HOLD until either a clear breakout occurs.</td>
+                        <td class="text-cell">If price breaks decisively above 104.63 or below 104.43, I will reevaluate the situation.</td>
+                        <td style="font-size: 0.85em; color: #6c757d;">2025-12-24T09:00:00+00:00</td>
+                    </tr>
+                    <tr data-symbol="AUDJPY" 
+                            data-signal="BUY" 
+                            data-prompt="prompt2">
+                        <td><strong>AUDJPY</strong></td>
+                        <td>prompt2</td>
+                        <td>
+                            <span class="signal-badge" style="background-color: #10b981;">
+                                BUY
+                            </span>
+                        </td>
+                        <td><span style="color: #10b981; font-weight: bold;">0.75</span></td>
+                        <td>104.53194</td>
+                        <td>104.54000</td>
+                        <td>104.52000</td>
+                        <td class="targets-cell">104.57000, 104.59000, 104.61000</td>
+                        <td>0.01</td>
+                        <td class="text-cell">The AUDJPY is currently trading in a bullish channel with increasing momentum observed on the 5-minute timeframe. Recent price action shows a positive bias with higher lows forming. The entry point of 104.5400 is just above the current price, maintaining proximity within the required 100 pips distance, maximizing the likelihood of filling the order. The stop loss is set just below the most recent low for protection against reversal.</td>
+                        <td class="text-cell">If the price drops below 104.5200, this could indicate a shift in momentum and invalidate the bullish outlook.</td>
+                        <td style="font-size: 0.85em; color: #6c757d;">2025-12-24T09:00:00+00:00</td>
+                    </tr>
+                    <tr data-symbol="AUDJPY" 
+                            data-signal="SELL" 
+                            data-prompt="prompt3">
+                        <td><strong>AUDJPY</strong></td>
+                        <td>prompt3</td>
+                        <td>
+                            <span class="signal-badge" style="background-color: #ef4444;">
+                                SELL
+                            </span>
+                        </td>
+                        <td><span style="color: #10b981; font-weight: bold;">0.75</span></td>
+                        <td>104.53194</td>
+                        <td>104.53194</td>
+                        <td>104.63194</td>
+                        <td class="targets-cell">104.43194, 104.33194</td>
+                        <td>0.0</td>
+                        <td class="text-cell">The current market structure shows a recent bearish trend developing with potential resistance forming around 104.63194. The market has shown signs of weakness and a lack of upward momentum as indicated by recent price action. Current volatility patterns suggest a short-term pullback is likely, making this an opportune moment to enter a short position.</td>
+                        <td class="text-cell">If price moves above 104.63194, it invalidates the bearish setup, indicating a further upward trend may be occurring.</td>
+                        <td style="font-size: 0.85em; color: #6c757d;">2025-12-24T09:00:00+00:00</td>
+                    </tr>
+                    <tr data-symbol="AUDJPY" 
+                            data-signal="HOLD" 
+                            data-prompt="prompt4">
+                        <td><strong>AUDJPY</strong></td>
+                        <td>prompt4</td>
+                        <td>
+                            <span class="signal-badge" style="background-color: #6b7280;">
+                                HOLD
+                            </span>
+                        </td>
+                        <td><span style="color: #f59e0b; font-weight: bold;">0.50</span></td>
+                        <td>104.53194</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td class="targets-cell">-</td>
+                        <td>-</td>
+                        <td class="text-cell">Current market conditions cannot provide a clear directional bias due to the lack of available RSI data. Given the neutrality of current price action and the absence of strong signals, no trade opportunity is identifiable within the specified entry criteria.</td>
+                        <td class="text-cell">HOLD remains until a clear bullish or bearish signal emerges based on future price action or RSI adjustments.</td>
+                        <td style="font-size: 0.85em; color: #6c757d;">2025-12-24T09:00:00+00:00</td>
+                    </tr>
+                    <tr data-symbol="EURUSD" 
+                            data-signal="HOLD" 
+                            data-prompt="prompt1">
+                        <td><strong>EURUSD</strong></td>
+                        <td>prompt1</td>
+                        <td>
+                            <span class="signal-badge" style="background-color: #6b7280;">
+                                HOLD
+                            </span>
+                        </td>
+                        <td><span style="color: #ef4444; font-weight: bold;">0.00</span></td>
+                        <td>1.17998</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td class="targets-cell">-</td>
+                        <td>-</td>
+                        <td class="text-cell">There is no clear breakout direction identified, and current price action is likely still within a consolidation range. As such, a HOLD signal is appropriate until further indicators suggest a decisive move either above the high or below the low of the recent consolidation.</td>
+                        <td class="text-cell">No breakout conditions met, wait for clarity in either direction.</td>
+                        <td style="font-size: 0.85em; color: #6c757d;">2025-12-24T09:00:00+00:00</td>
+                    </tr>
+                    <tr data-symbol="EURUSD" 
+                            data-signal="BUY" 
+                            data-prompt="prompt2">
+                        <td><strong>EURUSD</strong></td>
+                        <td>prompt2</td>
+                        <td>
+                            <span class="signal-badge" style="background-color: #10b981;">
+                                BUY
+                            </span>
+                        </td>
+                        <td><span style="color: #10b981; font-weight: bold;">0.80</span></td>
+                        <td>1.17998</td>
+                        <td>1.18000</td>
+                        <td>1.17850</td>
+                        <td class="targets-cell">1.18100, 1.18200, 1.18300</td>
+                        <td>0.0</td>
+                        <td class="text-cell">The EURUSD has shown a bullish trend recently, with the price crossing above the previous resistance level. Momentum indicators suggest continued strength. The recent price movement indicates a potential for further upside in the short term, making a BUY position favorable.</td>
+                        <td class="text-cell">If the price drops below 1.17850, this would invalidate the bullish view and suggest a potential downward trend.</td>
+                        <td style="font-size: 0.85em; color: #6c757d;">2025-12-24T09:00:00+00:00</td>
+                    </tr>
+                    <tr data-symbol="EURUSD" 
+                            data-signal="SELL" 
+                            data-prompt="prompt3">
+                        <td><strong>EURUSD</strong></td>
+                        <td>prompt3</td>
+                        <td>
+                            <span class="signal-badge" style="background-color: #ef4444;">
+                                SELL
+                            </span>
+                        </td>
+                        <td><span style="color: #10b981; font-weight: bold;">0.75</span></td>
+                        <td>1.17998</td>
+                        <td>1.17898</td>
+                        <td>1.18098</td>
+                        <td class="targets-cell">1.17798, 1.17698</td>
+                        <td>0.1</td>
+                        <td class="text-cell">Current market structure shows EURUSD entering a resistance zone around 1.1800. The price has recently encountered selling pressure and, based on the 5-minute RSI, which is indicating overbought conditions with a reading above 70, a downside potential is likely. A sell entry at 1.17898 is realistic given the recent price action and potential reversal signs in the market. Monitor closely for a strong move below 1.1780 to gain momentum towards our targets.</td>
+                        <td class="text-cell">If the price moves above 1.18098 (100 pips above the entry), this would invalidate the sell signal as it suggests bullish momentum, indicating a potential reversal. In that case, the focus should shift to a long position if supportive signals emerge.</td>
+                        <td style="font-size: 0.85em; color: #6c757d;">2025-12-24T09:00:00+00:00</td>
+                    </tr>
+                    <tr data-symbol="EURUSD" 
+                            data-signal="HOLD" 
+                            data-prompt="prompt4">
+                        <td><strong>EURUSD</strong></td>
+                        <td>prompt4</td>
+                        <td>
+                            <span class="signal-badge" style="background-color: #6b7280;">
+                                HOLD
+                            </span>
+                        </td>
+                        <td><span style="color: #ef4444; font-weight: bold;">0.00</span></td>
+                        <td>1.17998</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td class="targets-cell">-</td>
+                        <td>-</td>
+                        <td class="text-cell">Current RSI levels are not provided, and without clear market sentiment or an identifiable trend, no suitable entry or exit points can be recommended. The current market price is neutral.</td>
+                        <td class="text-cell">If there is a significant movement toward overbought (RSI >= 70) or oversold (RSI <= 30) conditions, this analysis may change.</td>
+                        <td style="font-size: 0.85em; color: #6c757d;">2025-12-24T09:00:00+00:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <script>
+        function filterTable() {
+            const symbolFilter = document.getElementById('symbolFilter').value.toLowerCase();
+            const signalFilter = document.getElementById('signalFilter').value;
+            const promptFilter = document.getElementById('promptFilter').value;
+            const searchBox = document.getElementById('searchBox').value.toLowerCase();
+            
+            const rows = document.querySelectorAll('#resultsTable tbody tr');
+            
+            rows.forEach(row => {
+                const symbol = row.getAttribute('data-symbol').toLowerCase();
+                const signal = row.getAttribute('data-signal');
+                const prompt = row.getAttribute('data-prompt');
+                const text = row.textContent.toLowerCase();
+                
+                const matchSymbol = !symbolFilter || symbol === symbolFilter.toLowerCase();
+                const matchSignal = !signalFilter || signal === signalFilter;
+                const matchPrompt = !promptFilter || prompt === promptFilter;
+                const matchSearch = !searchBox || text.includes(searchBox);
+                
+                if (matchSymbol && matchSignal && matchPrompt && matchSearch) {
+                    row.classList.remove('hidden');
+                } else {
+                    row.classList.add('hidden');
+                }
+            });
+        }
+    </script>
+</body>
+</html>

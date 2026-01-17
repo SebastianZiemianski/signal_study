@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-05T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "There is currently no clear breakout from a recent range; price remains within a stable range without significant momentum in either direction. Hence, a HOLD signal is more appropriate at this time.",
+  "invalidation": "N/A",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 102.64512,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 102.64512,
+    "warnings": []
+  }
+}

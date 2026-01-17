@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-10T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Current market price is 1.16505. Without clear RSI data reflecting oversold or overbought conditions, no significant trading signal can be issued. RSI typically provides a clearer bias, and without it, the market maintains a neutral stance. It’s advisable to wait for further data before entering a position.",
+  "invalidation": "Confirmation with directional RSI movement either above 70 or below 30 would necessitate reevaluation for potential trade entries.",
+  "prompt_name": "prompt4",
+  "raw_notes": "No clear trading opportunity identified based on current market conditions and absence of clear RSI signal.",
+  "current_price": 1.16505,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.16505,
+    "warnings": []
+  }
+}

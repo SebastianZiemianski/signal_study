@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-21T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, the AUDJPY price at 101.013 is within a consolidation zone, and there is no clear breakout above the range high or below the range low identified in the recent price action. As such, there is no actionable trade signal at this moment.",
+  "invalidation": "If price breaks decisively above 101.50 or below 100.50, a re-evaluation for potential trades will be necessary.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 101.013,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 101.013,
+    "warnings": []
+  }
+}

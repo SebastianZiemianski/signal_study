@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-01T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 101.60007,
+  "stop": 101.70007,
+  "targets": [
+    101.55007,
+    101.50007
+  ],
+  "rationale": "Market shows a bearish trend with consistent lower lows observed in the 5-minute timeframe. Selling at a slightly lower price is recommended due to momentum indicators leaning towards weaker prices. Current conditions suggest a potential drop.",
+  "invalidation": "A close above 101.70007 would invalidate this trade.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Current price trend appears bearish on the 5m chart with recent price action suggesting a weakness. Tight stop to mitigate risk.",
+  "current_price": 101.63307,
+  "entry_distance_pips": 0.03,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.03,
+    "current_price": 101.63307,
+    "warnings": []
+  }
+}

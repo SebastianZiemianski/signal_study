@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-05T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 102.54512,
+  "stop": 102.74512,
+  "targets": [
+    102.34512,
+    102.44512
+  ],
+  "rationale": "The market has recently shown signs of bearish momentum, breaking below a minor support level around 102.6500. Additionally, an RSI reading below 40 indicates that the market may continue to exhibit downward pressure. Selling on the retracement to around 102.54512 allows for a favorable risk-reward setup. Given the volatility patterns, this entry price is realistic for execution within the next hour.",
+  "invalidation": "If the price moves above 102.74512, this would indicate a change in market structure, invalidating the bearish bias and suggesting a potential trend reversal.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 102.64512,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 102.64512,
+    "warnings": []
+  }
+}

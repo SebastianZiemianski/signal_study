@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-21T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.7,
+  "entry": 100.9,
+  "stop": 101.1,
+  "targets": [
+    100.8,
+    100.7,
+    100.6
+  ],
+  "rationale": "The market is showing signs of bearish momentum with a recent downturn observed on the 5m chart. Indicators reflect a sell opportunity nearing a resistance level at 101.100. A realistic entry point can be set at 100.900, just below the current price, to capitalize on a downward trend.",
+  "invalidation": "If the price exceeds 101.100, then the bearish outlook would be invalidated.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Analysis based on today's market data shows bearish momentum with indicators pointing to a potential sell opportunity. Market volatility is within acceptable ranges for short-term trades.",
+  "current_price": 101.013,
+  "entry_distance_pips": 0.11,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.11,
+    "current_price": 101.013,
+    "warnings": []
+  }
+}

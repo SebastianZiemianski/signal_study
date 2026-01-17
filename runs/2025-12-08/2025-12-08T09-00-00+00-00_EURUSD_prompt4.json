@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-08T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Current market price indicates no clear momentum in either direction with no available RSI data. Price action appears sideways, fulfilling the criteria for a neutral market as the RSI is neither in oversold nor overbought territory. Thus, a HOLD is advised due to lack of clear trade opportunities at this time.",
+  "invalidation": "Should price move significantly below 1.16000 or above 1.17000, reevaluation of the market conditions would be necessary.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.16557,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.16557,
+    "warnings": []
+  }
+}

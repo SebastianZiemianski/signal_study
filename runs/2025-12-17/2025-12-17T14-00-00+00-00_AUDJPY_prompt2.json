@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-17T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 102.85,
+  "stop": 102.95,
+  "targets": [
+    102.75,
+    102.65
+  ],
+  "rationale": "The market shows bearish momentum as it has recently rejected higher levels, indicating a potential downtrend. A sell entry around 102.850 is close to the current price and offers a favorable risk/reward ratio with two targets set below the current market price where support may be encountered.",
+  "invalidation": "Break above 102.950 would invalidate the bearish case and require reassessment of the market conditions.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Trend suggests bearish price action; using today's performance to decide entry, stop, and target levels. The market's current rejection at higher prices indicates a potential sell opportunity.",
+  "current_price": 102.95204,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 102.95204,
+    "warnings": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-12T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.169,
+  "stop": 1.1675,
+  "targets": [
+    1.17,
+    1.171,
+    1.172
+  ],
+  "rationale": "Current market conditions show a bullish trend with strong upward momentum observed in the last few candlesticks on the 5-minute timeframe. The price has clearly bounced off a support level around 1.16750, and RSI levels are indicating bullish sentiment as they approach the overbought territory but are not yet fully there, suggesting more room for upside movement. Given this bullish momentum, entering at around 1.16900 presents a good opportunity to capitalize on a potential price increase, with clear targets set at 1.17000, 1.17100, and 1.17200 for scalping profits.",
+  "invalidation": "If the price drops below 1.16750, it would indicate a breakdown of the support level and a higher likelihood of further downside, which would invalidate the bullish setup.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.16876,
+  "entry_distance_pips": 0.02,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.02,
+    "current_price": 1.16876,
+    "warnings": []
+  }
+}

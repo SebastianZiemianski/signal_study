@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-19T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, without RSI data, the decision is made based on price action. With the current price at 1.17134, there’s insufficient directional momentum or clear signals based on typical criteria (RSI). No clear buying or selling opportunity presents itself within the given parameters, thus a HOLD is appropriate until further clarity on market conditions arises.",
+  "invalidation": "N/A",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.17134,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.17134,
+    "warnings": []
+  }
+}

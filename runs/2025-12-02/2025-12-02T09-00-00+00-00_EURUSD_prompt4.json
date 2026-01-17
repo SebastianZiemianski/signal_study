@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-02T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The RSI is not provided, and as such, can only infer market behavior. Current price at 1.16131 doesn't suggest a clear directional bias. Therefore, no viable entry points identified within acceptable parameters leading to a HOLD signal.",
+  "invalidation": "A significant move away from the current price indicating a clear trend may will lead to reassessment.",
+  "prompt_name": "prompt4",
+  "raw_notes": "No clear directional setup based on lack of RSI.",
+  "current_price": 1.16131,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.16131,
+    "warnings": []
+  }
+}

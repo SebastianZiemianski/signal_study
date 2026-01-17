@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-21T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 100.913,
+  "stop": 101.113,
+  "targets": [
+    100.813,
+    100.713
+  ],
+  "rationale": "The current market price of AUDJPY at 101.013 is showing bearish momentum with recent price action forming a lower high at 101.050. Additionally, the RSI indicator is displaying overbought conditions above 70, suggesting potential price exhaustion. A short position can be initiated with an entry at 100.913, about 10 pips below the current price, providing a favorable risk-to-reward ratio as we target levels of 100.813 and 100.713, which are significant support levels. The stop-loss is positioned at 101.113 to allow for a safe exit should the price move against the trade.",
+  "invalidation": "The trade setup will be invalidated if the price moves above 101.050, breaking the recent high and failing to follow through on the bearish bias.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 101.013,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 101.013,
+    "warnings": []
+  }
+}

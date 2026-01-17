@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-08T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 103.19,
+  "stop": 103.3,
+  "targets": [
+    103.05,
+    103.0
+  ],
+  "rationale": "The current market price of 103.19498 is showing signs of a bearish reversal following a sharp increase earlier. The recent price action indicates a potential resistance zone at 103.20 - 103.25, and with a significant bearish divergence observed in the RSI, it's likely that the price will pull back. A SELL signal is justified as long as the price remains below the resistance level. An entry at 103.190 is achievable within the hour.",
+  "invalidation": "If the price moves above 103.300, the bearish setup will be invalidated, and a reassessment will be necessary.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Bearish divergence in RSI, resistance near 103.20, potential pullback expected based on current price action.",
+  "current_price": 103.19498,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 103.19498,
+    "warnings": []
+  }
+}

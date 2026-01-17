@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-05T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.169,
+  "stop": 1.167,
+  "targets": [
+    1.17,
+    1.1715
+  ],
+  "rationale": "The current price of 1.16841 shows a bullish trend as it has bounced off a recent support level around 1.1670, showing signs of strength. Additionally, the RSI is moving towards the overbought territory, but still has room to grow, indicating a continuation of the upward movement. The market structure suggests a short-term bullish trend, making it a suitable time to enter a buy position.",
+  "invalidation": "If the price drops below 1.16700, this would invalidate the bullish setup, indicating a potential reversal in market sentiment.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.16841,
+  "entry_distance_pips": 0.06,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.06,
+    "current_price": 1.16841,
+    "warnings": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-29T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.178,
+  "stop": 1.176,
+  "targets": [
+    1.179,
+    1.18,
+    1.181
+  ],
+  "rationale": "The current price has shown bullish signals after a recent pullback. Based on current momentum, there is potential for a short-term upward move. The market has reacted positively at support levels indicating buying interest.",
+  "invalidation": "If the price moves below 1.17600, it will negate the bullish outlook and indicate a potential downward turn.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Current price shows bullish signals after a pullback. Indicators suggest upward momentum. Entry level is set just above the current market to capitalize on potential upward movement.",
+  "current_price": 1.17757,
+  "entry_distance_pips": 0.04,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.04,
+    "current_price": 1.17757,
+    "warnings": []
+  }
+}

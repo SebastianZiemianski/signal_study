@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-23T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 104.21,
+  "stop": 104.15,
+  "targets": [
+    104.25,
+    104.3
+  ],
+  "rationale": "The current price of AUDJPY at 104.20684 shows a recent bullish trend as indicated by upward momentum in the last 15 minutes and an RSI indicating slight bullish pressure. With volatility supportive for a short-term strategy and the price being close to the breakout level of 104.210, a BUY entry is actionable. The immediate support level is at 104.150, and the target levels are set at 104.250 and 104.300 based on previous resistance points. This positions the trade for a potential quick gain within the next hour.",
+  "invalidation": "If the price dips to 104.150 or below, it will invalidate the bullish setup as it would indicate a failure to maintain upward momentum.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 104.20684,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 104.20684,
+    "warnings": []
+  }
+}

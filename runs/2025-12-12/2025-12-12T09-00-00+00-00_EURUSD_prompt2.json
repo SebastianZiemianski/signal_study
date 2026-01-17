@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-12T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.173,
+  "stop": 1.172,
+  "targets": [
+    1.174,
+    1.175,
+    1.176
+  ],
+  "rationale": "Current market price shows bullish momentum with recent price action indicating upward pressure. Momentum indicators suggest potential for further gains. Entry slightly above current price allows for quick execution within the hourly window.",
+  "invalidation": "If price falls below 1.17200, consideration should be made to exit the position as it would indicate a reversal in sentiment.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.17297,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 1.17297,
+    "warnings": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-28T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 102.02056,
+  "stop": 101.98056,
+  "targets": [
+    102.05056,
+    102.08056,
+    102.11056
+  ],
+  "rationale": "Currently, AUDJPY is experiencing upward momentum with a bullish reversal pattern emerging on the 5-minute chart. Recent price action indicates buyers are starting to dominate after testing the key support level near 102.000. The RSI is hovering around 60, suggesting there's still space for further upside momentum. Given the current price of 102.01056, an entry slightly above at 102.02056 remains well within the 100-pip limit and is expected to be achievable shortly. The stop-loss is set below the recent support to mitigate risk, while the targets leverage the recent highs identified in the current market structure.",
+  "invalidation": "If the price falls below 101.98056, it would invalidate the bullish outlook as it would break below recent support levels and indicate potential bearish movement.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Bullish reversal pattern spotted in recent 5m candlestick analysis with upward momentum confirmed by RSI. Entry at 102.02056 is realistic given ongoing buying interest.",
+  "current_price": 102.01056,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 102.01056,
+    "warnings": []
+  }
+}

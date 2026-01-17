@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-21T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.15062,
+  "stop": 1.15362,
+  "targets": [
+    1.14962,
+    1.14862
+  ],
+  "rationale": "The current market at 1.15162 shows signs of downward momentum as the RSI is over 70, indicating it is overbought in the short term. Additionally, price action is forming lower highs, reinforcing bearish sentiment. A closely monitored entry at 1.15062 allows us to take advantage of the immediate downtrend, while the stop loss above 1.15362 accounts for volatility. Targets are based on recent support levels seen at 1.14962 and 1.14862.",
+  "invalidation": "If the price moves back above 1.15362, it would indicate a shift in momentum and the SELL trade would be invalidated.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Market shows short term selling opportunity due to overbought RSI, confirmed by price structure.",
+  "current_price": 1.15162,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.15162,
+    "warnings": []
+  }
+}

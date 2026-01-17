@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-19T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Current market price is 103.6675. No clear directional movement identified as RSI indicators are not available at the moment. The lack of clear overbought or oversold conditions leads to a HOLD signal until more definitive price action can be observed.",
+  "invalidation": "Price moves significantly above 104.6675 or below 102.6675 indicating more volatility.",
+  "prompt_name": "prompt4",
+  "raw_notes": "No clear entry signal due to the absence of RSI indicators and ambiguous market conditions.",
+  "current_price": 103.6675,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 103.6675,
+    "warnings": []
+  }
+}

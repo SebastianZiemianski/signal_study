@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-05T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current RSI conditions are unclear as no specifics were provided regarding the RSI values. Given the current market price of 104.73993, and a lack of clear oversold (RSI <= 30) or overbought (RSI >= 70) indications, it seems appropriate to HOLD at this time. The market dynamics do not indicate strong directionality currently.",
+  "invalidation": "If RSI moves below 30 or above 70, a reevaluation may be necessary for possible BUY or SELL signals.",
+  "prompt_name": "prompt4",
+  "raw_notes": "Current RSI levels not available, hence a HOLD signal is appropriate based on available information.",
+  "current_price": 104.73993,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 104.73993,
+    "warnings": []
+  }
+}

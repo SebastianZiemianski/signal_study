@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-12T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 105.78,
+  "stop": 105.8,
+  "targets": [
+    105.75,
+    105.74
+  ],
+  "rationale": "The AUDJPY is currently showing signs of weakness with recent price action forming a bearish trend on the 5-minute chart. The RSI indicator is above 60, indicating potential overbought conditions and divergence in price movement. The entry point of 105.7800 is realistic and within 100 pips of the current price, and it aligns with nearby resistance levels. This setup also respects the short-term volatility as the price appears to be rejected from previous highs. A stop loss can be set at 105.8000 to limit potential losses. Target levels are set at 105.7500 and 105.7400 to capitalize on bearish momentum.",
+  "invalidation": "A move above 105.8000 would invalidate the bearish setup, indicating strength and a potential trend reversal.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 105.7886,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 105.7886,
+    "warnings": []
+  }
+}

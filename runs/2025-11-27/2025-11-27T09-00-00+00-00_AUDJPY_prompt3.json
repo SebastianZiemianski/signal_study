@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-27T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 102.0,
+  "stop": 101.95,
+  "targets": [
+    102.1,
+    102.2
+  ],
+  "rationale": "The AUDJPY shows bullish momentum on the 5-minute chart, with price recently bouncing off a support level around 101.950. Coupled with a positive divergence seen in the RSI, currently at 55, there’s enough momentum for a short-term upward move. The price action indicates buyers are gaining strength, which aligns with entering a buy position. Current market conditions support a move towards the next resistance levels at 102.100 and 102.200. Entry at 102.000 is within the acceptable distance from the current price (101.99946) and provides a feasible risk-to-reward ratio with the stop loss set at a key support level.",
+  "invalidation": "If the price drops below 101.950, it would invalidate the bullish scenario and suggest that the buyers are losing control, indicating a potential sell or a need to exit the position.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 101.99946,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 101.99946,
+    "warnings": []
+  }
+}

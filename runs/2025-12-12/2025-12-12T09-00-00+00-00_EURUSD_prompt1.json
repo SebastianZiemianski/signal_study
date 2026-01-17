@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-12T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current market price is 1.17297. At this moment, we have not identified a significant recent consolidation or clear breakout above the defined range high, nor a clear breakdown below the defined range low. Consequently, the price remains within the existing range, and no entry signals are confirmed for buying or selling. Therefore, the recommendation is to HOLD until a clearer breakout occurs.",
+  "invalidation": "If the price starts to show either a strong breakout above 1.17497 or a breakdown below 1.17197, further analysis can be conducted for potential trading opportunities.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 1.17297,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.17297,
+    "warnings": []
+  }
+}

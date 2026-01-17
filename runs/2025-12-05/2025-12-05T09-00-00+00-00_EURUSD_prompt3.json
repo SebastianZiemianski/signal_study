@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-05T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.16441,
+  "stop": 1.16341,
+  "targets": [
+    1.16641,
+    1.16841
+  ],
+  "rationale": "The EUR/USD is currently trading in an upward channel on the 5-minute chart, showing signs of bullish momentum after recent lows. Recent price action indicates a series of higher highs and higher lows. The RSI, sitting at 55, suggests that there is still room for price to move upwards without being overbought. Entering at 1.16441, with a stop loss at 1.16341 minimizes risk while targeting 1.16641 and 1.16841 for profit. This aligns well with current market conditions and allows for a trade execution within the next hour.",
+  "invalidation": "A close below 1.16341 would invalidate this bullish setup, indicating a reversal may be in play.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.16541,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.16541,
+    "warnings": []
+  }
+}

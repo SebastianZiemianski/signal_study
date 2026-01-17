@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-25T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 100.885,
+  "stop": 100.855,
+  "targets": [
+    100.925,
+    100.95
+  ],
+  "rationale": "The price is currently sitting in a consolidation phase with bullish momentum as indicated by a recent pattern of higher lows. Recent price action shows that the market is respecting a support level around 100.870. A break above 100.885 could confirm a continuation of the upwards trend as the RSI shows a bullish divergence suggesting that buyers are gaining strength. This presents a favorable short-term buying opportunity with a reasonable profit target.",
+  "invalidation": "If the price drops below 100.855, it would invalidate the bullish setup, indicating a likely reversal.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 100.87568,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 100.87568,
+    "warnings": []
+  }
+}

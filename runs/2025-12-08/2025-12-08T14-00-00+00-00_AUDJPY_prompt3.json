@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-08T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 103.29,
+  "stop": 103.2,
+  "targets": [
+    103.35,
+    103.4
+  ],
+  "rationale": "The AUDJPY shows a bullish sentiment as it trades above recent support levels, and the RSI indicator indicates overbought conditions with further potential upside. Recent price action exhibits higher lows, supporting a buy signal. Current market conditions suggest additional upward momentum could materialize, enabling a profitable trading opportunity within the next hour.",
+  "invalidation": "A break below 103.200 would invalidate the bullish setup, indicating a potential reversal and necessitating a reassessment of market conditions.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Price action shows bullish movement with a supportive RSI reading. The market structure indicates buying potential as the price approaches recent highs.",
+  "current_price": 103.28228,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 103.28228,
+    "warnings": []
+  }
+}

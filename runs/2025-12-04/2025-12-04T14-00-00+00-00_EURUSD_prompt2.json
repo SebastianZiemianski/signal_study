@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-04T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.167,
+  "stop": 1.166,
+  "targets": [
+    1.1675,
+    1.168,
+    1.1685
+  ],
+  "rationale": "Currently, the market for EURUSD is showing an upward momentum after a small consolidation period. The price is near the recent support level around 1.16650 which indicates a potential bounce back. Given the current volatility, a small upward move towards 1.16700 is feasible within the next hour, while the general market sentiment appears bullish. There is also a positive divergence seen in nearby oscillator indicators which supports this upward movement.",
+  "invalidation": "If the price drops below 1.16600, the bullish view would be invalidated.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.16673,
+  "entry_distance_pips": 0.03,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.03,
+    "current_price": 1.16673,
+    "warnings": []
+  }
+}

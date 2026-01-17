@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-22T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.7,
+  "entry": 1.174,
+  "stop": 1.1725,
+  "targets": [
+    1.175,
+    1.176
+  ],
+  "rationale": "Currently, the EURUSD shows bullish momentum with a recent upward move observed over the past hour. The RSI indicator is rising and is around 55, indicating that the market is in bullish territory and has potential to continue the upward trend. Recent price action shows a support level around 1.17300, providing a good risk-to-reward setup for a BUY. Entry at 1.17400 offers a realistic point close to the current market price, while the stop loss is set tight just below support at 1.17250. Given the market's current structure and if the price moves closer to our entry before executing, we could see quick upward movement towards the targets at 1.17500 and 1.17600 within the next hour.",
+  "invalidation": "If the price falls below 1.17250, this would invalidate the bullish outlook and signal to exit the position as it may indicate a reversal in momentum.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.17361,
+  "entry_distance_pips": 0.04,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.04,
+    "current_price": 1.17361,
+    "warnings": []
+  }
+}

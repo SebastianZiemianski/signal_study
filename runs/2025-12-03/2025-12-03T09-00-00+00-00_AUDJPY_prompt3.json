@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-03T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 102.44,
+  "stop": 102.58,
+  "targets": [
+    102.4,
+    102.35
+  ],
+  "rationale": "The current market price is 102.44472, and there is a bearish trend forming as indicated by the recent price action. The RSI is showing overbought conditions, suggesting potential downward momentum. Short-term resistance is observed near 102.580, which aligns well for a short entry. Given the current volatility, an entry around 102.440 is realistic and achievable within the next hour. Target levels at 102.400 and 102.350 provide reasonable profit-taking opportunities while managing risk with a stop at 102.580.",
+  "invalidation": "If the price breaks above 102.580, it may invalidate the bearish view, suggesting a shift in market sentiment.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 102.44472,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 102.44472,
+    "warnings": []
+  }
+}

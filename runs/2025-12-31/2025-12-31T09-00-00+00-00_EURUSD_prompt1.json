@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-31T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current price of 1.17236 is within a previously established range but shows no clear breakout momentum above the range high or below the range low. Therefore, it is best to hold until a clearer trading opportunity presents itself.",
+  "invalidation": "Price breaking above 1.17336 indicates strong bullish momentum, while a break below 1.17136 could indicate bearish sentiment.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 1.17236,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.17236,
+    "warnings": []
+  }
+}

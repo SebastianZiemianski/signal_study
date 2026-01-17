@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-26T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 105.01206,
+  "stop": 105.06706,
+  "targets": [
+    104.95006,
+    104.90006
+  ],
+  "rationale": "The current market price is 105.01706. Given the recent price action, the RSI is likely indicating overbought conditions (RSI >= 70), suggesting a potential downward move. A conservative entry point can be set at 105.01206, which is just below the current price and accommodates a small retracement. The stop loss is accordingly placed at 105.06706 to allow some breathing space if the market reverses. This trade has a downward target near 104.95006 and 104.90006 based on nearby support levels, offering potentially favorable risk-to-reward ratios.",
+  "invalidation": "If the price closes above 105.06706 on the 5m timeframe, this SELL signal would be invalidated and a reassessment would be needed.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 105.01706,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 105.01706,
+    "warnings": []
+  }
+}

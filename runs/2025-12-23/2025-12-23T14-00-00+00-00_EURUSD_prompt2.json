@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-23T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.178,
+  "stop": 1.176,
+  "targets": [
+    1.179,
+    1.18,
+    1.181
+  ],
+  "rationale": "The EURUSD is exhibiting bullish momentum after a recent dip. The price has bounced off a support level near 1.17600 and is now approaching resistance at 1.17900. With positive sentiment in the market and a favorable RSI indicator, the expectation is for a continuation towards resistance in the near term.",
+  "invalidation": "If the market price falls below 1.17600, the bullish bias would be invalidated, and it could signal a potential trend reversal to the downside.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.17758,
+  "entry_distance_pips": 0.04,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.04,
+    "current_price": 1.17758,
+    "warnings": []
+  }
+}

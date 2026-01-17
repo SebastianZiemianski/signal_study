@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-02T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Current market price is stable and there is no clear breakout above or below a defined range. The price has not shown momentum indicating a breakout, and as such, no trade opportunity exists based on the specified strategy rules.",
+  "invalidation": "A movement outside the established 100 pips threshold without clear momentum would invalidate this hold position.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 105.1408,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 105.1408,
+    "warnings": []
+  }
+}

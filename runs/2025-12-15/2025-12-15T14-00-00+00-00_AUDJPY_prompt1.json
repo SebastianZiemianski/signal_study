@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-15T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, the price is at 103.18733. Without identifying a clear recent consolidation range above or below this level, a directional signal cannot be confirmed. Price movements are still within the range, hence it is prudent to HOLD until a clearer breakout can be observed.",
+  "invalidation": "If price reaches above 103.50000 or below 102.80000 with momentum, reassess for potential breakout.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 103.18733,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 103.18733,
+    "warnings": []
+  }
+}

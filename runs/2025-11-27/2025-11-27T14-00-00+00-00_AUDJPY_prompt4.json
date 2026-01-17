@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-27T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, the RSI is not explicitly provided, and without its value, I can't determine if the market is oversold or overbought. Given the current market price of 101.99496, I'm unable to identify a clear trade opportunity within the required parameters, leading to a HOLD signal.",
+  "invalidation": "No clear trade signal due to lack of RSI values and market direction.",
+  "prompt_name": "prompt4",
+  "raw_notes": "RSI analysis inconclusive, price action does not indicate a clear buy/sell opportunity.",
+  "current_price": 101.99496,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 101.99496,
+    "warnings": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-31T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.173,
+  "stop": 1.171,
+  "targets": [
+    1.174,
+    1.175,
+    1.176
+  ],
+  "rationale": "The current price of 1.17236 indicates the market may be experiencing a slight upward momentum. Given the time proximity to New Year's Day and potential volatility, along with expected low market participation, there could be an opportunity for a short-term rally. A buy entry at 1.17300 allows for a reasonable upside targeting 1.17400, 1.17500, and 1.17600 based on expected market behavior. \nFurthermore, if RSI suggests oversold or if recent price action shows bullish momentum, this can justify the buy signal.",
+  "invalidation": "The trade is invalidated if the price moves below 1.17100, indicating a potential reversal in sentiment.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.17236,
+  "entry_distance_pips": 0.06,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.06,
+    "current_price": 1.17236,
+    "warnings": []
+  }
+}

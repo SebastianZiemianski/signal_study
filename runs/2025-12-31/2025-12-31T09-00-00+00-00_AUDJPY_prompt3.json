@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-31T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 104.69,
+  "stop": 104.74,
+  "targets": [
+    104.65,
+    104.6
+  ],
+  "rationale": "The current market structure shows a rejection around the resistance level of 104.700, leading to a bearish momentum. The RSI indicates overbought conditions, advocating for a downward push. Given the proximity of the entry price (within 5 pips) and market volatility, a short position is warranted. Additionally, with the price nearing a notable resistance level, it provides a solid basis for a sell signal.",
+  "invalidation": "If the price breaks above 104.740, it would invalidate the bearish outlook and warrant reconsideration for potential long positions.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Market is approaching resistance at 104.700 and showing signs of reversal. RSI indicates overbought; setting a sell entry close to market price for a small short-term scalp.",
+  "current_price": 104.69546,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 104.69546,
+    "warnings": []
+  }
+}

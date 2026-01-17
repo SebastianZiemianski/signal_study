@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-01T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "There is no clear breakout indication based on the current price action. The price is around 1.17459 and recent consolidation does not show a breakout above the range high or below the range low. Conditions do not support a decisive trade opportunity at this time.",
+  "invalidation": "If price moves above 1.17559 or below 1.17359, a more clear signal may be available.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 1.17459,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.17459,
+    "warnings": []
+  }
+}

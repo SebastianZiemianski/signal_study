@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-22T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.175,
+  "stop": 1.1735,
+  "targets": [
+    1.1765,
+    1.1775
+  ],
+  "rationale": "Current price of EURUSD at 1.17469 shows bullish momentum as evidenced by a recent upward trend on the 5-minute chart. Additionally, the RSI is showing a value above 50, indicating bullish strength. The market appears to be reacting positively to positive economic news. Entry price at 1.17500 is close enough to the current price and within the 100 pips allowance.",
+  "invalidation": "If the price drops below 1.17350, this invalidates the bullish outlook, indicating a potential reversal.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Market is showing bullish trends with current economic conditions; RSI indicates strength.",
+  "current_price": 1.17469,
+  "entry_distance_pips": 0.03,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.03,
+    "current_price": 1.17469,
+    "warnings": []
+  }
+}

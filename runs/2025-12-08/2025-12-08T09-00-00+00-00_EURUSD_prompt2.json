@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-08T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.7,
+  "entry": 1.166,
+  "stop": 1.164,
+  "targets": [
+    1.167,
+    1.168,
+    1.169
+  ],
+  "rationale": "The EURUSD is showing signs of bullish momentum with a recent uptrend observed on the 5-minute chart. There is a key support level near 1.16557, which has held in recent trading. A small increase to 1.16600 allows for a better entry point with reduced risk given the current market behavior.",
+  "invalidation": "If the price breaks below 1.16400, this would invalidate the bullish setup.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.16557,
+  "entry_distance_pips": 0.04,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.04,
+    "current_price": 1.16557,
+    "warnings": []
+  }
+}

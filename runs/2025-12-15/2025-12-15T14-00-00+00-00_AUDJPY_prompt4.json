@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-15T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Given the current market price is 103.18733 and the RSI condition is unknown, there is insufficient directionality or clear trend indication to prompt a trade signal. Hence, the recommendation is to HOLD.",
+  "invalidation": "No invalidation conditions since no trade is being placed.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 103.18733,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 103.18733,
+    "warnings": []
+  }
+}

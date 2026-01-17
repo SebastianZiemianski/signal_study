@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-02T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.173,
+  "stop": 1.1715,
+  "targets": [
+    1.174,
+    1.175,
+    1.176
+  ],
+  "rationale": "The EURUSD pair has shown bullish momentum from previous sessions and is currently trading near a support level. The recent price action reflects a potential continuation of the upward trend, making a BUY signal appropriate. The current market conditions indicate that the price could rise further in the near term.",
+  "invalidation": "If the price drops below 1.17150, this could invalidate the bullish scenario.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.17278,
+  "entry_distance_pips": 0.02,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.02,
+    "current_price": 1.17278,
+    "warnings": []
+  }
+}

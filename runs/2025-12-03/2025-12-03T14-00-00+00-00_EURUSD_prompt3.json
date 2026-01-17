@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-03T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 1.16543,
+  "stop": 1.167,
+  "targets": [
+    1.164,
+    1.163
+  ],
+  "rationale": "The market is showing bearish momentum on the 5-minute chart with recent lower highs and lower lows formation. The RSI is indicating overbought conditions approaching the 70 level, suggesting a correction is likely. Market sentiment appears weak as the price has failed to break previous resistance levels, providing a viable selling opportunity around current levels.",
+  "invalidation": "If the price breaks above 1.16700 significantly, indicating a potential reversal in trend, the trade should be invalidated.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.16643,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.16643,
+    "warnings": []
+  }
+}

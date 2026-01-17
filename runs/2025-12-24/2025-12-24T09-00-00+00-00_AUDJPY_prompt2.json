@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-24T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 104.54,
+  "stop": 104.52,
+  "targets": [
+    104.57,
+    104.59,
+    104.61
+  ],
+  "rationale": "The AUDJPY is currently trading in a bullish channel with increasing momentum observed on the 5-minute timeframe. Recent price action shows a positive bias with higher lows forming. The entry point of 104.5400 is just above the current price, maintaining proximity within the required 100 pips distance, maximizing the likelihood of filling the order. The stop loss is set just below the most recent low for protection against reversal.",
+  "invalidation": "If the price drops below 104.5200, this could indicate a shift in momentum and invalidate the bullish outlook.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Current bullish trend noted in short-term movement. Entry is close to the current price allowing for a realistic buy opportunity.",
+  "current_price": 104.53194,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 104.53194,
+    "warnings": []
+  }
+}

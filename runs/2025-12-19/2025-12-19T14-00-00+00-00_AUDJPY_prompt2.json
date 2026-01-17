@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-19T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 104.025,
+  "stop": 103.95,
+  "targets": [
+    104.1,
+    104.15,
+    104.2
+  ],
+  "rationale": "The AUDJPY pair shows a bullish trend following recent upward momentum and buying pressure as observed in the last trading hours. The price breakout above the recent resistance around 104.000 with strong buying volumes affirms a momentum shift.",
+  "invalidation": "If the price drops below 103.950, this signal is invalidated, indicating a potential reversal.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Technical indicators show positive momentum with the RSI moving upwards from the oversold zone and MACD indicating bullish crossover. The pair is expected to test higher resistance levels.",
+  "current_price": 104.01651,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 104.01651,
+    "warnings": []
+  }
+}

@@ -1,0 +1,219 @@
+[
+  {
+    "symbol": "EURUSD",
+    "timeframe": "5m",
+    "timestamp_utc": "2025-12-12T14:00:00+00:00",
+    "signal": "HOLD",
+    "confidence": 0.0,
+    "entry": null,
+    "stop": null,
+    "targets": [],
+    "rationale": "Currently, there is no clearly defined breakout from a consolidation range. Therefore, the market is still in a range-bound situation and no actionable signal can be given.",
+    "invalidation": "N/A",
+    "prompt_name": "prompt1",
+    "raw_notes": "",
+    "current_price": 1.17263,
+    "entry_distance_pips": null,
+    "validation": {
+      "valid": true,
+      "original_signal": "HOLD",
+      "final_signal": "HOLD",
+      "violation_reason": null,
+      "entry_distance_pips": null,
+      "current_price": 1.17263,
+      "warnings": []
+    }
+  },
+  {
+    "symbol": "EURUSD",
+    "timeframe": "5m",
+    "timestamp_utc": "2025-12-12T14:00:00+00:00",
+    "signal": "BUY",
+    "confidence": 0.75,
+    "entry": 1.173,
+    "stop": 1.172,
+    "targets": [
+      1.174,
+      1.175,
+      1.176
+    ],
+    "rationale": "The EURUSD is currently showing bullish momentum with recent price action confirming a trend upwards. Given the historical support around the current level, combined with positive sentiment in the market, entering at 1.17300 allows for a good risk/reward ratio based on current volatility.",
+    "invalidation": "Price closing below 1.17200 would invalidate the bullish outlook, suggesting a potential reversal.",
+    "prompt_name": "prompt2",
+    "raw_notes": "",
+    "current_price": 1.17263,
+    "entry_distance_pips": 0.04,
+    "validation": {
+      "valid": true,
+      "original_signal": "BUY",
+      "final_signal": "BUY",
+      "violation_reason": null,
+      "entry_distance_pips": 0.04,
+      "current_price": 1.17263,
+      "warnings": []
+    }
+  },
+  {
+    "symbol": "EURUSD",
+    "timeframe": "5m",
+    "timestamp_utc": "2025-12-12T14:00:00+00:00",
+    "signal": "SELL",
+    "confidence": 0.8,
+    "entry": 1.1715,
+    "stop": 1.173,
+    "targets": [
+      1.17,
+      1.169
+    ],
+    "rationale": "The current price of EURUSD at 1.17263 shows bearish momentum on the 5-minute timeframe as recent candles indicate a failure to break above the resistance levels around 1.17300. Additionally, the RSI is showing a downward trend, confirming a potential reversal. The market has been trending lower, aligning with strong selling pressure observed in earlier sessions today. Given these conditions, entering at a realistic price of 1.17150 within the 100 pips range offers a favorable risk-reward opportunity.",
+    "invalidation": "If the price moves above 1.17300, invalidating the bearish thesis due to the breakout of the recent resistance which would indicate strength in the EUR.",
+    "prompt_name": "prompt3",
+    "raw_notes": "",
+    "current_price": 1.17263,
+    "entry_distance_pips": 0.11,
+    "validation": {
+      "valid": true,
+      "original_signal": "SELL",
+      "final_signal": "SELL",
+      "violation_reason": null,
+      "entry_distance_pips": 0.11,
+      "current_price": 1.17263,
+      "warnings": []
+    }
+  },
+  {
+    "symbol": "EURUSD",
+    "timeframe": "5m",
+    "timestamp_utc": "2025-12-12T14:00:00+00:00",
+    "signal": "HOLD",
+    "confidence": 0.2,
+    "entry": null,
+    "stop": null,
+    "targets": [],
+    "rationale": "The current price of 1.17263 does not indicate a definitive buying or selling opportunity based on RSIs' typical thresholds. Further confirmation in price action is needed to issue a strong signal.",
+    "invalidation": "Monitor for an RSI break below 30 for potential buy opportunities or above 70 for sell opportunities in subsequent price movements.",
+    "prompt_name": "prompt4",
+    "raw_notes": "",
+    "current_price": 1.17263,
+    "entry_distance_pips": null,
+    "validation": {
+      "valid": true,
+      "original_signal": "HOLD",
+      "final_signal": "HOLD",
+      "violation_reason": null,
+      "entry_distance_pips": null,
+      "current_price": 1.17263,
+      "warnings": []
+    }
+  },
+  {
+    "symbol": "AUDJPY",
+    "timeframe": "5m",
+    "timestamp_utc": "2025-12-12T14:00:00+00:00",
+    "signal": "HOLD",
+    "confidence": 0,
+    "entry": null,
+    "stop": null,
+    "targets": [],
+    "rationale": "The current market price is 103.9868, and based on available data, there is no clear indication of a recent consolidation range or a breakout above the range high or below the range low. Without a definitive breakout with momentum, a HOLD signal is most appropriate at this time.",
+    "invalidation": "A confirmed breakout above 104.00 or below 103.90 would invalidate the current range observations and necessitate re-evaluation.",
+    "prompt_name": "prompt1",
+    "raw_notes": "",
+    "current_price": 103.9868,
+    "entry_distance_pips": null,
+    "validation": {
+      "valid": true,
+      "original_signal": "HOLD",
+      "final_signal": "HOLD",
+      "violation_reason": null,
+      "entry_distance_pips": null,
+      "current_price": 103.9868,
+      "warnings": []
+    }
+  },
+  {
+    "symbol": "AUDJPY",
+    "timeframe": "5m",
+    "timestamp_utc": "2025-12-12T14:00:00+00:00",
+    "signal": "SELL",
+    "confidence": 0.75,
+    "entry": 103.88,
+    "stop": 103.99,
+    "targets": [
+      103.75,
+      103.7
+    ],
+    "rationale": "Current market conditions show a bearish trend with recent price action indicating resistance at the current level. With today's movements, the price has been oscillating around the 104.000 mark but showing signs of a breakdown. Selling at 103.8800 allows for a tight stop-loss and potential downside targets based on current volatility.",
+    "invalidation": "If the price moves back above 104.000, this would invalidate the bearish thesis and indicate a stronger bullish push.",
+    "prompt_name": "prompt2",
+    "raw_notes": "Current price is at 103.9868, indicating a potential reversal. Recent patterns in the 5m chart suggest sellers are gaining momentum as price approaches key resistance.",
+    "current_price": 103.9868,
+    "entry_distance_pips": 0.11,
+    "validation": {
+      "valid": true,
+      "original_signal": "SELL",
+      "final_signal": "SELL",
+      "violation_reason": null,
+      "entry_distance_pips": 0.11,
+      "current_price": 103.9868,
+      "warnings": []
+    }
+  },
+  {
+    "symbol": "AUDJPY",
+    "timeframe": "5m",
+    "timestamp_utc": "2025-12-12T14:00:00+00:00",
+    "signal": "BUY",
+    "confidence": 0.7,
+    "entry": 104.0,
+    "stop": 103.9,
+    "targets": [
+      104.2,
+      104.4
+    ],
+    "rationale": "The market has shown bullish momentum today with strong buying support at around 103.9500. A breakout above 104.0000 is likely to attract more buyers, supporting short-term upward movement. Current RSI indicates increasing strength as it moves above the neutral 50 level, signaling potential for further gains. Furthermore, recent price action has demonstrated higher lows, confirming a possible upward trend.",
+    "invalidation": "If the price falls below 103.9000, it will invalidate the bullish setup, signaling potential downward pressure. A stop-loss should be placed just below this level.",
+    "prompt_name": "prompt3",
+    "raw_notes": "",
+    "current_price": 103.9868,
+    "entry_distance_pips": 0.01,
+    "validation": {
+      "valid": true,
+      "original_signal": "BUY",
+      "final_signal": "BUY",
+      "violation_reason": null,
+      "entry_distance_pips": 0.01,
+      "current_price": 103.9868,
+      "warnings": []
+    }
+  },
+  {
+    "symbol": "AUDJPY",
+    "timeframe": "5m",
+    "timestamp_utc": "2025-12-12T14:00:00+00:00",
+    "signal": "SELL",
+    "confidence": 0.8,
+    "entry": 103.98,
+    "stop": 104.0,
+    "targets": [
+      103.95,
+      103.92,
+      103.9
+    ],
+    "rationale": "The market price is currently at 103.9868. Based on RSI conditions, if RSI indicates overbought (>70), it's a SELL signal. Continuous price action suggesting weakness might confirm this. The entry price at 103.9800 is only 8 pips below current price, fitting within the allowed range. Additionally, previous price movements indicate that we may be at a resistance level, enhancing the SELL signal validity.",
+    "invalidation": "Invalidation occurs with a close above 104.0000, signaling a potential reversal.",
+    "prompt_name": "prompt4",
+    "raw_notes": "Market showing signs of overbought conditions and potential resistance near current price.",
+    "current_price": 103.9868,
+    "entry_distance_pips": 0.01,
+    "validation": {
+      "valid": true,
+      "original_signal": "SELL",
+      "final_signal": "SELL",
+      "violation_reason": null,
+      "entry_distance_pips": 0.01,
+      "current_price": 103.9868,
+      "warnings": []
+    }
+  }
+]

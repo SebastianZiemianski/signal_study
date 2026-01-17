@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-23T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, AUDJPY is trading at 104.57062. Without analyzing the recent consolidation or range breakout due to the lack of specific recent price action data, there appears to be no clear breakout above the recent highs or below recent lows. Thus, there's no actionable signal given the current market condition and timeframe; it is recommended to hold.",
+  "invalidation": "N/A",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 104.57062,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 104.57062,
+    "warnings": []
+  }
+}

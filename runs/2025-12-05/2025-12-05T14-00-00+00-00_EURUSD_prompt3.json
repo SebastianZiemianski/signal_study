@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-05T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.16478,
+  "stop": 1.16678,
+  "targets": [
+    1.163,
+    1.162
+  ],
+  "rationale": "The current market price of 1.16528 indicates a bearish trend with a potential reversal pattern forming. Recent price action shows sellers gaining momentum, supported by RSI readings trending downwards, indicating increased selling pressure. The entry point at 1.16478 is just below current levels, providing a good entry for a short position. The market has shown decent volatility today, allowing for realistic entry and movement targets.",
+  "invalidation": "If the price exceeds 1.16678, the bullish sentiment might be confirmed, indicating a reversal in the current downtrend.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Market conditions lean bearish with increased selling pressure. RSI indicates a potential for continued downward momentum, highlighting opportunity for a short position within achievable entry range.",
+  "current_price": 1.16528,
+  "entry_distance_pips": 0.05,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.05,
+    "current_price": 1.16528,
+    "warnings": []
+  }
+}

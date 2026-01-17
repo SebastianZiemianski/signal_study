@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-10T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current market price of 1.16379 indicates that the price is still inside a potential consolidation range. Without clear momentum breaking above the range high or below the range low, there is no actionable trade signal. Therefore, it is prudent to HOLD at this time.",
+  "invalidation": "Price showing clear movement indicating a breakout either above 1.16479 or below 1.16279 could change the signal.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 1.16379,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.16379,
+    "warnings": []
+  }
+}

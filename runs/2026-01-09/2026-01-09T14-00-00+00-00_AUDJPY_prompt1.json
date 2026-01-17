@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-09T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current price is within the consolidation range and shows no clear breakout above the range high or below the range low. Therefore, the direction is not decisively bullish or bearish, leading to no actionable trade opportunity.",
+  "invalidation": "N/A",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 105.37891,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 105.37891,
+    "warnings": []
+  }
+}

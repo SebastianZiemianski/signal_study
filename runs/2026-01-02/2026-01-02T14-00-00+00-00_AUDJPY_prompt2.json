@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-02T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 104.98,
+  "stop": 105.02,
+  "targets": [
+    104.95,
+    104.94,
+    104.92
+  ],
+  "rationale": "The current price action shows a bearish trend with the price attempting to break below the recent support level at 104.9900. Given the current bearish momentum and market conditions, a sell opportunity is identified.",
+  "invalidation": "If the price moves above 105.0200, it could indicate a reversal of the current downtrend. Position should be closed if this level is surpassed.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 104.9858,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 104.9858,
+    "warnings": []
+  }
+}

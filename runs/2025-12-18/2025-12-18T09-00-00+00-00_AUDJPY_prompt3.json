@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-18T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 102.87882,
+  "stop": 103.02882,
+  "targets": [
+    102.77882,
+    102.67882
+  ],
+  "rationale": "Current market conditions show a bearish trend with recent price action forming lower lows. An RSI reading below 30 indicates overbought conditions which may suggest that a reversal is imminent. The sentiment in the market is leaning towards selling as the momentum indicators point to potential price declines in the near term.",
+  "invalidation": "A break above 103.02882 would invalidate the bearish outlook, suggesting the price may continue to rise instead.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Market structure indicates bearish price action. RSI indicates potential overbought condition. Looking for a pullback.",
+  "current_price": 102.97882,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 102.97882,
+    "warnings": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-15T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 103.15,
+  "stop": 103.25,
+  "targets": [
+    103.1,
+    103.05
+  ],
+  "rationale": "The current market price is showing a slight downward trend as indicated by recent bearish movements and lack of buying pressure. Indicators suggest a potential for further declines, making a SELL decision appropriate at this moment.",
+  "invalidation": "If the price exceeds 103.25000, the bullish signal will negate the sell opportunity.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Current price at 103.18733 shows a bearish sentiment. Will enter sell trade at 103.150, risking 10 pips with targets set at 103.100 and 103.050.",
+  "current_price": 103.18733,
+  "entry_distance_pips": 0.04,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.04,
+    "current_price": 103.18733,
+    "warnings": []
+  }
+}

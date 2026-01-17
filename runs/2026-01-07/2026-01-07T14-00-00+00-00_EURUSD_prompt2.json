@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-07T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.169,
+  "stop": 1.168,
+  "targets": [
+    1.17,
+    1.171
+  ],
+  "rationale": "Current market conditions show bullish momentum in the EURUSD, with recent price action indicating a strong upward shift. Technical indicators are supportive of a short-term bullish strategy, making a BUY at 1.16900 an ideal entry point. The overall market sentiment is favoring long positions.",
+  "invalidation": "If the price drops below 1.16800, it may invalidate the bullish outlook and suggest a potential reversal.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Analysis conducted using current market prices and conditions. Entry and stop-loss set based on the 5m timeframe performance.",
+  "current_price": 1.16929,
+  "entry_distance_pips": 0.03,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.03,
+    "current_price": 1.16929,
+    "warnings": []
+  }
+}

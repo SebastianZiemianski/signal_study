@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-10T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Market conditions today show a lack of clear direction. The current price has been oscillating between resistance and support levels without establishing a clear trend. Additionally, the RSI indicates overbought conditions which are not conducive to favorable trade opportunities at this moment. Therefore, no immediate trading signals can be identified. Risks may outweigh potential returns.",
+  "invalidation": "If a clear breakout above 104.50 occurs, this may indicate a stronger bullish trend, prompting a re-evaluation of the market situation.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Current price activity suggests a period of consolidation rather than clear movements. Thus, it is advisable to hold off on trading until clearer patterns emerge.",
+  "current_price": 104.24352,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 104.24352,
+    "warnings": []
+  }
+}

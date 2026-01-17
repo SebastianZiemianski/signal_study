@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-23T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current market price is 104.20684. Without the RSI value, it is difficult to determine a clear bias. If RSI indicates neutrality (between 45 and 55), it suggests a HOLD. There is no sufficient directional indication to initiate a trade.",
+  "invalidation": "If market conditions show a clear signal with RSI below 30 or above 70, reconsider for a BUY or SELL trade respectively.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 104.20684,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 104.20684,
+    "warnings": []
+  }
+}

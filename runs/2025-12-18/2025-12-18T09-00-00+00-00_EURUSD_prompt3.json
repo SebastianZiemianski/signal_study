@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-18T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 1.1728,
+  "stop": 1.174,
+  "targets": [
+    1.1715,
+    1.17
+  ],
+  "rationale": "Current market conditions indicate a bearish momentum with recent price action printing lower lows and lower highs on the 5-minute chart. The RSI shows divergence from price action, indicating potential overbought conditions as the price approaches the resistance at 1.17400. A clear breakdown below the 1.17280 level could confirm the downward movement with targets set for 1.17150 and further to 1.17000. The proximity of the entry point allows for a realistic execution within the next hour, as trends indicate a likelihood of revisiting lower support levels.",
+  "invalidation": "If the price breaks above 1.17400, this would invalidate the current bearish setup and suggest a potential trend reversal to the upside.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.17303,
+  "entry_distance_pips": 0.02,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.02,
+    "current_price": 1.17303,
+    "warnings": []
+  }
+}

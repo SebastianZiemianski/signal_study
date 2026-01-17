@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-05T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 1.167,
+  "stop": 1.16852,
+  "targets": [
+    1.165,
+    1.164,
+    1.163
+  ],
+  "rationale": "The price has been displaying bearish momentum today with lower highs and lower lows observed on the 5-minute chart. An entry at 1.16700 is just within the 100 pips range and aligns with the recent downtrend. The market sentiment appears to favor the sellers, suggesting a potential downside movement in the near term.",
+  "invalidation": "If the price breaks above 1.16852, this would invalidate the bearish view, indicating a potential reversal or consolidation at higher levels.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.16752,
+  "entry_distance_pips": 0.05,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.05,
+    "current_price": 1.16752,
+    "warnings": []
+  }
+}

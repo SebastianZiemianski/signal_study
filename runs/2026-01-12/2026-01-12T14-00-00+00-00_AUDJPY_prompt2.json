@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-12T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 106.0,
+  "stop": 105.89,
+  "targets": [
+    106.15,
+    106.25
+  ],
+  "rationale": "Current market conditions show a bullish momentum around the recent price action with potential to reach higher levels. The market has broken key resistance at 105.950, suggesting upward movement.",
+  "invalidation": "A close below 105.890 would invalidate the bullish view and signal a reversal.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 105.99147,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 105.99147,
+    "warnings": []
+  }
+}

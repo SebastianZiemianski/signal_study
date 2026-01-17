@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-03T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.1655,
+  "stop": 1.167,
+  "targets": [
+    1.1635,
+    1.163,
+    1.1625
+  ],
+  "rationale": "The market has shown a reversal pattern with bearish momentum on the 5-minute chart. Recent price action indicates sellers gaining control after hitting a resistance level around 1.16700. Market indicators suggest a willingness to push lower. Therefore, a short position is warranted as the price is expected to test lower support levels shortly.",
+  "invalidation": "If the price breaks above 1.16700, it would invalidate this bearish outlook, suggesting a potential bullish reversal instead.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Current price action shows signs of a bearish rejection. Monitoring for continued seller strength.",
+  "current_price": 1.16643,
+  "entry_distance_pips": 0.09,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.09,
+    "current_price": 1.16643,
+    "warnings": []
+  }
+}

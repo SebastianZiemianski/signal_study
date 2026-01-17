@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-06T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current market price of 1.17244 does not show any clear breakout from a recent range. The market is likely still consolidating or lacks the necessary momentum for a breakout. Therefore, it is prudent to HOLD until clearer price action is observed.",
+  "invalidation": "If price breaks decisively above 1.17344 (range high) or below 1.17144 (range low) with momentum, reevaluate for potential BUY or SELL signals.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 1.17244,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.17244,
+    "warnings": []
+  }
+}

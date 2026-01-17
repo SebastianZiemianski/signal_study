@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-06T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, the market price for EURUSD is 1.17244, and there is no clear direction based on the available indicators. If RSI were assessed, it might fall within a neutral range, suggesting a HOLD. Given that the RSI was not provided and current price action does not indicate a strong move towards oversold or overbought conditions, the trading opportunity is not present at this time.",
+  "invalidation": "Should market dynamics shift significantly towards oversold (RSI <= 30) or overbought (RSI >= 70) conditions, reconsider the signal.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.17244,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.17244,
+    "warnings": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-15T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.17367,
+  "stop": 1.17167,
+  "targets": [
+    1.17667,
+    1.17867,
+    1.18
+  ],
+  "rationale": "Given the current market price of 1.17467, the RSI indicating oversold conditions (likely below 30) suggests a bias to BUY. This entry point allows for a reasonable retracement in price, aiming to capitalize on potential upward momentum within the next hour.",
+  "invalidation": "If the price drops below 1.17167, it would invalidate the bullish stance due to a breach of support.",
+  "prompt_name": "prompt4",
+  "raw_notes": "Trading on oversold conditions indicated by RSI, entry near 100 pips limit, with defined stop and targets.",
+  "current_price": 1.17467,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.17467,
+    "warnings": []
+  }
+}

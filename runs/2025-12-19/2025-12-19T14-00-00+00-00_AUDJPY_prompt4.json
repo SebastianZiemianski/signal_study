@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-19T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Current market price is neutral with no strong RSI signal indicating a clear trade direction. Market conditions suggest holding as there are no evident opportunities at this moment.",
+  "invalidation": "Current market price remains neutral with no RSI indication favoring a bias to BUY or SELL.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 104.01651,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 104.01651,
+    "warnings": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-16T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 102.83035,
+  "stop": 102.78035,
+  "targets": [
+    102.89035,
+    102.91035,
+    102.95035
+  ],
+  "rationale": "The RSI indicates an oversold condition, suggesting a buying opportunity. The current price is 102.82835, and I have set an entry point that is just above this price, within the allowed range.",
+  "invalidation": "If the price drops below 102.78035, it would invalidate the bullish setup.",
+  "prompt_name": "prompt4",
+  "raw_notes": "Current market price is indicating an oversold condition. Short-term bullish momentum is expected.",
+  "current_price": 102.82835,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 102.82835,
+    "warnings": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-12T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The price at 105.7886 is currently within the recent consolidation range and has not shown a definitive breakout direction. Since the conditions for a breakout signal are not met, this is a HOLD unit. Price movement will need to clarify either a strong breakout above a defined range high or below a range low before any trading signal can be initiated.",
+  "invalidation": "Maintain a HOLD until a clear breakout occurs either above 105.80 or below 105.70 with momentum.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 105.7886,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 105.7886,
+    "warnings": []
+  }
+}

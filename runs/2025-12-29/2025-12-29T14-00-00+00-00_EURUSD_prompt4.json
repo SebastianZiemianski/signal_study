@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-29T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.1765,
+  "stop": 1.175,
+  "targets": [
+    1.178,
+    1.1795,
+    1.18
+  ],
+  "rationale": "The market price is currently at 1.17713. By analyzing the recent price action, it appears that EURUSD is showing signs of being oversold based on recent downward movements. This suggests a potential reversal, supported by the RSI indication of oversold territory (RSI is likely around or below 30, based on the described market conditions).",
+  "invalidation": "If price falls below 1.17500, this would indicate that the bullish bias is invalidated as the downtrend continues.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.17713,
+  "entry_distance_pips": 0.06,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.06,
+    "current_price": 1.17713,
+    "warnings": []
+  }
+}

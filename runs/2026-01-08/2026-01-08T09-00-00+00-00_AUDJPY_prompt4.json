@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-08T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Based on the current market conditions and RSI analysis, there is a neutral market sentiment. The RSI is likely between 45 and 55, suggesting we should wait for a clearer direction. Thus, HOLD is the best signal at this moment.",
+  "invalidation": "If the price moves significantly towards either extreme (below 104.8569 for a BUY or above 105.0569 for a SELL), we can reassess our position.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 104.9569,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 104.9569,
+    "warnings": []
+  }
+}

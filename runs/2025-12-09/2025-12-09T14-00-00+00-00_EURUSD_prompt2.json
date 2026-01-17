@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-09T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.164,
+  "stop": 1.1625,
+  "targets": [
+    1.165,
+    1.166,
+    1.167
+  ],
+  "rationale": "The EURUSD has shown bullish momentum in the last couple of candles, indicative of buying pressure. The market sentiment appears positive based on today's price action. A buy position at 1.16400 would allow us to target 1.16500, 1.16600, and 1.16700 with a tight stop at 1.16250 to manage risk effectively.",
+  "invalidation": "If the price falls below 1.16250, this indicates a failure of the bullish momentum, and the position should be closed.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Current market price is 1.16351. Buy signal based on bullish behavior observed today.",
+  "current_price": 1.16351,
+  "entry_distance_pips": 0.05,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.05,
+    "current_price": 1.16351,
+    "warnings": []
+  }
+}

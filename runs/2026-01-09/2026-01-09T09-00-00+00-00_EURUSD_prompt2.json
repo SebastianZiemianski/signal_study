@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-09T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.1635,
+  "stop": 1.166,
+  "targets": [
+    1.1625,
+    1.162,
+    1.1615
+  ],
+  "rationale": "Current market trend shows a bearish momentum with resistance at around 1.16700. A sell entry at 1.16350 is justified as price action indicates a possible downturn after failing to break through resistance levels. Ideal for short-term trades as the market may move quickly in the next hour based on today’s activity.",
+  "invalidation": "If price moves above 1.16600, invalidating the current bearish trend expected to hold.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Market momentum favors selling; entry target reasonably close to current price, with tight SL and TP targets set for quick profit realization.",
+  "current_price": 1.16497,
+  "entry_distance_pips": 0.15,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.15,
+    "current_price": 1.16497,
+    "warnings": []
+  }
+}

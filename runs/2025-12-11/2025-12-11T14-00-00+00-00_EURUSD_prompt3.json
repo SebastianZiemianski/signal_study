@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-11T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.17261,
+  "stop": 1.17561,
+  "targets": [
+    1.17161,
+    1.17061
+  ],
+  "rationale": "The current price of 1.17361 is showing signs of bearish pressure after failing to break above the resistance level at 1.17400. The RSI indicator on the 5-minute timeframe has been hovering around 60, indicating a reluctance for prices to move higher. We anticipate a potential reversal towards lower levels as sellers are entering the market aggressively. A Sell entry at 1.17261 is within 100 pips of the current price and reflects a realistic decline based on the latest candlestick formations, confirming downward momentum.",
+  "invalidation": "If the price breaks above 1.17561, it would invalidate the bearish outlook, suggesting further potential upside movement.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Current bearish momentum based on failure to break recent resistance and RSI behavior.",
+  "current_price": 1.17361,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.17361,
+    "warnings": []
+  }
+}

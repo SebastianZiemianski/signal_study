@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-09T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.7,
+  "entry": 1.16386,
+  "stop": 1.16536,
+  "targets": [
+    1.16286,
+    1.16186
+  ],
+  "rationale": "There is a bearish trend forming based on the current market behavior observed in the 5-minute chart. Recent price action shows a lower high followed by downward pressure, which supports a sell opportunity. The market is experiencing some volatility, indicating that a swift move downward could occur, making it a viable entry point.",
+  "invalidation": "If price exceeds 1.16536, then the bearish hypothesis may be invalidated as it breaks above recent resistance.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Current bearish trend observed on the 5m chart. Resistance at 1.16586, potential support at 1.16286. Entry is close enough to current price for realistic execution.",
+  "current_price": 1.16486,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.16486,
+    "warnings": []
+  }
+}

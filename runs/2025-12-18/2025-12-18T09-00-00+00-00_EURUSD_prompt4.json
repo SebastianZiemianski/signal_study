@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-18T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.173,
+  "stop": 1.171,
+  "targets": [
+    1.175,
+    1.1765,
+    1.178
+  ],
+  "rationale": "The current market price is 1.17303. The RSI suggests a recent oversold condition, as there's been a sharp decline and subsequent recovery seen in short-term price action, indicating potential support and buying opportunity. Investors may look to capitalize on this rebound.",
+  "invalidation": "If the price falls below 1.17100, it would invalidate the bullish outlook, suggesting a continuation of bearish momentum.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.17303,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 1.17303,
+    "warnings": []
+  }
+}

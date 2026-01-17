@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-17T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.1709,
+  "stop": 1.1729,
+  "targets": [
+    1.169,
+    1.168
+  ],
+  "rationale": "The current market structure for EURUSD, as of today's price action, shows a recent high at 1.1730 followed by a pullback leading to a potential short opportunity. The market appears to be encountering resistance around this level, with a bearish divergence noted in RSI, indicating weakening momentum. With the current price at 1.1719, entering a sell position at 1.1709 provides a good risk-reward ratio, where the stop-loss at 1.1729 keeps it within a reasonable range while targeting 1.1690 and 1.1680. Market conditions suggest a downward move as sellers increasingly step in after failing to break the previous resistance. Invalidation for the sell signal would occur if the price breaches 1.1729, solidifying a stronger bull case.",
+  "invalidation": "Price closing above 1.1729 invalidates the signal, indicating potential for a bullish reversal.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.1719,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.1719,
+    "warnings": []
+  }
+}

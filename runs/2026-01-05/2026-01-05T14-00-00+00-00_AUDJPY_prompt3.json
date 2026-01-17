@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-05T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 104.73,
+  "stop": 104.8,
+  "targets": [
+    104.7,
+    104.65
+  ],
+  "rationale": "The AUDJPY is showing signs of bearish pressure as it approaches key resistance levels. The 5-minute RSI has recently turned down from above 70, indicating overbought conditions. Additionally, there is a formation of lower highs suggesting a potential reversal. Given the proximity to the current price, an entry at 104.73000 aligns with these technical indicators favoring a sell position.",
+  "invalidation": "If price moves above 104.80000, it would invalidate the bearish outlook and indicate a stronger bullish push.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Current price suggests a bearish sentiment based on the 5-minute RSI showing overbought conditions. Short-term scalping target set with clear invalidation point.",
+  "current_price": 104.73993,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 104.73993,
+    "warnings": []
+  }
+}

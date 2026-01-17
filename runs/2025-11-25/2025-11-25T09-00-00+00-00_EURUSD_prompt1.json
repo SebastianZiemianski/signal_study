@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-25T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The analysis of the most recent 5m period for EURUSD shows that the price remains inside a defined range without a clear breakout above the resistance or below the support. As a result, there is insufficient momentum for either a BUY or SELL signal, thus leading to a HOLD recommendation until the market shows a clearer breakout direction.",
+  "invalidation": "N/A",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 1.15294,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.15294,
+    "warnings": []
+  }
+}

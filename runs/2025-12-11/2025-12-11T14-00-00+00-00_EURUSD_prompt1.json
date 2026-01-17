@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-11T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The price is currently at 1.17361 and is not exhibiting a strong breakout structure. It has been moving sideways without clear consolidation points indicating a breakout either above or below. Therefore, a hold decision is appropriate until clearer movement is observed.",
+  "invalidation": "Look for a clear breakout above 1.1750 for a potential BUY or below 1.1720 for a potential SELL before re-evaluating.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 1.17361,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.17361,
+    "warnings": []
+  }
+}

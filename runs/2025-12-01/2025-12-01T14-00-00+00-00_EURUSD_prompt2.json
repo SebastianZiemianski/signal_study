@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-01T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.16325,
+  "stop": 1.16525,
+  "targets": [
+    1.162,
+    1.161,
+    1.16
+  ],
+  "rationale": "Current bearish momentum is supported by recent price action within the last trading sessions on the 5m chart. The price has shown a downward trend approaching a resistance level at 1.16525, with increasing selling pressure. The market conditions indicate potential for further decline.",
+  "invalidation": "If the price breaks above 1.16525, it would invalidate the bearish outlook and suggest a potential buy opportunity or continuation of a bullish trend.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Current bearish trend observed with a potential reversal at nearby resistance. Targets set based on recent volatility and support levels.",
+  "current_price": 1.16425,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.16425,
+    "warnings": []
+  }
+}

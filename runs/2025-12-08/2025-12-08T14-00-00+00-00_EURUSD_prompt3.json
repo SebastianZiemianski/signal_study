@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-08T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.1655,
+  "stop": 1.1635,
+  "targets": [
+    1.166,
+    1.167
+  ],
+  "rationale": "Currently, EURUSD is showing a bullish trend as it trades slightly above the support level of 1.16500 with strong bullish momentum observed in the recent price movements. The RSI indicates an upward trend, and current buying pressure may provide a favorable opportunity to enter long. The entry point is set a few pips above the current market price to capture potential upside in the next hour, with stops placed just below the previous support for risk management.",
+  "invalidation": "If EURUSD drops below 1.16350, the bullish scenario would be invalidated, indicating a reversal in market sentiment.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.16502,
+  "entry_distance_pips": 0.05,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.05,
+    "current_price": 1.16502,
+    "warnings": []
+  }
+}

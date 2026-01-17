@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-02T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.16,
+  "stop": 1.163,
+  "targets": [
+    1.158,
+    1.157,
+    1.156
+  ],
+  "rationale": "The current market price of 1.16131 shows signs of a bearish trend as the recent 5-minute candles are forming lower highs and lower lows. Additionally, key resistance is identified around 1.16300, suggesting a strong level where sellers could step in. Given these conditions, a sell trade at 1.16000 is likely to capitalize on the downward movement observed today.",
+  "invalidation": "If the price breaks above 1.16300, it invalidates the bearish view and suggests buying pressure.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.16131,
+  "entry_distance_pips": 0.13,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.13,
+    "current_price": 1.16131,
+    "warnings": []
+  }
+}

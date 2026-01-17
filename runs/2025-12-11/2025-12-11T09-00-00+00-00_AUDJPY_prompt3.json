@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-11T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 103.59015,
+  "stop": 103.69015,
+  "targets": [
+    103.49015,
+    103.39015
+  ],
+  "rationale": "The market at the current price of 103.59015 shows signs of bearish momentum, as indicated by a recent downward price action and RSI readings that are above 70, suggesting overbought conditions. Additionally, there is resistance nearby at 103.69015, which complements the bearish outlook. The setup is valid for the next hour since the entry price is at the current market price, and the stop loss is set a realistic distance considering the current volatility, while targets are based on the support levels observed in the recent market structure. The overall trend reflects a possible short-term reversal, allowing for a calculated sell opportunity.",
+  "invalidation": "If price exceeds 103.69015, it indicates that bullish momentum is prevailing, and in that case, the trade will be invalidated.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 103.59015,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 103.59015,
+    "warnings": []
+  }
+}

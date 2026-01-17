@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-20T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 102.35,
+  "stop": 102.3,
+  "targets": [
+    102.4,
+    102.45
+  ],
+  "rationale": "The AUDJPY is showing bullish momentum in the 5-minute timeframe with a recent uptrend visible along with a bullish RSI divergence. The price action exhibits higher lows, indicating potential continued upward movement. Current market conditions reflect an overall positive sentiment towards the AUD, supported by recent economic data that favors its strength compared to the JPY. The entry point of 102.350 is set slightly above the current price, which is reasonable for execution within the next hour. This setup offers a good risk-to-reward ratio with defined targets ahead.",
+  "invalidation": "If the price drops below 102.300, it may indicate a reversal, invalidating the bullish scenario. Additionally, any unforeseen news affecting the JPY significantly could alter the current bullish outlook.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 102.343,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 102.343,
+    "warnings": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-03T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 102.387,
+  "stop": 102.487,
+  "targets": [
+    102.287,
+    102.187
+  ],
+  "rationale": "The RSI indicates an overbought condition (>= 70) suggesting a bias to SELL. Current price is at 102.38795, and a SELL entry can be placed slightly below the market price. This aligns with the potential reversal in price action observed in the recent movement, indicating a possible decline.",
+  "invalidation": "If the price breaks above 102.487, the SELL signal would be invalidated as it would indicate strength in the upward trend.",
+  "prompt_name": "prompt4",
+  "raw_notes": "Current market conditions and potential overbought RSI corrections indicate a SELL opportunity.",
+  "current_price": 102.38795,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 102.38795,
+    "warnings": []
+  }
+}

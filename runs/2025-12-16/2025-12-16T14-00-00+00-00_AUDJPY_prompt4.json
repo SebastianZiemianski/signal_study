@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-16T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Current market conditions suggest that there is no clear indicator to prompt a definitive buy or sell trade based on the RSI framework. If RSI values are unavailable and the price action remains neutral, this indicates a HOLD rather than an execution signal.",
+  "invalidation": "The signal does not change unless new price action indicates a clear trend direction or RSI levels are defined distinctly outside the neutral zone.",
+  "prompt_name": "prompt4",
+  "raw_notes": "No clear trading opportunity identified. Hold until further information is available.",
+  "current_price": 102.79007,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 102.79007,
+    "warnings": []
+  }
+}

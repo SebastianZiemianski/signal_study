@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-27T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 1.15845,
+  "stop": 1.16145,
+  "targets": [
+    1.157,
+    1.156,
+    1.155
+  ],
+  "rationale": "The current price is at 1.15945, which has shown resistance near this level based on recent price action. Given that there is potential overbought momentum indicated by current market sentiment aligning with an RSI near or at the overbought threshold, a SELL opportunity presents itself. The entry point of 1.15845 aligns with the current price while still allowing for a realistic trade execution within this timeframe.",
+  "invalidation": "Invalidation occurs if the price moves above 1.16145 which indicates a break of recent resistance levels, negating the bearish sentiment.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.15945,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.15945,
+    "warnings": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-28T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The RSI reading for AUDJPY is not provided; therefore, a solid directional bias cannot be determined. Given the current price of 102.01056 is quite central, we would typically expect price action around neutral. There are no specific trading signals to justify a decision to buy or sell at this moment.",
+  "invalidation": "Price moves outside the range of 101.91056 - 102.11056 for confirmation of trend direction.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 102.01056,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 102.01056,
+    "warnings": []
+  }
+}

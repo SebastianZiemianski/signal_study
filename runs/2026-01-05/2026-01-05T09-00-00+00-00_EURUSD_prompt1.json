@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-05T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, I do not have clear evidence of a recent breakout based on the specified strategy. The price of 1.16841 remains within a potential consolidation zone with no significant breakout above the recent range high or below the range low. Thus, there are no actionable trading signals available at this moment.",
+  "invalidation": "If the price breaks above 1.16900 or below 1.16700 with momentum, a reevaluation of signal conditions may be warranted.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 1.16841,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.16841,
+    "warnings": []
+  }
+}

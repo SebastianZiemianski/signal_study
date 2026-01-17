@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-02T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.173,
+  "stop": 1.1715,
+  "targets": [
+    1.174,
+    1.175
+  ],
+  "rationale": "The market is showing bullish momentum, with RSI trending above 50, indicating strength. There has been a recent upward movement after a consolidation phase, indicating potential for further gains. The price is currently near support at 1.17250 and has shown buying interest at this level.",
+  "invalidation": "If price drops below 1.17150, indicating a breakdown of the support level, this would invalidate the bullish scenario.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.17278,
+  "entry_distance_pips": 0.02,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.02,
+    "current_price": 1.17278,
+    "warnings": []
+  }
+}

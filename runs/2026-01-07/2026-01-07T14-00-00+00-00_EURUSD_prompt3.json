@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-07T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.17,
+  "stop": 1.168,
+  "targets": [
+    1.172,
+    1.173
+  ],
+  "rationale": "The EURUSD pair is showing bullish momentum, indicated by recent price action breaking above a minor resistance level at 1.16850. Additionally, the RSI is nearing the 60 mark, signaling bullish strength. Current volatility is also supporting upward movement. The entry point is set slightly above the current price to capitalize on momentum, ensuring it aligns with the 5-minute timeframe for quick execution.",
+  "invalidation": "If the price breaks below 1.16800, this would invalidate the bullish setup, suggesting a lack of buying interest in the market.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Current analysis indicates a bullish trend based on recent upward price action and RSI momentum. Entry is preferred above current price.",
+  "current_price": 1.16929,
+  "entry_distance_pips": 0.07,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.07,
+    "current_price": 1.16929,
+    "warnings": []
+  }
+}

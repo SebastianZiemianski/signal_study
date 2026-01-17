@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-25T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 100.86568,
+  "stop": 100.90568,
+  "targets": [
+    100.84568,
+    100.82568,
+    100.80568
+  ],
+  "rationale": "Current market behavior shows a modest bearish momentum with recent sellers entering the market just below the current price. The 5-minute timeframe indicates that price may retrace slightly before another push down, which supports the selling opportunity.",
+  "invalidation": "A close above 100.90568 would invalidate the bearish scenario, indicating a potential reversal to the upside.",
+  "prompt_name": "prompt2",
+  "raw_notes": "The market seems to be trending downward and recent price action suggests potential continuation. Watch for immediate resistance around 100.90568 for confirmation of invalidation if price exceeds.",
+  "current_price": 100.87568,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 100.87568,
+    "warnings": []
+  }
+}

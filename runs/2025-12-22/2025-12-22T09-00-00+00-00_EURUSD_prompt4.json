@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-22T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.2,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Current price at 1.17361 does not show clear direction based on the provided RSI analysis; as the RSI is not mentioned, and price action isn't defined, there's insufficient evidence to suggest a directional trade.",
+  "invalidation": "N/A",
+  "prompt_name": "prompt4",
+  "raw_notes": "Await further price movement or RSI signal confirmation before considering a trade.",
+  "current_price": 1.17361,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.17361,
+    "warnings": []
+  }
+}

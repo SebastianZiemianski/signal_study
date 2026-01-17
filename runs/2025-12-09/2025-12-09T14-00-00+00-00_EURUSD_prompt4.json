@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-09T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Current market price is 1.16351, and without the RSI indicator data, I cannot assert a directional bias. The market is in a neutral position, suggesting a HOLD. There is no clear trade opportunity based on the information available.",
+  "invalidation": "Invalidation is deemed acceptable if market conditions change significantly within the next hour.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.16351,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.16351,
+    "warnings": []
+  }
+}

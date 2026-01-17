@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-10T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 104.24,
+  "stop": 104.29,
+  "targets": [
+    104.2,
+    104.19
+  ],
+  "rationale": "Current market conditions suggest a weakening in price momentum with recent lower highs forming. Selling near the current price allows capitalizing on potential downward movement in the short term. Entry targeted slightly below current price for better fill opportunity.",
+  "invalidation": "If price moves above 104.2900, the bearish bias would be negated.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 104.24352,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 104.24352,
+    "warnings": []
+  }
+}

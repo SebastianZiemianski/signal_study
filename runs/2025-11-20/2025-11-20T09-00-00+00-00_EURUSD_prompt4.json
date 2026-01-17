@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-20T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The market conditions indicate a neutral RSI state, leaning towards holding since the RSI is around the 50 level, showing no clear overbought or oversold condition. There are no immediate trade opportunities based on the current context.",
+  "invalidation": "N/A",
+  "prompt_name": "prompt4",
+  "raw_notes": "Market conditions do not present a viable trading opportunity at this time.",
+  "current_price": 1.15193,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.15193,
+    "warnings": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-27T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.1595,
+  "stop": 1.1575,
+  "targets": [
+    1.1605,
+    1.1615
+  ],
+  "rationale": "The current market price of 1.15945 shows a recent bullish trend with higher lows forming on the 5m timeframe. Additionally, the Relative Strength Index (RSI) is hovering near 55, indicating upward momentum without being overbought. This supports a BUY entry just above the current price to capture potential upward moves up to the nearest targets, aligning with the recent price action. The stop loss is set below the recent swing low to protect the trade from adverse moves.",
+  "invalidation": "If the price drops below 1.15750, this would invalidate the bullish scenario as it breaks recent support levels.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.15945,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 1.15945,
+    "warnings": []
+  }
+}

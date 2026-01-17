@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-21T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Current market price is 1.15162, and without access to the RSI indicator values, I cannot determine if the market is oversold or overbought. Given the potential for neutral price movement, I'm unable to recommend a trade.",
+  "invalidation": "If RSI indicates a clear oversold or overbought condition within the next hour, a directional trade may be considered.",
+  "prompt_name": "prompt4",
+  "raw_notes": "Market price is stable without clear momentum indicators; waiting for RSI confirmation is prudent.",
+  "current_price": 1.15162,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.15162,
+    "warnings": []
+  }
+}

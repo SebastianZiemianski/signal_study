@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-26T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Current RSI value is not provided, and market conditions do not indicate a clear directional trend. Thus, no actionable trading opportunity is recognized at this moment, leading to a HOLD signal. Without specific RSI data, we cannot determine if the market is overbought or oversold.",
+  "invalidation": "A clear break above 1.15601 or below 1.15401 could signal a potential change in trend, but currently, direction is not established.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.15501,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.15501,
+    "warnings": []
+  }
+}

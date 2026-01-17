@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-12T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 1.1715,
+  "stop": 1.173,
+  "targets": [
+    1.17,
+    1.169
+  ],
+  "rationale": "The current price of EURUSD at 1.17263 shows bearish momentum on the 5-minute timeframe as recent candles indicate a failure to break above the resistance levels around 1.17300. Additionally, the RSI is showing a downward trend, confirming a potential reversal. The market has been trending lower, aligning with strong selling pressure observed in earlier sessions today. Given these conditions, entering at a realistic price of 1.17150 within the 100 pips range offers a favorable risk-reward opportunity.",
+  "invalidation": "If the price moves above 1.17300, invalidating the bearish thesis due to the breakout of the recent resistance which would indicate strength in the EUR.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.17263,
+  "entry_distance_pips": 0.11,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.11,
+    "current_price": 1.17263,
+    "warnings": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-29T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 104.74,
+  "stop": 104.7,
+  "targets": [
+    104.78,
+    104.8,
+    104.82
+  ],
+  "rationale": "The AUDJPY is showing bullish momentum as it has bounced off key support at 104.700. A short-term uptrend with increasing volume suggests further upward movement is probable in the immediate term. The market conditions appear favorable for a buy within the next hour, with a tight stop loss to manage risk.",
+  "invalidation": "If price drops below 104.700, the upward bias would be invalidated.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 104.73403,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 104.73403,
+    "warnings": []
+  }
+}

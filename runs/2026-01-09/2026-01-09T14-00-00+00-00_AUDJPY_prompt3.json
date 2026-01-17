@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-09T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 105.365,
+  "stop": 105.445,
+  "targets": [
+    105.32,
+    105.3,
+    105.25
+  ],
+  "rationale": "The current market for AUDJPY shows bearish momentum as it has recently broken below a minor support level. The RSI has entered into a bearish divergence, indicating a potential downward movement. The price action is exhibiting lower highs, confirming the bearish outlook. Given the current price of 105.37891, a short entry at 105.365 is achievable within the range of 100 pips and is reasonable for a quick scalp trade. Target levels are set at 105.320, 105.300, and a final target at 105.250, allowing for a decent risk-to-reward profile with a stop loss just above the recent resistance at 105.445 to manage risk effectively.",
+  "invalidation": "If price hits 105.445, this would invalidate the bearish setup as it suggests that the momentum has shifted back to the bullish side.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Market is currently bearish based on recent price action and RSI indicators. Recent lower highs support the sell signal.",
+  "current_price": 105.37891,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 105.37891,
+    "warnings": []
+  }
+}

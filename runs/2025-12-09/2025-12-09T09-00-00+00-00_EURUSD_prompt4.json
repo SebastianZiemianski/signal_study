@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-09T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Current RSI conditions are not available, and there are no strong price action signals indicating a clear direction at this moment. With the current market price at 1.16452, further confirmation from price movement is necessary before executing any action.",
+  "invalidation": "Any significant movement above 1.16652 or below 1.16252 may indicate a change in the current indecisiveness.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.16452,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.16452,
+    "warnings": []
+  }
+}

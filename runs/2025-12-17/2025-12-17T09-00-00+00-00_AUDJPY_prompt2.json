@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-17T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 103.021,
+  "stop": 102.911,
+  "targets": [
+    103.081,
+    103.141,
+    103.201
+  ],
+  "rationale": "The AUDJPY price shows an upward momentum as it broke above the recent resistance level around 102.9800. The market sentiment appears bullish with higher lows being established in the last 30 minutes of trading. This suggests a continuation of the upward trend. The entry is positioned just above the current market price, targeting immediate levels of resistance for quick profits.",
+  "invalidation": "If the price falls below 102.911, this would invalidate the bullish scenario.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Market conditions indicate bullish sentiment; recent price action supports a buy signal with tight stop and targets set for day-trading.",
+  "current_price": 102.98152,
+  "entry_distance_pips": 0.04,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.04,
+    "current_price": 102.98152,
+    "warnings": []
+  }
+}

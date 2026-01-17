@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-09T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current market price is 105.36346. However, there is insufficient movement or clarity in the breakout direction, as the price has not established a clear range high or low for a breakout trade. Thus, a trade opportunity does not exist at this moment.",
+  "invalidation": "The absence of a defined range breakout prevents any trade setup.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 105.36346,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 105.36346,
+    "warnings": []
+  }
+}

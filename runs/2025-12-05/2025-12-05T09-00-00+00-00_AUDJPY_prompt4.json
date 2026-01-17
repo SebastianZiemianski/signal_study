@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-05T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current market price is 102.64512, and without access to a live RSI indicator or clear price action suggesting oversold (below 30) or overbought (above 70) conditions, we cannot establish a decisive trading signal at this time. Prices are hovering in a neutral zone, and as such, there are no clear directions for a BUY or SELL.",
+  "invalidation": "Price moves outside the range of immediate support and resistance levels indicated by recent price action, suggesting a breakout in either direction.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 102.64512,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 102.64512,
+    "warnings": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-17T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 1.1705,
+  "stop": 1.1724,
+  "targets": [
+    1.1695,
+    1.1685,
+    1.1675
+  ],
+  "rationale": "The current market price shows a downward movement with recent bearish momentum confirmed by lower highs and lower lows on the 5-minute timeframe. A price movement below 1.1710 may trigger further selling. Immediate support is noted around 1.1700, making a conservative sell at 1.1705 viable with an appropriate risk-reward ratio.",
+  "invalidation": "A move above 1.1724 would invalidate the bearish view, suggesting a trend reversal or false breakout.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.1719,
+  "entry_distance_pips": 0.14,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.14,
+    "current_price": 1.1719,
+    "warnings": []
+  }
+}

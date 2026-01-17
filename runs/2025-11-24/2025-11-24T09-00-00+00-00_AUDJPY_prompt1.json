@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-24T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.2,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Price is still within the established range and no clear breakout is observed. The market needs to show clearer momentum towards either upper or lower bounds before executing a trade.",
+  "invalidation": "If price breaks above 101.45 or below 100.85 with momentum, that would indicate a breakout and potential trade opportunity.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 101.285,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 101.285,
+    "warnings": []
+  }
+}

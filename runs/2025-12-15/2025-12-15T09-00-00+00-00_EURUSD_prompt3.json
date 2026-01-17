@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-15T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.1735,
+  "stop": 1.1715,
+  "targets": [
+    1.175,
+    1.1765
+  ],
+  "rationale": "Current price actions show bullish momentum with the price bouncing off a support level around 1.17200. There is a clear upward trend observed with the RSI indicating a bullish divergence, suggesting that the upward force is strengthening. The bullish sentiment in the broader market adds to the likelihood of reaching the target levels, making this a favorable buying opportunity today.",
+  "invalidation": "If the price dips below 1.17150, this would indicate a reversal and trigger a stop loss, marking a failure of the bullish setup.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Observed bullish momentum today on the 5m chart with RSI showing strength. Current price action supports a buying entry.",
+  "current_price": 1.17347,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 1.17347,
+    "warnings": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-09T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.165,
+  "stop": 1.1635,
+  "targets": [
+    1.1665,
+    1.1675
+  ],
+  "rationale": "The EURUSD has shown positive momentum in the short term, breaking above a recent resistance level around 1.16400. Additionally, the RSI indicator is indicating oversold conditions that typically signal a bullish movement. The market has recently reclaimed this support level and is trending upward, suggesting a good entry point for buyers.",
+  "invalidation": "If EURUSD falls below the support level at 1.16350, this would weaken the bullish setup and warrant a reevaluation of the position.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Current price is at 1.16497. The recent price action shows bullish momentum, and the price has stabilized above resistance turned support. This indicates a potential opportunity to enter a buy trade.",
+  "current_price": 1.16497,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 1.16497,
+    "warnings": []
+  }
+}

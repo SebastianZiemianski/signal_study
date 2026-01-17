@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-09T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 103.7601,
+  "stop": 103.7001,
+  "targets": [
+    103.7901,
+    103.8001,
+    103.8101
+  ],
+  "rationale": "The AUDJPY has shown bullish momentum in the last few 5-minute candlesticks, indicating a potential upward trend. The market is currently trading above a minor support level, with positive momentum indicators suggesting further upward movement in the short term. With the price being close to the 100 pip threshold, a buy signal is valid at 103.7601, just above the current price, providing an opportunity to capitalize on the upward momentum.",
+  "invalidation": "If the price falls below 103.7001, it indicates a potential reversal and invalidates the buy setup.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 103.7551,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 103.7551,
+    "warnings": []
+  }
+}

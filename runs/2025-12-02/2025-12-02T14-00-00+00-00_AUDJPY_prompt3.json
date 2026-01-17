@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-02T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 102.43,
+  "stop": 102.53,
+  "targets": [
+    102.3,
+    102.25
+  ],
+  "rationale": "The market has shown a bearish momentum with recent price action creating lower highs and lower lows on the 5-minute chart. The RSI is indicating overbought conditions approaching the 70 level, suggesting potential reversals. Given the proximity to significant resistance around 102.500 and the current bearish trend, a SELL signal is valid. The current price of 102.43474 supports execution of this trade as entry can be set at 102.430, which is within the 100 pips range.",
+  "invalidation": "If the price moves above 102.530, a strong bullish reversal signal would invalidate this SELL setup, suggesting reassessment is needed.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Market showing bearish trend; execution opportunity at present levels; close to resistance; RSI showing potential reversal.",
+  "current_price": 102.43474,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 102.43474,
+    "warnings": []
+  }
+}

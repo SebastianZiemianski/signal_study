@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-02T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 1.1617,
+  "stop": 1.1625,
+  "targets": [
+    1.161,
+    1.1605
+  ],
+  "rationale": "The current market price of 1.16183 has shown a bearish trend with resistance appearing around 1.16250. Given the bearish sentiment reflected in recent price action and an overbought RSI indicating potential reversal, selling around 1.16170 aligns with current market conditions. This entry is only 13 pips away from the current price, adhering to the 100 pips rule. A stop-loss at 1.16250 secures us against significant retracements, while targeting 1.16100 and 1.16050 corresponds with recent support areas identified in the price movement.",
+  "invalidation": "If the price exceeds 1.16250, it would indicate a failure of the bearish setup and suggest a reconsideration of market direction.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Current bearish trend observed with potential to capitalize on reversal to support levels.",
+  "current_price": 1.16183,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 1.16183,
+    "warnings": []
+  }
+}

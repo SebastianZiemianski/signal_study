@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-04T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 102.48004,
+  "stop": 102.49004,
+  "targets": [
+    102.47004,
+    102.46004
+  ],
+  "rationale": "The AUDJPY is showing signs of a bearish reversal following a recent uptrend. Current price behavior indicates rejection at the local high with downward pressure evident in the RSI indicator, which is approaching overbought levels. The 5-minute timeframe confirms a potential breakdown below support at 102.480, allowing for an entry point close to the current market price. A sell signal is established as we observe a fresh bearish candle closing below recent support levels. Potential targets are set 10-20 pips below the entry with reasonable risk/reward ratios.",
+  "invalidation": "If the price moves above 102.490 and closes above this level on the 5-minute chart, the bearish thesis would be invalidated.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 102.48204,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 102.48204,
+    "warnings": []
+  }
+}

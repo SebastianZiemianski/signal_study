@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-02T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 1.16083,
+  "stop": 1.16283,
+  "targets": [
+    1.15983,
+    1.15883,
+    1.15783
+  ],
+  "rationale": "The current price shows signs of resistance around 1.1620 and a potential bearish reversal pattern has developed. The market has been trending downwards recently, indicating a likelihood for further declines. Therefore, a SELL signal is appropriate.",
+  "invalidation": "If the price exceeds 1.16283, it could invalidate this bearish outlook, suggesting a potential bullish reversal.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Market currently showing resistance at 1.1620. Downtrend seems to be established.",
+  "current_price": 1.16183,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.16183,
+    "warnings": []
+  }
+}

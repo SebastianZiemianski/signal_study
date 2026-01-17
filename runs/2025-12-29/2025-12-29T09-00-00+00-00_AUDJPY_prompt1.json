@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-29T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, the AUDJPY price at 104.73403 is still within a consolidation range. Without a clear breakout either above the range high or below the range low, further price movement is required for a decisive signal. Therefore, no actionable signal can be provided at this moment.",
+  "invalidation": "A breakdown below the defined range low would suggest a potential sell signal, while a breakout above the range high would indicate a potential buy signal.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 104.73403,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 104.73403,
+    "warnings": []
+  }
+}

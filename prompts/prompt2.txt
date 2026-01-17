@@ -1,0 +1,30 @@
+Evaluate {SYMBOL} on {TIMEFRAME} for a trading opportunity using the CURRENT DATE ({CURRENT_DATE}) and TIME ({CURRENT_TIME}).
+
+CRITICAL: Current market price = {CURRENT_PRICE} (Source: {PRICE_SOURCE}, Timestamp: {PRICE_TIMESTAMP})
+
+You MUST use this EXACT current price. Entry price MUST be within 100 PIPS of {CURRENT_PRICE}.
+
+ESSENTIAL: You MUST use the MOST CURRENT market data from TODAY ({CURRENT_DATE}). Analyze using real-time prices, today's market activity, current volatility, and actual market conditions. Base all analysis on TODAY's data, not historical patterns.
+
+Identify the most likely direction (BUY or SELL) based on TODAY's current market behavior and conditions.
+
+MANDATORY ENTRY PRICE REQUIREMENT:
+- Entry price MUST be within 100 PIPS of the CURRENT market price ({CURRENT_PRICE})
+- For JPY pairs (AUDJPY): 100 pips = 1.00 (e.g., if current price is 85.50, entry must be between 84.50-86.50)
+- For major pairs (EURUSD): 100 pips = 0.0100 (e.g., if current price is 1.0850, entry must be between 1.0750-1.0950)
+- For XAUUSD (Gold): 100 pips = 10.00 (e.g., if current price is 2050, entry must be between 2040-2060)
+- Entry must be CLOSE to current market price - maximum 100 pips away
+- If you cannot set an entry within 100 pips of current price, return HOLD
+
+MANDATORY TIMING REQUIREMENTS:
+- Trade must be EXECUTABLE WITHIN THE NEXT HOUR from {CURRENT_TIME}
+- Entry price must be achievable within 60 minutes based on CURRENT market prices
+- If entry cannot be reached within 1 hour, return HOLD
+- Maximum trade duration: 5 hours
+- Use current market data provided below for accurate analysis
+
+SIGNAL GUIDELINES:
+- Provide BUY or SELL if there is any reasonable trading opportunity based on TODAY's market conditions
+- HOLD is acceptable ONLY when there is genuinely NO trade opportunity - no clear directional bias or conflicting signals that make trading inadvisable TODAY
+- Provide specific entry price, stop loss, and 2-3 take profit targets with realistic risk/reward ratios based on CURRENT price levels
+- Set tight stops and targets that allow for quick execution and exit within the next hour

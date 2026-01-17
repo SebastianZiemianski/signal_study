@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-02T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.3,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, the market price of AUDJPY is at 105.1408. Without the RSI data or a clear oversold/overbought indication based on price action, I cannot determine a strong bias towards buying or selling. Therefore, in the absence of significant directional indicators, the most prudent action is to HOLD. A more definitive trend may emerge shortly that would justify a BUY or SELL signal.",
+  "invalidation": "If price rises above 105.2408 or falls below 105.0408, the current price sentiment might change and should be reassessed.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 105.1408,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 105.1408,
+    "warnings": []
+  }
+}

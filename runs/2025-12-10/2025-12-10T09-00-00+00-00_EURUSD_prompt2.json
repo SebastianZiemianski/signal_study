@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-10T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.16525,
+  "stop": 1.1645,
+  "targets": [
+    1.166,
+    1.1665,
+    1.167
+  ],
+  "rationale": "The market is showing bullish momentum with recent price action suggesting buyers are stepping in around the current price level. Recent candlestick patterns indicate a potential reversal, and given the overall trend on the 5m timeframe, there is a reasonable basis to expect a move upward. The entry price is within the 100 pips limit and realistically achievable within the next hour.",
+  "invalidation": "If the price moves below 1.16450, indicating a failure to hold above key support levels, this would invalidate the bullish outlook.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Current price stability around 1.16505 with indications of buying pressure. Favorable short-term upward movement is anticipated based on the 5-minute trend.",
+  "current_price": 1.16505,
+  "entry_distance_pips": 0.02,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.02,
+    "current_price": 1.16505,
+    "warnings": []
+  }
+}

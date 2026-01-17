@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-19T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The RSI signal is currently neutral as it is between the 45-55 range, indicating no clear directional bias. Without further context on price action or an explicit oversight of the RSI value, this suggests HOLD is the most appropriate action.",
+  "invalidation": "If RSI moves below 30 or above 70, reevaluate for a potential BUY or SELL signal respectively.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.17289,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.17289,
+    "warnings": []
+  }
+}

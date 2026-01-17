@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-25T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 104.5,
+  "stop": 104.6,
+  "targets": [
+    104.4,
+    104.3
+  ],
+  "rationale": "The AUDJPY pair is currently showing bearish momentum as it approaches a resistance zone around 104.600. The RSI indicates an overbought condition, suggesting potential downside in the short term. Current price action has displayed lower highs, which is confirming the bearish trend. A sell entry at 104.500 is reasonable considering the price struggles to maintain above key levels.",
+  "invalidation": "If the price breaks above 104.600, we will invalidate the bearish outlook and reconsider our position as it may indicate a stronger upward momentum.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Trends show lower highs; short-term sell opportunity identified. Relying on 5m timeframe for quick scalping.",
+  "current_price": 104.55951,
+  "entry_distance_pips": 0.06,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.06,
+    "current_price": 104.55951,
+    "warnings": []
+  }
+}

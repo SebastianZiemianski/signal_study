@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-18T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Current market conditions and RSI are not available, but there is no clear signal to initiate a trade based on prices alone. The market around 1.17488 does not exhibit clear overbought or oversold conditions, and entry within a 100 pips range is not viable. Therefore, the recommendation is to HOLD.",
+  "invalidation": "Watch for significant price movement that confirms a trend direction.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.17488,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.17488,
+    "warnings": []
+  }
+}

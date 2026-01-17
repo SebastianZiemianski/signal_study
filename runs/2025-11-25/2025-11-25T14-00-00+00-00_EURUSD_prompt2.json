@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-25T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.15542,
+  "stop": 1.15842,
+  "targets": [
+    1.15442,
+    1.15342
+  ],
+  "rationale": "The current market behavior shows a bearish trend as the price has recently rejected higher levels, indicating selling pressure. Additionally, recent price movement and technical indicators are supporting a downward impulse. With current price at 1.15642, a sell entry around 1.15542 seems achievable and appropriate given the 5-minute timeframe dynamics. The suggested targets reflect immediate downward movements, while the stop loss is placed above recent resistance to manage risk effectively.",
+  "invalidation": "If the price moves above 1.15842, indicating that the market may be reversing and bullish pressure is dominant.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.15642,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.15642,
+    "warnings": []
+  }
+}

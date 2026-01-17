@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-24T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current RSI value is not provided; therefore, the market condition is unclear. With the current price at 101.251 and with no direct indicator confirming oversold or overbought conditions, it's prudent to HOLD. The range is not showing a clear directional bias without further analysis.",
+  "invalidation": "N/A",
+  "prompt_name": "prompt4",
+  "raw_notes": "RSI not available for analysis",
+  "current_price": 101.251,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 101.251,
+    "warnings": []
+  }
+}

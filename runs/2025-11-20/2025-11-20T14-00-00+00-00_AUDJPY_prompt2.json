@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-20T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 102.35,
+  "stop": 102.3,
+  "targets": [
+    102.4,
+    102.45
+  ],
+  "rationale": "The market shows bullish momentum following a recent dip below the 102.30 level, indicating a potential retracement towards higher levels. Current market behavior suggests buying opportunities as it approaches a key support level.",
+  "invalidation": "If price falls below 102.300, this would invalidate the bullish outlook.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Market shows bullish tendencies based on today's activity; support at 102.30 holds. Potential for reaching higher targets on retracement.",
+  "current_price": 102.343,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 102.343,
+    "warnings": []
+  }
+}

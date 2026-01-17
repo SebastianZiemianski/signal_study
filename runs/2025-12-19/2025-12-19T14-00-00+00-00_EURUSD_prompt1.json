@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-19T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "There is currently no clear breakout identified as the price remains within recent consolidation. Therefore, a HOLD signal is appropriate until a definitive breakout occurs either above the range high or below the range low.",
+  "invalidation": "Monitor for a breakout above 1.1750 for potential BUY or below 1.1700 for potential SELL.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 1.17289,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.17289,
+    "warnings": []
+  }
+}

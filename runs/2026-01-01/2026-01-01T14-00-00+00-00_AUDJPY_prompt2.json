@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-01T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 104.58,
+  "stop": 104.52,
+  "targets": [
+    104.64,
+    104.7
+  ],
+  "rationale": "The AUDJPY has shown an upward trend in the last few minutes, with a breakout above recent resistance levels. The current market sentiment appears bullish with momentum indicators indicating further upside potential.",
+  "invalidation": "If price drops below 104.520, it suggests a reversal and the BUY signal would be invalidated.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 104.57114,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 104.57114,
+    "warnings": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-16T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.176,
+  "stop": 1.174,
+  "targets": [
+    1.177,
+    1.178
+  ],
+  "rationale": "The current market price of 1.1753 has shown bullish momentum in the last two 5-minute candles, indicating potential upward movement. Additionally, recent RSI levels were below 30, suggesting an oversold condition followed by a bounce back into the 50-60 RSI level. This confirms bullish sentiment. Therefore, placing a buy order around 1.1760, which is 7 pips above the current price, is ideal for capturing further upward movement. The stop loss is placed at 1.1740 to provide sufficient room for fluctuations while protecting against significant losses. Targets are set at 1.1770 and 1.1780 based on recent resistance levels and potential upswing projections.",
+  "invalidation": "If the price drops below 1.1740, the bullish outlook would be invalidated as this suggests a failure of upward momentum.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.1753,
+  "entry_distance_pips": 0.07,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.07,
+    "current_price": 1.1753,
+    "warnings": []
+  }
+}

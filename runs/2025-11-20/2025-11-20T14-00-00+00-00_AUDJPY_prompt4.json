@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-20T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 102.35,
+  "stop": 102.3,
+  "targets": [
+    102.4,
+    102.45,
+    102.5
+  ],
+  "rationale": "The current market price is 102.343. Given that the RSI indicates some oversold conditions, this suggests a potential upward movement. Entry is set at 102.350, which is within the 100 pips range, as positive momentum is expected in the short term.",
+  "invalidation": "If the price moves below 102.300, the trade will be invalidated due to a potential reversal, indicating further downside.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 102.343,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 102.343,
+    "warnings": []
+  }
+}

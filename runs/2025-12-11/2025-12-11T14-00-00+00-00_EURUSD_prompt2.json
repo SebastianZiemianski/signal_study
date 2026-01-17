@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-11T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 1.17261,
+  "stop": 1.17461,
+  "targets": [
+    1.17161,
+    1.17061
+  ],
+  "rationale": "The EURUSD has shown a bearish sentiment with lower highs and lower lows on the 5-minute timeframe. Recent price action indicates a potential continuation of this trend, making a SELL trade advisable.",
+  "invalidation": "If price moves above 1.17461, it invalidates the sell signal as it would signal a stronger bullish momentum contrary to the current analysis.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.17361,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.17361,
+    "warnings": []
+  }
+}

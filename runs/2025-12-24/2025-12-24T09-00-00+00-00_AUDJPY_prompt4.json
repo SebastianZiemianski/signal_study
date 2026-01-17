@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-24T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Current market conditions cannot provide a clear directional bias due to the lack of available RSI data. Given the neutrality of current price action and the absence of strong signals, no trade opportunity is identifiable within the specified entry criteria.",
+  "invalidation": "HOLD remains until a clear bullish or bearish signal emerges based on future price action or RSI adjustments.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 104.53194,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 104.53194,
+    "warnings": []
+  }
+}

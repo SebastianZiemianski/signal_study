@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-25T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 1.155,
+  "stop": 1.1575,
+  "targets": [
+    1.1535,
+    1.152
+  ],
+  "rationale": "Current market conditions show that EURUSD is facing resistance around 1.1570, with price action indicating a potential reversal. The RSI is currently at an overbought level, suggesting a pullback may occur shortly. Considering the recent downward momentum and bearish divergence, this reinforces the expectation for a downward move. Therefore, initiating a sell position at the entry level of 1.15500 presents a viable opportunity with defined targets below, while a stop loss at 1.15750 allows for appropriate risk management.",
+  "invalidation": "If the price breaks above 1.1575, this would invalidate the sell signal as it would indicate an upward momentum continuation.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.15642,
+  "entry_distance_pips": 0.14,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.14,
+    "current_price": 1.15642,
+    "warnings": []
+  }
+}

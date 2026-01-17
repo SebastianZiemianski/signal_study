@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-23T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.85,
+  "entry": 104.57062,
+  "stop": 104.67062,
+  "targets": [
+    104.47062,
+    104.40062
+  ],
+  "rationale": "The current market price of AUDJPY is 104.57062. The recent price action has shown a series of lower highs and lower lows, indicating a bearish trend. Additionally, the RSI is currently at 30, which suggests that the pair is oversold and may revert downwards for a short pullback. A sell entry at the current price allows for a tight stop slightly above the recent high at 104.67062, while aiming for initial targets at 104.47062 and subsequently 104.40062, which aligns with previous support levels.",
+  "invalidation": "If price rises and breaks above 104.67062, the bearish outlook would be invalidated, indicating a potential reversal in trend.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 104.57062,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 104.57062,
+    "warnings": []
+  }
+}

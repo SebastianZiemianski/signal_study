@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-11T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 103.58015,
+  "stop": 103.68015,
+  "targets": [
+    103.47015,
+    103.45015,
+    103.42015
+  ],
+  "rationale": "The AUDJPY is showing signs of a potential downward trend with recent consolidation indicating weakness. Market technicals are suggesting selling pressure emerging around the current price. A break below recent lows supports a sell position.",
+  "invalidation": "A move above 103.68015 would invalidate the sell signal, indicating strength.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Current price is around 103.59015. Identified resistance at 103.68015. Short-term sell opportunity within 100 pips.",
+  "current_price": 103.59015,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 103.59015,
+    "warnings": []
+  }
+}

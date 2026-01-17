@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-28T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 102.02056,
+  "stop": 101.97056,
+  "targets": [
+    102.05056,
+    102.08056,
+    102.10056
+  ],
+  "rationale": "The market shows strong bullish momentum today, with increasing volume and upward price movement over the past few 5-minute candles. The entry point is set just above the current price to capture a potential breakout.",
+  "invalidation": "If the price falls below 101.97056, this would invalidate the bullish thesis and the trade should be exited.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 102.01056,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 102.01056,
+    "warnings": []
+  }
+}

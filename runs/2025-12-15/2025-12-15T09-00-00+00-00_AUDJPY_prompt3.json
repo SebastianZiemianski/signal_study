@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-15T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 103.15,
+  "stop": 103.2,
+  "targets": [
+    103.1,
+    103.05
+  ],
+  "rationale": "The AUDJPY is showing bearish momentum as it is trading below its 50-period moving average on the 5-minute chart, with the RSI indicating overbought conditions (above 70). This suggests a strong likelihood of a reversal shortly, as price recent peak has formed a double-top pattern around 103.1800. Current volatility supports a short entry. The entry point at 103.150 is also realistic and achievable within the next hour, given the current market structure.",
+  "invalidation": "If the price breaks above 103.2000 and remains there, this would invalidate the bearish outlook as it would signal a stronger upward trend.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Current market conditions indicate potential downward movement after registering strong resistance at 103.1800. Monitor for signs of bearish continuation. Adjustments to stop loss necessary if upward momentum exceeds 103.2000.",
+  "current_price": 103.1615,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 103.1615,
+    "warnings": []
+  }
+}

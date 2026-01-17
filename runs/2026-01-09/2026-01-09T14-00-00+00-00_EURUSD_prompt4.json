@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-09T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.2,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "RSI data is not provided and the absence of dynamic price action analysis suggests a neutral stance. Current price is stable and does not indicate a clear direction for a trade opportunity.",
+  "invalidation": "N/A - no trade initiated.",
+  "prompt_name": "prompt4",
+  "raw_notes": "Market is currently neutral without significant RSI signals. No clear buy or sell opportunities are present based on provided context.",
+  "current_price": 1.16486,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.16486,
+    "warnings": []
+  }
+}

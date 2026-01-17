@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-16T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 102.80007,
+  "stop": 102.75007,
+  "targets": [
+    102.85007,
+    102.90007
+  ],
+  "rationale": "The current market shows bullish momentum as the price has recently retraced and entered a support zone near 102.75. Additionally, the RSI is indicating an oversold condition, suggesting potential upward movement. Given these favorable conditions, entering at 102.80007 is reasonable as it is within 100 pips of the current market price. The stop loss is set just below the recent swing low to manage risk effectively.",
+  "invalidation": "If the price falls below 102.75007, this will invalidate the bullish setup as it indicates a failure to hold the support level.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 102.79007,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 102.79007,
+    "warnings": []
+  }
+}

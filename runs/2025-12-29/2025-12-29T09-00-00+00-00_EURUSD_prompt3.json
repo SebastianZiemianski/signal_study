@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-29T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.178,
+  "stop": 1.1765,
+  "targets": [
+    1.179,
+    1.18
+  ],
+  "rationale": "Current market structure shows bullish momentum with potential support found near 1.17650. Price has bounced off this level, and with upward pressure from recent RSI readings indicating oversold conditions, there's a strong likelihood of continuation. The setup allows for a realistic entry at 1.17800, which is within the 100 pips range from current price. Targets set to capture realistic short-term gains based on current trends; target 1 at 1.17900 and target 2 at 1.18000 as the market can respond quickly within the next hour.",
+  "invalidation": "If the price breaks below 1.17650, it would invalidate the bullish outlook, prompting a re-evaluation of the trade setup.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.17757,
+  "entry_distance_pips": 0.04,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.04,
+    "current_price": 1.17757,
+    "warnings": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-01T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current market price is within a range without a decisive breakout detected. The AUDJPY has not shown clear momentum in either direction and appears to be consolidating around the current levels. Thus, no trading signal is justified at this moment.",
+  "invalidation": "A HOLD signal remains valid until a clear breakout above or below the most recent highs or lows is observed.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 104.57114,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 104.57114,
+    "warnings": []
+  }
+}

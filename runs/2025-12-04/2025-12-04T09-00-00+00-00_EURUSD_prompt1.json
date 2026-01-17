@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-04T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The market price of 1.16748 is currently within a range, and there are no clear breakout signals above the range high or below the range low. Thus, I cannot provide a decisive trade opportunity at this moment.",
+  "invalidation": "",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 1.16748,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.16748,
+    "warnings": []
+  }
+}

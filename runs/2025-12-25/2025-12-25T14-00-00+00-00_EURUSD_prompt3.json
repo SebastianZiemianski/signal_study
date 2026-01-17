@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-25T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.179,
+  "stop": 1.177,
+  "targets": [
+    1.18,
+    1.181
+  ],
+  "rationale": "The current market price is showing an upward trend with recent bullish price action observed on the 5-minute chart. The RSI indicator is hovering around 55, indicating strength in the bullish momentum. Additionally, there's recent support near 1.17700 which provides a good stopping point for risk management. The entry price of 1.17900 is within the acceptable range of 100 pips from the current price of 1.17877 and can be targeted for immediate short-term execution. If the market structure holds, a target of 1.18000 is reasonable, with a secondary target at 1.18100. A stop loss can be set at 1.17700, making for a favorable risk-to-reward ratio.",
+  "invalidation": "If the price falls below 1.17700, it would invalidate the bullish sentiment, suggesting a potential reversal or heightened volatility that could hinder upward movement.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.17877,
+  "entry_distance_pips": 0.02,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.02,
+    "current_price": 1.17877,
+    "warnings": []
+  }
+}

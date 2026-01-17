@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-19T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.172,
+  "stop": 1.1705,
+  "targets": [
+    1.174,
+    1.176
+  ],
+  "rationale": "The current market at 1.17134 shows bullish momentum with a recent upward trend observed over the past hour. Price has bounced off a minor support at 1.17000 indicating potential upwards movement. The RSI is currently showing values around 55 which supports this bullish perspective while not being overbought. An entry around 1.17200 is realistic given the current price action and expected volatility. A stop loss at 1.17050 minimizes risk, while targets at 1.17400 and 1.17600 allow for profit taking if the upward movement continues.",
+  "invalidation": "If the price breaks below 1.17000, this would invalidate the bullish setup, indicating a stronger bearish trend.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.17134,
+  "entry_distance_pips": 0.07,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.07,
+    "current_price": 1.17134,
+    "warnings": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-01T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 101.60007,
+  "stop": 101.65007,
+  "targets": [
+    101.55007,
+    101.50007
+  ],
+  "rationale": "The AUDJPY market is currently witnessing a bearish trend following a recent reversal pattern observed on the 5-minute chart. The Relative Strength Index (RSI) shows overbought conditions, coming off recent highs and indicating potential downward momentum. Additionally, price action has formed a resistance level near 101.65007, suggesting a viable entry point for a sell position close to the market price.",
+  "invalidation": "If the price moves above 101.65007, this would invalidate the current bearish outlook as it signals a potential continuation of upward movement.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 101.63307,
+  "entry_distance_pips": 0.03,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.03,
+    "current_price": 101.63307,
+    "warnings": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-09T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Current market conditions suggest a neutral bias around 1.16497 with no clear oversold or overbought conditions evident. The market does not present a strong directional trend based on RSI analysis within this timeframe, leading to a HOLD signal.",
+  "invalidation": "No clear invalidation as the signal is HOLD; would require a definitive move below 1.16397 for bearish conviction or above 1.16597 for bullish confirmation.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.16497,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.16497,
+    "warnings": []
+  }
+}

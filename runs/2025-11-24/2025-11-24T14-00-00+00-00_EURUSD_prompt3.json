@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-24T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.1542,
+  "stop": 1.153,
+  "targets": [
+    1.155,
+    1.156
+  ],
+  "rationale": "Currently, the EURUSD is showing bullish momentum, having recently bounced off a support level around 1.15300. With the RSI indicating oversold conditions that are now improving, and recent price action suggesting a potential upward breakout, the setup looks strong for a short-term buy. Entry at 1.15420 allows for aggressive trading within 100 pips of the current price, aiming for quick gains at 1.15500 and 1.15600. The stop loss is placed to minimize risk below the recent support level.",
+  "invalidation": "The trade will be invalid if the price drops below 1.15300, indicating a breakdown from the recent support and turning the momentum bearish.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.15403,
+  "entry_distance_pips": 0.02,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.02,
+    "current_price": 1.15403,
+    "warnings": []
+  }
+}

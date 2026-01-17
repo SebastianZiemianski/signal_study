@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-27T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.7,
+  "entry": 101.9,
+  "stop": 102.05,
+  "targets": [
+    101.8,
+    101.7,
+    101.6
+  ],
+  "rationale": "The current price of 101.99496 is showing signs of a bearish trend as recent price action indicates a failure to surpass resistance levels and a decline in momentum. Selling at 101.900 allows for a favorable entry below the current price, with established targets based on recent lows.",
+  "invalidation": "If the price moves above 102.050, this would invalidate the bearish outlook as it would suggest a potential reversal and strength in the upward momentum.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 101.99496,
+  "entry_distance_pips": 0.09,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.09,
+    "current_price": 101.99496,
+    "warnings": []
+  }
+}

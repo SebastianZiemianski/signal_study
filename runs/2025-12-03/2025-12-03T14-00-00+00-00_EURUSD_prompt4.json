@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-03T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current price at 1.16643 does not indicate a strong overbought or oversold condition as RSI is between 45 and 55, suggesting neutral conditions. No clear trade opportunity is identified at this moment.",
+  "invalidation": "If the price moves significantly above 1.16843 or below 1.16443, re-evaluation is required.",
+  "prompt_name": "prompt4",
+  "raw_notes": "No clear RSI signal indicates neutral market sentiment, thus no action is advised.",
+  "current_price": 1.16643,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.16643,
+    "warnings": []
+  }
+}

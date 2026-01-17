@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-25T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 100.89,
+  "stop": 100.91,
+  "targets": [
+    100.87,
+    100.86,
+    100.85
+  ],
+  "rationale": "The price is currently showing signs of weakness after reaching a minor resistance level around 100.910. Given the bearish momentum indicated by recent price action and lower highs, a sell signal is recommended. The market dynamics today favor downward movement due to recent news affecting the Australian economy and favorable sentiments towards the Yen.",
+  "invalidation": "If the price moves above 100.910, the upward signal strength would indicate a reversal, leading to invalidating the sell position.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 100.90173,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 100.90173,
+    "warnings": []
+  }
+}

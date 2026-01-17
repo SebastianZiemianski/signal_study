@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-08T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.167,
+  "stop": 1.166,
+  "targets": [
+    1.168,
+    1.1685,
+    1.169
+  ],
+  "rationale": "The current market price is 1.16727, and the RSI indicating market conditions suggests that the price may be oversold. This creates an opportunity for a potential upward shift. Given that the current market is projected to have short-term bullish momentum, a buy entry slightly below current price is positioned for a quick gain.",
+  "invalidation": "If the price falls below 1.16600, this trade should be invalidated as it would suggest further downward pressure.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.16727,
+  "entry_distance_pips": 0.03,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.03,
+    "current_price": 1.16727,
+    "warnings": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-12T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.7,
+  "entry": 1.169,
+  "stop": 1.1665,
+  "targets": [
+    1.17,
+    1.172
+  ],
+  "rationale": "The current market price of 1.16898 shows a bullish tendency due to recent price action that has formed higher lows and has broken above a key resistance level at around 1.16850. Additionally, an RSI reading supports upward momentum, suggesting continued bullish strength over the next hours. Current volatility patterns indicate that price is likely to push towards the next resistance levels of 1.17000 and 1.17200, making this a favorable entry point.",
+  "invalidation": "If the price falls below 1.16650, it would invalidate the bullish setup, as it would indicate a failure to maintain higher lows and could signal further bearish movement.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Market showing bullish signals with upward price action. Look at recent support around 1.16850 and target levels for potential profits.",
+  "current_price": 1.16898,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 1.16898,
+    "warnings": []
+  }
+}

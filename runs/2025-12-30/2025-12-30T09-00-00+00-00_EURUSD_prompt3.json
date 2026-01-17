@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-30T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.177,
+  "stop": 1.176,
+  "targets": [
+    1.178,
+    1.179
+  ],
+  "rationale": "The market is showing bullish momentum with a slight upwards trend observed. The RSI confirms this trend as it is currently above 50, suggesting strong bullish sentiment amid a supportive market structure. Additionally, recent price action has formed a bullish pattern which indicates potential for a continuation. The selected entry price aligns slightly above the current market, allowing for early entry into the trend. The stop loss is set to limit losses in case of a reversal while the targets are set at key resistance levels identified in the 5-minute timeframe.",
+  "invalidation": "If the price drops below 1.17600, it would signal a potential trend reversal and invalidate the current bullish outlook.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.17687,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 1.17687,
+    "warnings": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-26T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 105.02,
+  "stop": 104.97,
+  "targets": [
+    105.1,
+    105.15
+  ],
+  "rationale": "Current market conditions show a bullish trend following a brief consolidation phase. The price remains above key support levels around 104.970, and indicators such as the RSI are showing momentum favoring the upside. A breakout above the current level could attract additional buying pressure, allowing for a potential upside target around 105.100 initially, followed by 105.150 for a more extended target. The entry is set slightly above the current price to capitalize on confirmed bullish movement.",
+  "invalidation": "If the price drops below 104.970, that would invalidate the bullish outlook, indicating a possible trend reversal or deeper pullback.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 105.01706,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 105.01706,
+    "warnings": []
+  }
+}

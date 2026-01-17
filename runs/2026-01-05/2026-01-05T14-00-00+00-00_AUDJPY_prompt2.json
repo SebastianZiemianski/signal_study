@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-05T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 104.75,
+  "stop": 104.7,
+  "targets": [
+    104.8,
+    104.85
+  ],
+  "rationale": "The market has shown signs of upward momentum over the recent hours, forming a series of higher lows, suggesting bullish sentiment. Current price action reflects going above minor resistance. The proposed entry at 104.75000 is realistic given the current price proximity and aligns with today’s upward trend.",
+  "invalidation": "If the price trades below 104.70000, this would invalidate the bullish scenario.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Market shows short-term bullish momentum; entry targets are viable.",
+  "current_price": 104.73993,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 104.73993,
+    "warnings": []
+  }
+}

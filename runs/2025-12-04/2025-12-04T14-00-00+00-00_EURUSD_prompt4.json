@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-04T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.2,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, there is no clear directional bias as the RSI is not available for confirmation and there are no significant oversold or overbought conditions indicated. Given that the price is at 1.16673 and there are no discernible patterns suggesting a trade opportunity, the recommendation is to HOLD. The market may need more volatility or price movement to form a clearer signal.",
+  "invalidation": "If the price breaks above 1.16773 or below 1.16573, it could indicate changes in market conditions.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.16673,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.16673,
+    "warnings": []
+  }
+}

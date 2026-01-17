@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-26T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.17669,
+  "stop": 1.17869,
+  "targets": [
+    1.17569,
+    1.17469
+  ],
+  "rationale": "The price shows signs of weakness with a recent downward trend and bearish momentum. A sell signal is supported by the recent price action that indicates a lack of buying interest above current levels. This is further confirmed by overbought conditions on short-term oscillators, making a pullback likely.",
+  "invalidation": "If the price rises above 1.17869, the bearish case will be invalidated as it would indicate strong buying momentum instead.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.17769,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.17769,
+    "warnings": []
+  }
+}

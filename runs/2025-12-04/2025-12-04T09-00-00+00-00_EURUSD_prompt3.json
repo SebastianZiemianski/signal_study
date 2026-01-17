@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-04T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.168,
+  "stop": 1.166,
+  "targets": [
+    1.169,
+    1.17
+  ],
+  "rationale": "The current market price of EURUSD is 1.16748, showing an upward trend with recent higher lows and a supportive RSI indicating bullish momentum. The price action suggests a breakout above recent resistance at 1.16700. An entry around 1.16800 is feasible within the next hour, aiming for immediate targets at 1.16900 and 1.17000. Strong buying interest is evident, validated by volume and market sentiment favoring a bullish stance.",
+  "invalidation": "If the price falls below 1.16600 before hitting the targets, the trade should be evaluated for a potential exit to limit losses.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Market is bullish as it shows an upward trend; good setup for scalping upside.",
+  "current_price": 1.16748,
+  "entry_distance_pips": 0.05,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.05,
+    "current_price": 1.16748,
+    "warnings": []
+  }
+}

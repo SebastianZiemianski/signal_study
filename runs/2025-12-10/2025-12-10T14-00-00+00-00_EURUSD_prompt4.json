@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-10T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.164,
+  "stop": 1.162,
+  "targets": [
+    1.1655,
+    1.1665,
+    1.1675
+  ],
+  "rationale": "The current market price is 1.16379, and with the RSI indicating an oversold condition, we expect some upward movement. Entering slightly above the current price at 1.16400 gives us a reasonable starting point for a buy. The stop is placed at 1.16200 just below significant support levels, and targets are set for potential resistance.",
+  "invalidation": "If the price drops below 1.16200, this would indicate a reversal and the trade should be closed.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.16379,
+  "entry_distance_pips": 0.02,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.02,
+    "current_price": 1.16379,
+    "warnings": []
+  }
+}

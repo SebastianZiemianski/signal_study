@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-26T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 101.7,
+  "stop": 101.65,
+  "targets": [
+    101.75,
+    101.8
+  ],
+  "rationale": "The current market price shows bullish momentum as it has recently broken above resistance at 101.690. Price action indicates a potential continuation of this upward trend with increasing buying volume. Given the positive movement, a buying opportunity at 101.700 aligns well within the 100 pip range with reasonable targets and a tight stop loss for quick execution.",
+  "invalidation": "If the price drops below 101.650, the bullish outlook would be invalidated as it could indicate a reversal.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 101.69251,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 101.69251,
+    "warnings": []
+  }
+}

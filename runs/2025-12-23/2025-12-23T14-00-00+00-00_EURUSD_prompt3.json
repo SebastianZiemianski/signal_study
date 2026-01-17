@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-23T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.178,
+  "stop": 1.1765,
+  "targets": [
+    1.179,
+    1.18
+  ],
+  "rationale": "The EURUSD has shown bullish momentum in the last few 5-minute candles, breaking through a key resistance level at 1.17740 with increased volume. The RSI is indicating bullish strength, currently around 60, suggesting that buyers are in control. Given the price action pattern and strong support seen near the current price level, a BUY signal is warranted.",
+  "invalidation": "If the price falls below 1.17650, it could invalidate this bullish setup, suggesting a potential reversal in momentum.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Current price shows bullish momentum, supports a BUY setup. Entry is placed just above current market to capture further momentum.",
+  "current_price": 1.17758,
+  "entry_distance_pips": 0.04,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.04,
+    "current_price": 1.17758,
+    "warnings": []
+  }
+}

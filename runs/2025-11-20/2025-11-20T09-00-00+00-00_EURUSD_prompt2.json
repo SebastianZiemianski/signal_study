@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-20T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.152,
+  "stop": 1.151,
+  "targets": [
+    1.153,
+    1.154,
+    1.155
+  ],
+  "rationale": "Market shows bullish momentum with prices increasing recently towards resistance levels. A minor pullback provides an opportunity to enter a buy position at 1.15200.",
+  "invalidation": "If price falls below 1.15100, the buy setup is invalidated as it suggests a bearish sentiment.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Entry based on current support and resistance levels. Look for bullish continuation from recent behavior.",
+  "current_price": 1.15193,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 1.15193,
+    "warnings": []
+  }
+}

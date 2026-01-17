@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-06T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.1722,
+  "stop": 1.171,
+  "targets": [
+    1.1728,
+    1.1734,
+    1.174
+  ],
+  "rationale": "The market is showing bullish momentum currently within a tight range, suggesting a likely upward movement shortly. Key support levels are holding, and a break above recent highs is expected based on the 5-minute trend observed today.",
+  "invalidation": "If the price falls below 1.17100, the bullish scenario would be invalidated.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Analyzed current market conditions; confirmed bullish signals based on price action and market structure.",
+  "current_price": 1.17244,
+  "entry_distance_pips": 0.02,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.02,
+    "current_price": 1.17244,
+    "warnings": []
+  }
+}

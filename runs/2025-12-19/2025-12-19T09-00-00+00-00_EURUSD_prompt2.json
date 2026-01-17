@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-19T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.171,
+  "stop": 1.17,
+  "targets": [
+    1.172,
+    1.173,
+    1.174
+  ],
+  "rationale": "Current market conditions show an upward trend with recent bullish candle formations. A strong support level appears around 1.17100, making the entry point feasible just below it. This allows for a tight stop loss below the support, while targeting the next resistance levels above at 1.17200 and 1.17300.",
+  "invalidation": "If the price drops below 1.17000, it would invalidate the bullish scenario, indicating a potential reversal.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Observing recent price movement patterns and sentiment suggest a bullish outlook. Resistance appears to be just above current price, providing targets.",
+  "current_price": 1.17134,
+  "entry_distance_pips": 0.03,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.03,
+    "current_price": 1.17134,
+    "warnings": []
+  }
+}

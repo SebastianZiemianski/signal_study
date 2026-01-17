@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-01T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 1.17359,
+  "stop": 1.17509,
+  "targets": [
+    1.172,
+    1.171,
+    1.17
+  ],
+  "rationale": "The current market price of 1.17459 is showing signs of short-term weakness, with a potential downward trend observed in the last few candlesticks. Sellers seem to be stepping in, and with increasing seller volume, a bearish bias is suggested for the immediate future. The tight stop loss at 1.17509 allows for a controlled risk, while the target levels provide multiple opportunities for profit.",
+  "invalidation": "If price moves above 1.17509, the short position becomes invalidated and signals a need to exit the trade.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.17459,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.17459,
+    "warnings": []
+  }
+}

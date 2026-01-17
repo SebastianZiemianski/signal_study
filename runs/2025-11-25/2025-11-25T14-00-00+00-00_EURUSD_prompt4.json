@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-25T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 1.15542,
+  "stop": 1.15742,
+  "targets": [
+    1.15442,
+    1.15342,
+    1.15242
+  ],
+  "rationale": "The current market price of 1.15642 indicates potential overbought conditions. Although an RSI is not directly available, the price action appears to fluctuate around a critical resistance zone, suggesting a downward bias. A selling opportunity is valid within the upcoming trading hour based on the previous price movements showing weakness after reaching highs near 1.1580. Hence, a SELL signal is appropriate.",
+  "invalidation": "If the price exceeds 1.1580, the bullish sentiment may take over, invalidating the SELL condition.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.15642,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.15642,
+    "warnings": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-07T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.1675,
+  "stop": 1.1695,
+  "targets": [
+    1.166,
+    1.165
+  ],
+  "rationale": "The current market price of 1.16869 shows signs of bearish momentum, with the RSI trend indicating overbought conditions in the past hour. A downward shift reached this morning suggests a reversal might be near, making a SELL signal logical as the price approaches potential resistance at 1.16950. I suggest entry at 1.16750 due to proximity within 100 pips and an acceptable risk-to-reward ratio.",
+  "invalidation": "If the price surpasses 1.16950, the bearish outlook may be invalidated, warranting reassessment of the trade.",
+  "prompt_name": "prompt3",
+  "raw_notes": "RSI overbought signal; resistance area noted. Potential sell signal.",
+  "current_price": 1.16869,
+  "entry_distance_pips": 0.12,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.12,
+    "current_price": 1.16869,
+    "warnings": []
+  }
+}

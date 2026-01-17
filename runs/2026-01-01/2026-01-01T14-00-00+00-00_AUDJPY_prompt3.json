@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-01T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 104.57,
+  "stop": 104.62,
+  "targets": [
+    104.55,
+    104.53
+  ],
+  "rationale": "The market structure shows a recent bearish price action beneath the crucial resistance level of 104.600. The RSI is indicating overbought conditions, which often precedes downward corrections. Given the proximity of the current price to the recent high and the overbought signal, a sell entry provides a favorable risk-reward scenario within the constraints set by the 100 pips rule.",
+  "invalidation": "If the price moves above 104.620, that signals a potential trend reversal against the sell position.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Evaluation of current market conditions shows bearish potential with high confidence due to market structure. Entry and stop are set to offer good risk management within the specified parameters.",
+  "current_price": 104.57114,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 104.57114,
+    "warnings": []
+  }
+}

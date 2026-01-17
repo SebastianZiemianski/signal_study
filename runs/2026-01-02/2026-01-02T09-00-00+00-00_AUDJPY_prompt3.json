@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-02T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 105.1308,
+  "stop": 105.1808,
+  "targets": [
+    105.0808,
+    105.0608
+  ],
+  "rationale": "The market shows a bearish trend on the 5-minute timeframe, confirmed by a series of lower highs and lower lows leading up to the current price. The Relative Strength Index (RSI) is indicating overbought conditions above 70, suggesting a potential for a correction. The entry point at 105.1308 is realistic and allows for a potential drop to the first target of 105.0808, which is within a reasonable distance, maintaining a favorable risk-reward setup with a stop-loss at 105.1808 to limit losses.",
+  "invalidation": "If the price moves above 105.1808, this would indicate a stronger bullish signal invalidating the bearish trade setup.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 105.1408,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 105.1408,
+    "warnings": []
+  }
+}

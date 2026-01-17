@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-30T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, there is no clear breakout above the range high or below the range low on the recent 5-minute chart. The price is still within potential consolidation, indicating lack of momentum for a decisive move at this time. Therefore, a HOLD signal is appropriate as no actionable trade opportunity presents itself.",
+  "invalidation": "If price breaks convincingly above 1.17887 or below 1.17587, re-evaluate for potential entries.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 1.17687,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.17687,
+    "warnings": []
+  }
+}

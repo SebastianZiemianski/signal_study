@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-12T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current market price of AUDJPY at 103.9786 does not indicate a clear directional bias since I cannot compute a reliable RSI value from the price action provided. Thus, there is no immediate trade opportunity. The market appears to be in a neutral range, warranting a HOLD.",
+  "invalidation": "Should the price move significantly in either direction (above 104.9786 or below 102.9786), a reevaluation may be necessary.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 103.9786,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 103.9786,
+    "warnings": []
+  }
+}

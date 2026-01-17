@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-08T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, without the ability to assess the RSI indicator due to unavailability of price action details, the market conditions around the current price of 105.03572 do not provide sufficient evidence for a directional bias to trade. This leads to a neutral stance.",
+  "invalidation": "N/A",
+  "prompt_name": "prompt4",
+  "raw_notes": "Current market conditions are unclear, and without clear trending signals or RSI data, a trade cannot be justified.",
+  "current_price": 105.03572,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 105.03572,
+    "warnings": []
+  }
+}

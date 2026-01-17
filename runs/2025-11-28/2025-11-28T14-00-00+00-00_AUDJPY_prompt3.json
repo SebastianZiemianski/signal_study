@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-28T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 101.98506,
+  "stop": 101.89506,
+  "targets": [
+    102.05006,
+    102.10006
+  ],
+  "rationale": "Currently, the AUDJPY pair is showing bullish momentum characterized by recent higher highs and higher lows, suggesting a continuation of upward movement. The RSI is currently above 50, indicating bullish sentiment, while recent price action shows a pullback that presents an opportunity to enter at a slight discount. With entry slightly above the current market price, it aligns well with short-term trading setups. The stop is placed below recent support to manage risk effectively, while targets are set based on recent high levels in the price action.",
+  "invalidation": "If the price falls below 101.89506, this would indicate a potential reversal, invalidating the bullish setup and requiring a reassessment of the market condition.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 101.97006,
+  "entry_distance_pips": 0.02,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.02,
+    "current_price": 101.97006,
+    "warnings": []
+  }
+}

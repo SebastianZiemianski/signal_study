@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-20T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.15328,
+  "stop": 1.15228,
+  "targets": [
+    1.15428,
+    1.15528
+  ],
+  "rationale": "The RSI is currently indicating oversold conditions based on recent price action, suggesting potential for a short-term upward correction. The price is near the lower bound of a minor support zone, presenting a favorable buying opportunity at 1.15328. This aligns with the BUY signal from the RSI analysis.",
+  "invalidation": "If the price falls below 1.15228, this would invalidate the BUY signal, as it suggests further downside risk.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.15328,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 1.15328,
+    "warnings": []
+  }
+}

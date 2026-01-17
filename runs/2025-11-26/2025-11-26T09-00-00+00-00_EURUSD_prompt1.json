@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-26T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current price of 1.15724 shows no clear breakout from a recent consolidation range above or below. Thus, we do not have a decisively bullish or bearish signal to act upon. Without a clear indication of a range breakout, we advise holding.",
+  "invalidation": "This would remain a HOLD until clear breakout signals are observed.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 1.15724,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.15724,
+    "warnings": []
+  }
+}

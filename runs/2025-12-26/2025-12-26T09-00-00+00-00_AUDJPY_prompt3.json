@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-26T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.85,
+  "entry": 104.80299,
+  "stop": 104.86299,
+  "targets": [
+    104.75299,
+    104.70299
+  ],
+  "rationale": "Current market conditions show a bearish trend in AUDJPY. The price has retraced down from a recent high and appears to be in a pullback phase. The RSI indicates overbought conditions, suggesting a potential downward movement. Short-term traders might find a good opportunity to sell as the price is currently testing a resistance level. Executable entry at 104.80299 is within 10 pips of the market price, aligning with short-term projection. Stop-loss placed at 104.86299 allows for a safe margin in case of volatility. Target levels of 104.75299 and 104.70299 are realistic within the short timeframe.",
+  "invalidation": "If the price moves above 104.86299, this would invalidate the bearish thesis as it would surpass recent resistance levels, indicating strength in the uptrend.",
+  "prompt_name": "prompt3",
+  "raw_notes": "AUDJPY shows bearish signal based on recent price action and RSI analysis. Current market price is 104.81299, identified entry level for bearish trade at 104.80299 within acceptable pip distance. Targets and stop-loss calculated accordingly.",
+  "current_price": 104.81299,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 104.81299,
+    "warnings": []
+  }
+}

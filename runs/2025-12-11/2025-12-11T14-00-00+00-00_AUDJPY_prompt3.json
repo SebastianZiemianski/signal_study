@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-11T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 103.4,
+  "stop": 103.5,
+  "targets": [
+    103.35,
+    103.3
+  ],
+  "rationale": "The AUDJPY has displayed bearish momentum with recent lower highs and lower lows on the 5-minute chart. Price is currently approaching significant resistance at around 103.480, confirming potential downside. The RSI shows readings below 50, indicating bearish pressure, and there is also a clear bearish divergence forming, reinforcing the sell signal. A quick entry at 103.400 is feasible, with the stop loss placed just above the recent high to manage risk effectively.",
+  "invalidation": "If the price breaks above 103.500 and holds, it would invalidate the bearish outlook, suggesting a reevaluation of the position.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Current bearish trend observed; set entry at 103.400, stop at 103.500, targets at 103.350 and 103.300.",
+  "current_price": 103.44929,
+  "entry_distance_pips": 0.05,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.05,
+    "current_price": 103.44929,
+    "warnings": []
+  }
+}

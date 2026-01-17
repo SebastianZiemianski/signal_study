@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-01T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.2,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current market price is at 104.57114. Assuming no extreme price movements indicated by RSI (not provided), the market might be in neutral territory based on the lack of clear oversold or overbought signals. Current conditions do not provide a trading opportunity, thus a HOLD signal is appropriate.",
+  "invalidation": "If the price moves substantially beyond 104.67114 (100 pips above current price) or shows a clear directional trend with confirmed RSI signals, consider reevaluating the trading stance.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 104.57114,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 104.57114,
+    "warnings": []
+  }
+}

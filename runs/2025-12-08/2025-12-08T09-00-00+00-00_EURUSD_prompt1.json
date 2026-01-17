@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-08T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The price is currently at 1.16557, but without access to the latest 5-minute chart to identify a clear consolidation or range, I cannot confirm a breakout direction. Therefore, no actionable trade signal is available at this moment.",
+  "invalidation": "N/A",
+  "prompt_name": "prompt1",
+  "raw_notes": "No identifiable breakout on chart.",
+  "current_price": 1.16557,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.16557,
+    "warnings": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-07T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.169,
+  "stop": 1.167,
+  "targets": [
+    1.17,
+    1.1715,
+    1.173
+  ],
+  "rationale": "The price shows a bullish pattern in the 5m timeframe with a recent bounce off the support level near 1.1670. Current momentum indicators are pointing upwards, indicating a potential short-term rise. The target levels are set based on the recent resistance zones. The entry at 1.1690 is within the allowable range and could be realistically achieved given current market conditions.",
+  "invalidation": "If the price drops below 1.1670, the bullish signal would be invalidated, suggesting that market sentiment has shifted.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.16869,
+  "entry_distance_pips": 0.03,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.03,
+    "current_price": 1.16869,
+    "warnings": []
+  }
+}

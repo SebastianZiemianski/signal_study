@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-10T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.2,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "RSI is anticipated to be neutral or tightly clustered based on price action, suggesting no clear direction. Without specific RSI data, there's insufficient evidence to support a decisive BUY or SELL signal at the current price level of 103.96729, which falls within a stable range. Hence, HOLD is the most pragmatic recommendation as there's no clear trade opportunity.",
+  "invalidation": "Should price move significantly away from 103.96729 indicating a breakout or reversal, a reassessment would be necessary.",
+  "prompt_name": "prompt4",
+  "raw_notes": "Indecisive market conditions limit trade opportunities.",
+  "current_price": 103.96729,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 103.96729,
+    "warnings": []
+  }
+}

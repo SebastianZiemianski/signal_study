@@ -1,0 +1,30 @@
+Apply a BREAKOUT STRATEGY to {SYMBOL} on {TIMEFRAME} using the CURRENT DATE ({CURRENT_DATE}) and TIME ({CURRENT_TIME}).
+
+CRITICAL: Current market price = {CURRENT_PRICE} (Source: {PRICE_SOURCE}, Timestamp: {PRICE_TIMESTAMP})
+
+You MUST use this EXACT current price. Entry price MUST be within 100 PIPS of {CURRENT_PRICE}.
+
+STRATEGY RULES (BREAKOUT):
+- Identify the most recent consolidation or range on the 5m chart.
+- Define the range high and range low.
+- Signal BUY only if price is breaking above the range high with momentum.
+- Signal SELL only if price is breaking below the range low with momentum.
+- If price is still inside the range or breakout is weak/unclear, return HOLD.
+
+ENTRY PRICE REQUIREMENT:
+- Entry price MUST be within 100 PIPS of the CURRENT market price ({CURRENT_PRICE})
+- For JPY pairs (AUDJPY): 100 pips = 1.00 (e.g., if current price is 85.50, entry must be between 84.50-86.50)
+- For major pairs (EURUSD): 100 pips = 0.0100 (e.g., if current price is 1.0850, entry must be between 1.0750-1.0950)
+- For XAUUSD (Gold): 100 pips = 10.00 (e.g., if current price is 2050, entry must be between 2040-2060)
+- Entry must be CLOSE to current market price - maximum 100 pips away
+- If you cannot set an entry within 100 pips of current price, return HOLD
+
+TIMING REQUIREMENTS:
+- Trade must be EXECUTABLE WITHIN THE NEXT HOUR from {CURRENT_TIME}
+- Entry price must be achievable within 60 minutes based on CURRENT market prices
+- Maximum trade duration: 5 hours
+
+OUTPUT REQUIREMENTS:
+- Provide BUY, SELL, or HOLD
+- Give entry, stop, and 2-3 targets
+- Rationale must explicitly reference the range and breakout direction

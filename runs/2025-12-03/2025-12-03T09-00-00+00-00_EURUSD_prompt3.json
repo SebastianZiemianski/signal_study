@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-03T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.7,
+  "entry": 1.163,
+  "stop": 1.167,
+  "targets": [
+    1.161,
+    1.16
+  ],
+  "rationale": "Currently, the EURUSD shows bearish momentum based on recent price action, with a break below support levels observed close to the current market price. The market has also exhibited signs of weakness with RSI trending lower towards oversold conditions. This indicates potential continuation to the downside. The entry point is set just below the current price, allowing for a tight stop-loss above the recent high to manage risk effectively and targets set based on previous support levels.",
+  "invalidation": "If EURUSD rises above 1.16700, this invalidates the current bearish outlook as it would suggest a failure of the downtrend.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Market structure indicates bearish momentum, with close proximity to key resistance. Signal based on current trends and volatility.",
+  "current_price": 1.16437,
+  "entry_distance_pips": 0.14,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.14,
+    "current_price": 1.16437,
+    "warnings": []
+  }
+}

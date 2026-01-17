@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-09T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.163,
+  "stop": 1.161,
+  "targets": [
+    1.165,
+    1.1665
+  ],
+  "rationale": "The current price at 1.16351 shows a slight upward trend in today's market conditions, supported by recent bullish candlestick patterns and the RSI readings moving above 50, indicating positive momentum. There appears to be buying pressure as we approach the 1.163 level, which serves as a minor support. A breakout above 1.164 could further confirm the bullish sentiment. Given the short-term setup with a 5m timeframe, entering at 1.16300 provides a realistic entry point that aligns with current market dynamics.",
+  "invalidation": "If the price drops below 1.16100, that would invalidate the bullish setup as it suggests a breakdown below support levels and potential for further downside pressure.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.16351,
+  "entry_distance_pips": 0.05,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.05,
+    "current_price": 1.16351,
+    "warnings": []
+  }
+}

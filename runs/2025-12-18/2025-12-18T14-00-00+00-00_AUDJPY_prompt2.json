@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-18T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.7,
+  "entry": 103.0202,
+  "stop": 103.0702,
+  "targets": [
+    102.9702,
+    102.9502,
+    102.9302
+  ],
+  "rationale": "The market is exhibiting signs of weakness with potential reversal patterns forming on the 5-minute chart. There is a nearby resistance level at 103.0500 which has held previously. Selling near the current price gives a good risk-reward ratio as the market approaches this level.",
+  "invalidation": "If the price surpasses the resistance at 103.0702, reconsider the bearish outlook as this indicates a potential bullish momentum.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Current market price is 103.0302. Observing increasing selling pressure against the resistance, indicating possible retracement.",
+  "current_price": 103.0302,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 103.0302,
+    "warnings": []
+  }
+}

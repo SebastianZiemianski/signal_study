@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-07T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current market price is still within an unclear breakout range; hence, no decisive breakout signal is observed. As such, no trade opportunity is available at this moment. Holding is the recommended course of action until a clear breakout above resistance or below support is established.",
+  "invalidation": "If a strong breakout occurs above 1.17000 or below 1.16700 within the hour, reassess for potential entry.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 1.16869,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.16869,
+    "warnings": []
+  }
+}

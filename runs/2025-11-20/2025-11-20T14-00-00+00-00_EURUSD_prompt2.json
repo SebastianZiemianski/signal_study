@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-20T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.1535,
+  "stop": 1.1525,
+  "targets": [
+    1.154,
+    1.1545,
+    1.155
+  ],
+  "rationale": "Currently, EURUSD shows a positive short-term trend with recent price action above the 1.15300 level, indicating potential upward momentum. The market sentiment is bullish based on today's trading, suggesting a good opportunity for a buy.",
+  "invalidation": "If the price drops below 1.15250, the bullish outlook would be invalidated, indicating a reversal.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Positive short-term movement over the past hour demonstrated by price holding above 1.15300. Increased volume and buying interest noted. Ideal entry slightly above current price to capitalize on upward drift.",
+  "current_price": 1.15328,
+  "entry_distance_pips": 0.02,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.02,
+    "current_price": 1.15328,
+    "warnings": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-28T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.1575,
+  "stop": 1.1562,
+  "targets": [
+    1.1585,
+    1.159
+  ],
+  "rationale": "Current market conditions suggest a bullish sentiment in the EURUSD pair, supported by recent upticks and key resistance levels indicating upward momentum. The trend shows a series of higher lows and the price is approaching a minor pullback. The proposed entry allows for capturing this expected movement while maintaining a tight stop just below the recent low, ensuring a favorable risk/reward ratio.",
+  "invalidation": "If price drops below the stop loss level at 1.15620, this would invalidate the bullish scenario, indicating a potential reversal.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Trading conditions align for a short-term bullish outlook given current price action and minor pullback. Solid entry necessary within 100 pips of current market price. Identify immediate resistance levels for profit targets.",
+  "current_price": 1.15701,
+  "entry_distance_pips": 0.05,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.05,
+    "current_price": 1.15701,
+    "warnings": []
+  }
+}

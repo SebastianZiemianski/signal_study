@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-27T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.85,
+  "entry": 101.8,
+  "stop": 102.05,
+  "targets": [
+    101.7,
+    101.6,
+    101.5
+  ],
+  "rationale": "The current trend shows a rejection at resistance around 102.00, combined with bearish momentum indicators suggesting a potential downward move. The price is reasonably positioned for a short entry, given the latest price actions and volume trends, indicating interest in selling around this level.",
+  "invalidation": "Price moves above 102.05 would invalidate this short position.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 101.99946,
+  "entry_distance_pips": 0.2,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.2,
+    "current_price": 101.99946,
+    "warnings": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-24T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The price of AUDJPY at 101.251 is currently within a consolidation range and has not demonstrated a clear breakout either above resistance or below support. Therefore, it is prudent to hold off on taking any positions at this time as a clearer market direction is needed.",
+  "invalidation": "No significant breakout has occurred, indicating a lack of momentum.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 101.251,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 101.251,
+    "warnings": []
+  }
+}

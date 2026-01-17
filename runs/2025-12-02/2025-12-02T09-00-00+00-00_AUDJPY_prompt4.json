@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-02T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 102.22417,
+  "stop": 102.32417,
+  "targets": [
+    102.12417,
+    102.07417,
+    102.02417
+  ],
+  "rationale": "The current market price of AUDJPY is 102.22417. An analysis based on RSI indicates that the market may be moving towards overbought territory, which aligns with the recent price action and overall market conditions, suggesting a SELL opportunity. The recent highs may indicate a reversal pattern as we approach potential resistance levels.",
+  "invalidation": "If the price exceeds 102.32417, this would invalidate the bearish signal, indicating strength in the upward movement.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 102.22417,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 102.22417,
+    "warnings": []
+  }
+}

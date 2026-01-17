@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-12T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Price remains within a potential consolidation range and has not shown a clear breakout direction at this moment, indicating a HOLD signal is appropriate.",
+  "invalidation": "A clear breakout above 106.00 or below 105.80 could indicate a change in direction.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 105.99147,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 105.99147,
+    "warnings": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-25T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current market price is 100.87568. I have identified recent consolidation but there are no clear breakouts above the range high or below the range low at this moment. Therefore, no trade is identifiable right now.",
+  "invalidation": "No clear breakout signals present.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 100.87568,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 100.87568,
+    "warnings": []
+  }
+}

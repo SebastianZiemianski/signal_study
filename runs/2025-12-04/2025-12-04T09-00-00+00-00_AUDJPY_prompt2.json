@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-04T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 102.49,
+  "stop": 102.47,
+  "targets": [
+    102.51,
+    102.53,
+    102.55
+  ],
+  "rationale": "The current price of 102.48204 shows a slight bullish tendency based on recent price action within today's trading. Momentum indicators suggest potential upward movement, making a buy opportunity viable. The price is within 8 pips of the entry point.",
+  "invalidation": "The trade would be invalidated if the price drops below 102.470, at which point the bullish setup would be weakened.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Current bullish indicators suggest a short-term buy opportunity.",
+  "current_price": 102.48204,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 102.48204,
+    "warnings": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-05T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.3,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "RSI analysis is neutral with no clear direction observed at the current price of 104.72474. Without clearly defined oversold or overbought conditions, a HOLD signal is appropriate until more decisive price action or RSI indications are available.",
+  "invalidation": "If price moves significantly above 105.72474 (100 pips up), or if RSI indicates clear overbought conditions above 70.",
+  "prompt_name": "prompt4",
+  "raw_notes": "Current price positioning suggests no actionable signals based on RSI parameters; recommend observation before placing any trades.",
+  "current_price": 104.72474,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 104.72474,
+    "warnings": []
+  }
+}

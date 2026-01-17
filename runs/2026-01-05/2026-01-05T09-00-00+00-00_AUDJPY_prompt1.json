@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-05T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The recent price action indicates that AUDJPY is currently ranging without a clear breakout above the range high or below the range low. Therefore, there is no defined breakout opportunity at this moment.",
+  "invalidation": "If the price breaks above 105.72474 or below 103.72474, the current analysis would need review.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 104.72474,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 104.72474,
+    "warnings": []
+  }
+}

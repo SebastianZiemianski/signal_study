@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-11T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 103.4,
+  "stop": 103.48,
+  "targets": [
+    103.3,
+    103.2,
+    103.1
+  ],
+  "rationale": "Recent price action has shown a bearish trend on the 5-minute chart, with lower highs being formed. Additionally, the market appears to be retreating from a recent high around 103.450 which acts as resistance. A sell signal is reinforced by the current bearish momentum.",
+  "invalidation": "If price breaks above 103.480, the bearish setup would be invalidated, suggesting that buyers may be taking control and a reversal could occur.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Analyze the 5m chart for bearish patterns.",
+  "current_price": 103.44929,
+  "entry_distance_pips": 0.05,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.05,
+    "current_price": 103.44929,
+    "warnings": []
+  }
+}

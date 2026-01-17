@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-12T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.2,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current price of 1.17263 does not indicate a definitive buying or selling opportunity based on RSIs' typical thresholds. Further confirmation in price action is needed to issue a strong signal.",
+  "invalidation": "Monitor for an RSI break below 30 for potential buy opportunities or above 70 for sell opportunities in subsequent price movements.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.17263,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.17263,
+    "warnings": []
+  }
+}

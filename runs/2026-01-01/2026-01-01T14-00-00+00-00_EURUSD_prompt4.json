@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-01T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Current market conditions are neutral based on RSI analysis. Without specific RSI values or directional price action, no trade signal can be justified at this time. The price action shows no clear overbought or oversold condition, indicating a HOLD.",
+  "invalidation": "If the price moves significantly in either direction indicating a clear trend above 1.17759 or below 1.17259, then re-evaluate for potential trading opportunities.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.17459,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.17459,
+    "warnings": []
+  }
+}

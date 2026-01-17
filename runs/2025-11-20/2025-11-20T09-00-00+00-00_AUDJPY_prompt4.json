@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-20T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 101.75,
+  "stop": 101.6,
+  "targets": [
+    101.9,
+    102.0,
+    102.1
+  ],
+  "rationale": "The current price of 101.807 suggests that the market has recently experienced upward pressure, especially if RSI (14) indicates oversold conditions. This entry at 101.750 allows a strategic position while managing risk with a stop at 101.600, which limits exposure in case of an adverse movement. Targeting levels at 101.900, 102.000, and 102.100 reflects a realistic profit potential in this upward bias scenario.",
+  "invalidation": "If price drops below 101.600, it would negate the bullish setup and suggest a reassessment of market conditions.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 101.807,
+  "entry_distance_pips": 0.06,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.06,
+    "current_price": 101.807,
+    "warnings": []
+  }
+}

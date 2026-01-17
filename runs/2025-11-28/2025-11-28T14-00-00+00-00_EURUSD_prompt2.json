@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-28T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.15699,
+  "stop": 1.15899,
+  "targets": [
+    1.15599,
+    1.15499,
+    1.15399
+  ],
+  "rationale": "The current market price of 1.15799 is showing signs of weakening momentum with recent resistance forming around this level and fluctuations indicating a potential retracement. Given the current bearish sentiment in the market, executing a SELL trade close to the current price offers a favorable risk/reward opportunity.",
+  "invalidation": "A movement above 1.15899 would invalidate the bearish view, suggesting a strong upward momentum.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Analyzing today's market activity, the recent price action shows a hesitant bullish movement which can signal an impending pullback, especially as it approaches a resistance level. A confirmation of a bearish engulfing pattern on the 5m chart supports a near-term sell opportunity.",
+  "current_price": 1.15799,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.15799,
+    "warnings": []
+  }
+}

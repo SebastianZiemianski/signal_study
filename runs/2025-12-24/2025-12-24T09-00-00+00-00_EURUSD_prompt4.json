@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-24T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Current RSI levels are not provided, and without clear market sentiment or an identifiable trend, no suitable entry or exit points can be recommended. The current market price is neutral.",
+  "invalidation": "If there is a significant movement toward overbought (RSI >= 70) or oversold (RSI <= 30) conditions, this analysis may change.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.17998,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.17998,
+    "warnings": []
+  }
+}

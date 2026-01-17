@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-21T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.155,
+  "stop": 1.1525,
+  "targets": [
+    1.157,
+    1.1585
+  ],
+  "rationale": "The current market price shows bullish momentum, with recent price action indicating a potential upward correction. There's support around the 1.1525 level, and a break above 1.1550 could trigger further buying interest. Given today's conditions, a BUY position is warranted with achievable targets within the next hour.",
+  "invalidation": "If the price drops below 1.1525, this would invalidate the bullish setup.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.1543,
+  "entry_distance_pips": 0.07,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.07,
+    "current_price": 1.1543,
+    "warnings": []
+  }
+}

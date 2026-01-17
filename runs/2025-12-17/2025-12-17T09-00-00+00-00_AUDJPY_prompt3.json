@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-17T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 102.99,
+  "stop": 102.95,
+  "targets": [
+    103.04,
+    103.1
+  ],
+  "rationale": "Current market conditions show AUDJPY trending upwards after consolidating around 102.95-103.00 levels for the last few hours. RSI is indicating bullish momentum as it approached 60, suggesting potential for further gains. Buying at 102.990 is realistic within the next hour, given the support level at 102.950, making this a high-probability bounce. Targets are set at 103.040 and 103.100, which align with previous resistance levels.",
+  "invalidation": "If price dips below 102.950, this would indicate a shift towards bearish pressure, invalidating the buy setup.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 102.98152,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 102.98152,
+    "warnings": []
+  }
+}

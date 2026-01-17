@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-10T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 1.16279,
+  "stop": 1.16579,
+  "targets": [
+    1.16179,
+    1.16079
+  ],
+  "rationale": "The current price of EURUSD at 1.16379 shows an immediate bearish sentiment, supported by a recent breakdown below a key support level. The Relative Strength Index (RSI) has crossed below 50, indicating weakening momentum. A sell entry is set at 1.16279, which is within the required 100 pips from current price, while stop loss is placed above the recent high at 1.16579. Target levels are set at 1.16179 and 1.16079 due to nearby support zones.",
+  "invalidation": "Trade would be invalidated if price moves above 1.16579, indicating a continuation of bullish momentum.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Current market activity shows a downward trend, and volatility patterns suggest a high likelihood of a further drop based on current conditions.",
+  "current_price": 1.16379,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.16379,
+    "warnings": []
+  }
+}

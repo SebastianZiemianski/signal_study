@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-22T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The RSI indicator is not provided in the prompt, and with the current market price and lack of directional clarity, a HOLD signal is warranted. If any clear price action direction emerges, the sentiment may change. At this time, the market appears neutral, and entry opportunities do not present themselves within the required conditions.",
+  "invalidation": "Should the price move significantly, above 1.17569 (100 pips from current), or below 1.17369, reassess for potential trade opportunities.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.17469,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.17469,
+    "warnings": []
+  }
+}

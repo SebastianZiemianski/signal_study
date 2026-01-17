@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-11T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The price at 103.59015 is currently within a consolidation range observed on the 5-minute chart. There have been no clear breakouts above the upper range or below the lower range that would indicate a strong momentum for either a BUY or SELL signal. Thus, it remains indecisive within this range, warranting a HOLD.",
+  "invalidation": "If the price breaks decisively above 103.70015 or below 103.49015 with strong volume, that may provide grounds for a new analysis for a potential BUY or SELL signal.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 103.59015,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 103.59015,
+    "warnings": []
+  }
+}

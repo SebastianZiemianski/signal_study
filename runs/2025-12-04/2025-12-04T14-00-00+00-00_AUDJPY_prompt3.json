@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-04T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 102.3,
+  "stop": 102.2,
+  "targets": [
+    102.35,
+    102.4
+  ],
+  "rationale": "The AUDJPY is showing a bullish trend as it is currently experiencing upward momentum. The price is consolidating around the current level with increasing buying pressure observed in the last few candles. Additionally, the Relative Strength Index (RSI) is indicating a level above 50, suggesting there is strength in the buying side. Given the entry point at 102.300, which is only 3 pips above the current price (102.29601), it provides a very close and achievable entry for a potential upward move. The target levels are set at 102.350 and 102.400 based on recent price action in the localized uptrend. The stop loss is placed just below the recent consolidation zone to mitigate risk if the price turns against the position.",
+  "invalidation": "If the price drops below 102.200, it would invalidate the bullish setup, indicating a potential reversal or weakening of bullish momentum.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 102.29601,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 102.29601,
+    "warnings": []
+  }
+}

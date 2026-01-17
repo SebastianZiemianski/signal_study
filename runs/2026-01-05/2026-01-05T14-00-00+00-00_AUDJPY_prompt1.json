@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-05T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current price of 104.73993 is likely still within a consolidation range, and without confirmation of momentum breaking out decisively above the range high or below the range low, a clear trading opportunity does not exist. Therefore, the action is to HOLD as there is insufficient clarity for a breakout direction.",
+  "invalidation": "If the price decisively breaks above 105.74093 or below 103.73993 with strong momentum, then a trading opportunity may arise.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 104.73993,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 104.73993,
+    "warnings": []
+  }
+}

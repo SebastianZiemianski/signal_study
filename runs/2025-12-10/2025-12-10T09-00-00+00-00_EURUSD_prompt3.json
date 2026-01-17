@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-10T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.2,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Currently, the market for EURUSD shows a lack of clear directionality. The 5-minute timeframe indicates mixed signals with no significant trend. Over the last few hours, price has oscillated closely around the 1.16505 mark without establishing a distinct breakout or reversal pattern. Current volatility is low, and major news events are not scheduled for the next hour, leading to uncertainty. Given these conditions, I advise to HOLD rather than take a position at this moment.",
+  "invalidation": "N/A",
+  "prompt_name": "prompt3",
+  "raw_notes": "Mixed signals and low volatility suggest no entry opportunity.",
+  "current_price": 1.16505,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.16505,
+    "warnings": []
+  }
+}

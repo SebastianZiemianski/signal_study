@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-12T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 105.8,
+  "stop": 105.78,
+  "targets": [
+    105.82,
+    105.84,
+    105.86
+  ],
+  "rationale": "The AUDJPY price is showing bullish momentum with recent upward movements and key support around the 105.7800 level. The market sentiment appears to be positive, indicating a potential for higher price movements within the next hour.",
+  "invalidation": "If the price falls below 105.7800, the bullish scenario would be invalidated.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Current market price is 105.7886, observing a bullish trend with key support at 105.7800. Executable strategy suggests a BUY entry at 105.8000, with tight stop loss and achievable take profit levels.",
+  "current_price": 105.7886,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 105.7886,
+    "warnings": []
+  }
+}

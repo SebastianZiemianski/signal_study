@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-15T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The price is currently at 103.1615, and there is no clear breakout occurring as the price remains within a defined range without sufficient momentum. Therefore, no actionable trade opportunity is present at this moment.",
+  "invalidation": "A breakout above 103.2615 for a BUY signal, or below 103.0615 for a SELL signal would invalidate the HOLD position.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 103.1615,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 103.1615,
+    "warnings": []
+  }
+}

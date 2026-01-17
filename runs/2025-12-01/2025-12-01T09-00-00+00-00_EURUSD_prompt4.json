@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-01T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.162,
+  "stop": 1.159,
+  "targets": [
+    1.163,
+    1.1645,
+    1.1655
+  ],
+  "rationale": "The current price of 1.1616 is close to an oversold RSI condition indicating potential upward momentum. Price action suggests a bullish reversal pattern, making a buy opportunity viable with entry set at 1.1620, just above the current market price.",
+  "invalidation": "If the price falls below 1.1590, it would invalidate the buy signal as it indicates a continuation of the bearish trend.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.1616,
+  "entry_distance_pips": 0.04,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.04,
+    "current_price": 1.1616,
+    "warnings": []
+  }
+}

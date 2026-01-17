@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-26T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.157,
+  "stop": 1.156,
+  "targets": [
+    1.158,
+    1.159,
+    1.16
+  ],
+  "rationale": "Current price at 1.15724 is near support, suggesting bullish potential. RSI indicates oversold conditions below 30, supporting a BUY signal as price action may bounce upward.",
+  "invalidation": "If the price closes below 1.15600, the buy setup will be invalidated.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.15724,
+  "entry_distance_pips": 0.02,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.02,
+    "current_price": 1.15724,
+    "warnings": []
+  }
+}

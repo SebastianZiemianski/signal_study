@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-02T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Current market price shows no clear signal from RSI (assumed based on the provided conditions). Given the price is close to a neutral state between the typical RSI indicators (not given), no clear trade opportunity is identified.",
+  "invalidation": "N/A",
+  "prompt_name": "prompt4",
+  "raw_notes": "Price action does not indicate a directional move. RSI context is neutral, hence HOLD is appropriate.",
+  "current_price": 104.9858,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 104.9858,
+    "warnings": []
+  }
+}

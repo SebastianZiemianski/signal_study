@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-08T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The price is currently at 104.9569. As there is no specified recent range or consolidation pattern provided, and without additional price movement data or a visible breakout occurring, I cannot definitively propose a BUY or SELL signal at this time.",
+  "invalidation": "If the market shows a significant breakout either above or below a defined consolidation range, this analysis will need to be revisited.",
+  "prompt_name": "prompt1",
+  "raw_notes": "Waiting for further price action or confirmation of a range breakout for AUDJPY.",
+  "current_price": 104.9569,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 104.9569,
+    "warnings": []
+  }
+}

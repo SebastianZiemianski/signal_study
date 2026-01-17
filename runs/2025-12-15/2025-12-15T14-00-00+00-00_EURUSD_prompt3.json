@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-15T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.17367,
+  "stop": 1.175,
+  "targets": [
+    1.172,
+    1.171
+  ],
+  "rationale": "The current market structure indicates a bearish trend with recent price action showing lower highs and lower lows. The RSI is hovering around 40, suggesting a weak momentum that supports the bearish sentiment. Additionally, the price is approaching a resistance level around 1.1750, increasing the likelihood of a reversal. Given these factors, a SELL position is appropriate.",
+  "invalidation": "If the price rises above 1.1750 and shows strong bullish momentum, the SELL signal would be invalidated.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Current price indicates a bearish structure with valid price action patterns. The immediate resistance level is key to monitoring.",
+  "current_price": 1.17467,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.17467,
+    "warnings": []
+  }
+}

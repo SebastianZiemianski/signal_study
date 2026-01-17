@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-12T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 103.95,
+  "stop": 104.0,
+  "targets": [
+    103.9,
+    103.85
+  ],
+  "rationale": "The current market price shows a bearish divergence pattern on the 5m chart, with RSI indicating overbought conditions. Additionally, a recent breakdown from a minor support level at 103.9786 enhances the selling pressure, providing a clear opportunity to enter a short position.",
+  "invalidation": "If the price moves above 104.0000 and sustains above that level, this would invalidate the bearish setup, suggesting a reconsideration of the trade.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Bearish divergence observed in today’s price action with an RSI reading above 70. Price action suggests a reversal from 103.9786. Confirmation for the sell signal is the breach of support at 103.9786.",
+  "current_price": 103.9786,
+  "entry_distance_pips": 0.03,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.03,
+    "current_price": 103.9786,
+    "warnings": []
+  }
+}

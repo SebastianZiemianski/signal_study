@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-08T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The analysis of the AUDJPY market at the current time shows a neutral RSI positioning between 45 and 55, indicating no clear directional bias for trading. Therefore, a HOLD signal is warranted as there are no actionable trade opportunities within the given parameters.",
+  "invalidation": "If the RSI shows an extreme reading (RSI <= 30 or RSI >= 70) within the next hour, reevaluation may lead to a trade opportunity.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 103.19498,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 103.19498,
+    "warnings": []
+  }
+}

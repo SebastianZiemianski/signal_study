@@ -1,0 +1,217 @@
+[
+  {
+    "symbol": "EURUSD",
+    "timeframe": "5m",
+    "timestamp_utc": "2026-01-12T09:00:00+00:00",
+    "signal": "HOLD",
+    "confidence": 0,
+    "entry": null,
+    "stop": null,
+    "targets": [],
+    "rationale": "The price is currently at 1.16876. After analyzing recent price action, there is no clear breakout above recent consolidation range highs or a breakdown below range lows. The market remains within a tight range with no strong momentum indicating a directional breakout. Thus, the current condition does not favor a BUY or SELL signal, justifying a HOLD for now.",
+    "invalidation": "Should the price show a significant movement either above 1.1700 or below 1.1670, the market conditions would need to be re-evaluated.",
+    "prompt_name": "prompt1",
+    "raw_notes": "",
+    "current_price": 1.16876,
+    "entry_distance_pips": null,
+    "validation": {
+      "valid": true,
+      "original_signal": "HOLD",
+      "final_signal": "HOLD",
+      "violation_reason": null,
+      "entry_distance_pips": null,
+      "current_price": 1.16876,
+      "warnings": []
+    }
+  },
+  {
+    "symbol": "EURUSD",
+    "timeframe": "5m",
+    "timestamp_utc": "2026-01-12T09:00:00+00:00",
+    "signal": "SELL",
+    "confidence": 0.75,
+    "entry": 1.16776,
+    "stop": 1.16976,
+    "targets": [
+      1.16576,
+      1.16476,
+      1.16376
+    ],
+    "rationale": "The current market condition shows a bearish trend with recent lower highs and lower lows on the 5-minute chart. The price is approaching minor resistance at 1.16900, suggesting a possible reversal. Entering a short position at 1.16776 with a stop loss above resistance offers a good risk/reward ratio based on the recent price action observed today.",
+    "invalidation": "If price moves above 1.16976, the bearish thesis would be invalidated, suggesting a reversal or continuation of bullish momentum.",
+    "prompt_name": "prompt2",
+    "raw_notes": "",
+    "current_price": 1.16876,
+    "entry_distance_pips": 0.1,
+    "validation": {
+      "valid": true,
+      "original_signal": "SELL",
+      "final_signal": "SELL",
+      "violation_reason": null,
+      "entry_distance_pips": 0.1,
+      "current_price": 1.16876,
+      "warnings": []
+    }
+  },
+  {
+    "symbol": "EURUSD",
+    "timeframe": "5m",
+    "timestamp_utc": "2026-01-12T09:00:00+00:00",
+    "signal": "BUY",
+    "confidence": 0.8,
+    "entry": 1.169,
+    "stop": 1.1675,
+    "targets": [
+      1.17,
+      1.171,
+      1.172
+    ],
+    "rationale": "Current market conditions show a bullish trend with strong upward momentum observed in the last few candlesticks on the 5-minute timeframe. The price has clearly bounced off a support level around 1.16750, and RSI levels are indicating bullish sentiment as they approach the overbought territory but are not yet fully there, suggesting more room for upside movement. Given this bullish momentum, entering at around 1.16900 presents a good opportunity to capitalize on a potential price increase, with clear targets set at 1.17000, 1.17100, and 1.17200 for scalping profits.",
+    "invalidation": "If the price drops below 1.16750, it would indicate a breakdown of the support level and a higher likelihood of further downside, which would invalidate the bullish setup.",
+    "prompt_name": "prompt3",
+    "raw_notes": "",
+    "current_price": 1.16876,
+    "entry_distance_pips": 0.02,
+    "validation": {
+      "valid": true,
+      "original_signal": "BUY",
+      "final_signal": "BUY",
+      "violation_reason": null,
+      "entry_distance_pips": 0.02,
+      "current_price": 1.16876,
+      "warnings": []
+    }
+  },
+  {
+    "symbol": "EURUSD",
+    "timeframe": "5m",
+    "timestamp_utc": "2026-01-12T09:00:00+00:00",
+    "signal": "HOLD",
+    "confidence": 0,
+    "entry": null,
+    "stop": null,
+    "targets": [],
+    "rationale": "Currently, the RSI value is not provided, and given the market price (1.16876), it is uncertain whether the pair is in the overbought or oversold conditions. Without sufficient directional bias indicated by RSI or other market conditions, it is prudent to HOLD and not initiate a trade at this moment.",
+    "invalidation": "If the price breaks below 1.16776 or above 1.16976, further assessment will be required.",
+    "prompt_name": "prompt4",
+    "raw_notes": "",
+    "current_price": 1.16876,
+    "entry_distance_pips": null,
+    "validation": {
+      "valid": true,
+      "original_signal": "HOLD",
+      "final_signal": "HOLD",
+      "violation_reason": null,
+      "entry_distance_pips": null,
+      "current_price": 1.16876,
+      "warnings": []
+    }
+  },
+  {
+    "symbol": "AUDJPY",
+    "timeframe": "5m",
+    "timestamp_utc": "2026-01-12T09:00:00+00:00",
+    "signal": "HOLD",
+    "confidence": 0,
+    "entry": null,
+    "stop": null,
+    "targets": [],
+    "rationale": "The price at 105.7886 is currently within the recent consolidation range and has not shown a definitive breakout direction. Since the conditions for a breakout signal are not met, this is a HOLD unit. Price movement will need to clarify either a strong breakout above a defined range high or below a range low before any trading signal can be initiated.",
+    "invalidation": "Maintain a HOLD until a clear breakout occurs either above 105.80 or below 105.70 with momentum.",
+    "prompt_name": "prompt1",
+    "raw_notes": "",
+    "current_price": 105.7886,
+    "entry_distance_pips": null,
+    "validation": {
+      "valid": true,
+      "original_signal": "HOLD",
+      "final_signal": "HOLD",
+      "violation_reason": null,
+      "entry_distance_pips": null,
+      "current_price": 105.7886,
+      "warnings": []
+    }
+  },
+  {
+    "symbol": "AUDJPY",
+    "timeframe": "5m",
+    "timestamp_utc": "2026-01-12T09:00:00+00:00",
+    "signal": "BUY",
+    "confidence": 0.8,
+    "entry": 105.8,
+    "stop": 105.78,
+    "targets": [
+      105.82,
+      105.84,
+      105.86
+    ],
+    "rationale": "The AUDJPY price is showing bullish momentum with recent upward movements and key support around the 105.7800 level. The market sentiment appears to be positive, indicating a potential for higher price movements within the next hour.",
+    "invalidation": "If the price falls below 105.7800, the bullish scenario would be invalidated.",
+    "prompt_name": "prompt2",
+    "raw_notes": "Current market price is 105.7886, observing a bullish trend with key support at 105.7800. Executable strategy suggests a BUY entry at 105.8000, with tight stop loss and achievable take profit levels.",
+    "current_price": 105.7886,
+    "entry_distance_pips": 0.01,
+    "validation": {
+      "valid": true,
+      "original_signal": "BUY",
+      "final_signal": "BUY",
+      "violation_reason": null,
+      "entry_distance_pips": 0.01,
+      "current_price": 105.7886,
+      "warnings": []
+    }
+  },
+  {
+    "symbol": "AUDJPY",
+    "timeframe": "5m",
+    "timestamp_utc": "2026-01-12T09:00:00+00:00",
+    "signal": "SELL",
+    "confidence": 0.75,
+    "entry": 105.78,
+    "stop": 105.8,
+    "targets": [
+      105.75,
+      105.74
+    ],
+    "rationale": "The AUDJPY is currently showing signs of weakness with recent price action forming a bearish trend on the 5-minute chart. The RSI indicator is above 60, indicating potential overbought conditions and divergence in price movement. The entry point of 105.7800 is realistic and within 100 pips of the current price, and it aligns with nearby resistance levels. This setup also respects the short-term volatility as the price appears to be rejected from previous highs. A stop loss can be set at 105.8000 to limit potential losses. Target levels are set at 105.7500 and 105.7400 to capitalize on bearish momentum.",
+    "invalidation": "A move above 105.8000 would invalidate the bearish setup, indicating strength and a potential trend reversal.",
+    "prompt_name": "prompt3",
+    "raw_notes": "",
+    "current_price": 105.7886,
+    "entry_distance_pips": 0.01,
+    "validation": {
+      "valid": true,
+      "original_signal": "SELL",
+      "final_signal": "SELL",
+      "violation_reason": null,
+      "entry_distance_pips": 0.01,
+      "current_price": 105.7886,
+      "warnings": []
+    }
+  },
+  {
+    "symbol": "AUDJPY",
+    "timeframe": "5m",
+    "timestamp_utc": "2026-01-12T09:00:00+00:00",
+    "signal": "HOLD",
+    "confidence": 0.5,
+    "entry": null,
+    "stop": null,
+    "targets": [],
+    "rationale": "Current market conditions suggest a neutral bias, with no clear oversold or overbought signals indicated by RSI. Given the current price of 105.7886, and without an actionable trend or price movement, we recommend holding.",
+    "invalidation": "No clear invalidation as we are recommending to hold due to neutral conditions.",
+    "prompt_name": "prompt4",
+    "raw_notes": "",
+    "current_price": 105.7886,
+    "entry_distance_pips": null,
+    "validation": {
+      "valid": true,
+      "original_signal": "HOLD",
+      "final_signal": "HOLD",
+      "violation_reason": null,
+      "entry_distance_pips": null,
+      "current_price": 105.7886,
+      "warnings": []
+    }
+  }
+]

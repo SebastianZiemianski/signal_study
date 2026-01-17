@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-07T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The market is currently at 105.48428. If no clear consolidation pattern or range has been identified, and without a clear breakout above the recent range high or below the range low, I cannot provide a clear BUY or SELL signal. Therefore, I recommend HOLDing until a defined breakout shows momentum.",
+  "invalidation": "If price moves above 105.58428 or below 104.48428 with momentum, reevaluating will be necessary.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 105.48428,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 105.48428,
+    "warnings": []
+  }
+}

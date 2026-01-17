@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-25T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 104.55,
+  "stop": 104.65,
+  "targets": [
+    104.45,
+    104.4,
+    104.35
+  ],
+  "rationale": "The current price action shows a slight bearish trend as price has been unable to sustain higher levels and is approaching a minor resistance area. Additionally, there may be signs of a potential reversal as momentum indicators indicate weakening bullish activity, thus a short position is warranted.",
+  "invalidation": "If the price moves above 104.650, it would invalidate the current bearish outlook, and a reassessment would be needed.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 104.55951,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 104.55951,
+    "warnings": []
+  }
+}

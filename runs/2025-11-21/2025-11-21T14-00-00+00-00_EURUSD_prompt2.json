@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-21T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.1522,
+  "stop": 1.15,
+  "targets": [
+    1.1528,
+    1.1534,
+    1.154
+  ],
+  "rationale": "The price has shown a recent bullish momentum, bouncing off a support level around 1.15000. Current market sentiment appears positive with the recent uptick indicating a potential reversal. Given the volatility today, a buy signal with short targets is warranted.",
+  "invalidation": "If the price drops below 1.15000, it would invalidate the bullish outlook and suggest a deeper move downwards, warranting a reevaluation of the position.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Market conditions are leaning towards a bullish sentiment based on the recent price action and support level. Entry proposed just above the current price to secure a position ahead of possible upward movement.",
+  "current_price": 1.15162,
+  "entry_distance_pips": 0.06,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.06,
+    "current_price": 1.15162,
+    "warnings": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-15T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.174,
+  "stop": 1.172,
+  "targets": [
+    1.175,
+    1.176,
+    1.177
+  ],
+  "rationale": "The current price action shows bullish momentum, with recent candles indicating a move upward. The market has shown strength, potentially breaking a minor resistance level, which supports a short-term BUY signal.",
+  "invalidation": "If the price drops below 1.17200, it would indicate a bearish reversal, invalidating the bullish outlook.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Market is displaying upward movement; potential minor resistance has been broken. Timing of the trade should align with the continuing upward trend observed.",
+  "current_price": 1.17347,
+  "entry_distance_pips": 0.05,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.05,
+    "current_price": 1.17347,
+    "warnings": []
+  }
+}

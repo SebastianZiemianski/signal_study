@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-10T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.164,
+  "stop": 1.1632,
+  "targets": [
+    1.1648,
+    1.1655
+  ],
+  "rationale": "The EURUSD has shown a bullish reversal pattern on the 5-minute timeframe with increasing volume, suggesting a potential upward movement. The price is currently trading close to a previous support level at 1.16350, with a favorable risk/reward scenario for a short-term buy.",
+  "invalidation": "Price closes below 1.16320, invalidating the bullish setup.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Bullish trend observed on 5m charts. Entry price set for a quick gain. Overall sentiment is optimistic based on current market conditions.",
+  "current_price": 1.16379,
+  "entry_distance_pips": 0.02,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.02,
+    "current_price": 1.16379,
+    "warnings": []
+  }
+}

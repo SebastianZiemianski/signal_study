@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-26T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 101.69,
+  "stop": 101.73,
+  "targets": [
+    101.65,
+    101.6,
+    101.55
+  ],
+  "rationale": "The RSI analysis indicates that the market is currently in an overbought condition, given that the recent price action has shown a sharp increase leading to the current price of 101.69251, suggesting a correction may occur. This momentum implies a SELL opportunity based on overbought conditions. Setting the entry at 101.690 ensures alignment with current market behavior and allows for manageable risk parameters.",
+  "invalidation": "If the price rises above 101.730, indicating continued bullish momentum beyond the current overbought conditions, this signal would be invalidated.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 101.69251,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 101.69251,
+    "warnings": []
+  }
+}

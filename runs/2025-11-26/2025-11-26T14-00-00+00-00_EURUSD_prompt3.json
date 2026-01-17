@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-26T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.155,
+  "stop": 1.153,
+  "targets": [
+    1.156,
+    1.157
+  ],
+  "rationale": "Recent price action shows a bullish trend, with the last few candles closing higher and indicating upward momentum. The RSI is currently above 50, suggesting strength in buying pressure. Additionally, there seems to be support around 1.1540, which reinforces a bullish view. Given the strong upward movement and confirmed support, I suggest a BUY entry at 1.1550, which is within the acceptable range of the current price. Stop-loss is set at 1.1530 to manage risk effectively, targeting 1.1560 and 1.1570 for short-term gains.",
+  "invalidation": "If the price falls below 1.1530, it would indicate a potential reversal and invalidation of the bullish outlook.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.15501,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 1.15501,
+    "warnings": []
+  }
+}

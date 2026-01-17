@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-01T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 101.78,
+  "stop": 101.76,
+  "targets": [
+    101.8,
+    101.82
+  ],
+  "rationale": "The current market price of AUDJPY is 101.77814, with a slight bullish trend evident in the 5-minute timeframe. Recent price action shows buying interest around the current level, and technical indicators such as RSI are showing a move towards oversold levels indicating potential upward momentum. The entry at 101.7800 is slightly above the current price, which is within the 100 pips range requirement and reachable in the next hour. Profit targets are set at 101.8000 and 101.8200, reflecting short-term upward targets for scalping within this timeframe.",
+  "invalidation": "If the price drops below 101.7600, this would invalidate the bullish setup as it indicates lack of support and potential further downward movement.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 101.77814,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 101.77814,
+    "warnings": []
+  }
+}

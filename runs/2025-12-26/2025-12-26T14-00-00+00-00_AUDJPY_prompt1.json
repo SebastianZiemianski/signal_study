@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-26T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "There appears to be no clear recent consolidation or defined range from which to execute a breakout strategy. The price is currently trading at 105.01706, and without a defined range high or low, I cannot confirm a breakout direction. Therefore, it is best to wait and HOLD until clearer market conditions emerge.",
+  "invalidation": "If a clear breakout is established with momentum either above 105.10 or below 104.90, re-evaluation may be necessary.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 105.01706,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 105.01706,
+    "warnings": []
+  }
+}

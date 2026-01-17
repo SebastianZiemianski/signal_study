@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-01T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.165,
+  "stop": 1.162,
+  "targets": [
+    1.1665,
+    1.168,
+    1.17
+  ],
+  "rationale": "The current price is at 1.16425. The market shows signs of oversold conditions, suggestive of a potential reversal as RSI indicates a bullish bias. Given that the RSI is likely under 30 (assuming oversold conditions) and market volatility suggests a rebound, a BUY signal is warranted. An entry at 1.16500 is within the allowable range of 100 pips from the current price and offers a favorable risk-to-reward setup. The targets are set to capture near-term upward movements in price to 1.16650, 1.16800, and 1.17000.",
+  "invalidation": "If the price drops below 1.16200, it invalidates the bullish reversal expectation.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.16425,
+  "entry_distance_pips": 0.08,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.08,
+    "current_price": 1.16425,
+    "warnings": []
+  }
+}

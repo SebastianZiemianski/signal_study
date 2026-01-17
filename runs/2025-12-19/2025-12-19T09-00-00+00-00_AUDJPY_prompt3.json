@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-19T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 103.67,
+  "stop": 103.6,
+  "targets": [
+    103.75,
+    103.8
+  ],
+  "rationale": "Given the current market price of 103.6675, there is a bullish trend indicated by positive momentum seen in the recent 5-minute candles. The RSI is approaching the oversold region but shows signs of recovery, suggesting possible upward movement. This bullish momentum, combined with a tight stop loss below recent support, makes a BUY signal appropriate. A buy entry can be set slightly above the current price to confirm the trend continuation before reaching the next resistance levels.",
+  "invalidation": "If the price moves below 103.6000, it indicates a reversal and the trade should be revisited.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Utilizing current momentum indicators, bullish bias identified. Close to resistance breaks in 5m timeframe suggest further movement if support holds.",
+  "current_price": 103.6675,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 103.6675,
+    "warnings": []
+  }
+}

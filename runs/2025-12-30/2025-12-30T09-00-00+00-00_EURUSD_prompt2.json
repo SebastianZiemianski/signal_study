@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-30T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.7,
+  "entry": 1.177,
+  "stop": 1.176,
+  "targets": [
+    1.178,
+    1.179
+  ],
+  "rationale": "The EURUSD has shown a bullish trend in the past 30 minutes with increasing volumes. There is a support level forming around 1.17650 and momentum indicators suggest further upward movement. As the price is currently at 1.17687, entering at 1.17700 allows for a favorable risk-to-reward ratio.",
+  "invalidation": "If the price drops below 1.17600, it would indicate weakening momentum and a potential change in trend direction.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.17687,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 1.17687,
+    "warnings": []
+  }
+}

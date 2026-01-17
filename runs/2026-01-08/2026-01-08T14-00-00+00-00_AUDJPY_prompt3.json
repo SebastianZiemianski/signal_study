@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-08T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 105.03072,
+  "stop": 105.08072,
+  "targets": [
+    104.98072,
+    104.95072
+  ],
+  "rationale": "The AUDJPY has been showing bearish momentum today, with the current price at 105.03572 just rolling over from the recent highs. Immediate resistance has formed around 105.0500, and with RSI indicating an overbought condition (above 70), a sell entry is warranted as momentum indicates a potential retreat. The proximity of the entry point (105.03072) to the current price is suitable for a short-term trade, allowing execution within the next hour.",
+  "invalidation": "If the price moves above 105.08072, this would invalidate the bearish bias signaling a potential upward breakout.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Bearish momentum observed today with high resistance reached, combined with RSI conditions signaling an overbought market. Current price action indicates a possible trend reversal, making a sell entry a viable option.",
+  "current_price": 105.03572,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 105.03572,
+    "warnings": []
+  }
+}

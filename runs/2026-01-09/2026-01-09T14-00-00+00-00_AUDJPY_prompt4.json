@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-09T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current market price of 105.37891 is close to neutral RSI levels, and without RSI data available, there is uncertainty in making a directional trade. There are no clear signals for either a BUY or SELL, hence a HOLD is prudent at this time.",
+  "invalidation": "Should the market directionality reveal itself clearly within the next hour, a re-evaluation for possible trade action may be necessary.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 105.37891,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 105.37891,
+    "warnings": []
+  }
+}

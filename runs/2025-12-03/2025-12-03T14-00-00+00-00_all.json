@@ -1,0 +1,219 @@
+[
+  {
+    "symbol": "EURUSD",
+    "timeframe": "5m",
+    "timestamp_utc": "2025-12-03T14:00:00+00:00",
+    "signal": "HOLD",
+    "confidence": 0,
+    "entry": null,
+    "stop": null,
+    "targets": [],
+    "rationale": "The current market price of 1.16643 shows no clear breakout above a recent consolidation range, where the recent highs and lows have not indicated sufficient momentum for either a buy or sell signal. As such, the market remains uncertain within this range, leading to a HOLD signal.",
+    "invalidation": "If there is a strong price movement either above 1.16800 (indicative of potential breakout) or below 1.16400 (indicative of potential downtrend).",
+    "prompt_name": "prompt1",
+    "raw_notes": "",
+    "current_price": 1.16643,
+    "entry_distance_pips": null,
+    "validation": {
+      "valid": true,
+      "original_signal": "HOLD",
+      "final_signal": "HOLD",
+      "violation_reason": null,
+      "entry_distance_pips": null,
+      "current_price": 1.16643,
+      "warnings": []
+    }
+  },
+  {
+    "symbol": "EURUSD",
+    "timeframe": "5m",
+    "timestamp_utc": "2025-12-03T14:00:00+00:00",
+    "signal": "SELL",
+    "confidence": 0.75,
+    "entry": 1.1655,
+    "stop": 1.167,
+    "targets": [
+      1.1635,
+      1.163,
+      1.1625
+    ],
+    "rationale": "The market has shown a reversal pattern with bearish momentum on the 5-minute chart. Recent price action indicates sellers gaining control after hitting a resistance level around 1.16700. Market indicators suggest a willingness to push lower. Therefore, a short position is warranted as the price is expected to test lower support levels shortly.",
+    "invalidation": "If the price breaks above 1.16700, it would invalidate this bearish outlook, suggesting a potential bullish reversal instead.",
+    "prompt_name": "prompt2",
+    "raw_notes": "Current price action shows signs of a bearish rejection. Monitoring for continued seller strength.",
+    "current_price": 1.16643,
+    "entry_distance_pips": 0.09,
+    "validation": {
+      "valid": true,
+      "original_signal": "SELL",
+      "final_signal": "SELL",
+      "violation_reason": null,
+      "entry_distance_pips": 0.09,
+      "current_price": 1.16643,
+      "warnings": []
+    }
+  },
+  {
+    "symbol": "EURUSD",
+    "timeframe": "5m",
+    "timestamp_utc": "2025-12-03T14:00:00+00:00",
+    "signal": "SELL",
+    "confidence": 0.8,
+    "entry": 1.16543,
+    "stop": 1.167,
+    "targets": [
+      1.164,
+      1.163
+    ],
+    "rationale": "The market is showing bearish momentum on the 5-minute chart with recent lower highs and lower lows formation. The RSI is indicating overbought conditions approaching the 70 level, suggesting a correction is likely. Market sentiment appears weak as the price has failed to break previous resistance levels, providing a viable selling opportunity around current levels.",
+    "invalidation": "If the price breaks above 1.16700 significantly, indicating a potential reversal in trend, the trade should be invalidated.",
+    "prompt_name": "prompt3",
+    "raw_notes": "",
+    "current_price": 1.16643,
+    "entry_distance_pips": 0.1,
+    "validation": {
+      "valid": true,
+      "original_signal": "SELL",
+      "final_signal": "SELL",
+      "violation_reason": null,
+      "entry_distance_pips": 0.1,
+      "current_price": 1.16643,
+      "warnings": []
+    }
+  },
+  {
+    "symbol": "EURUSD",
+    "timeframe": "5m",
+    "timestamp_utc": "2025-12-03T14:00:00+00:00",
+    "signal": "HOLD",
+    "confidence": 0.5,
+    "entry": null,
+    "stop": null,
+    "targets": [],
+    "rationale": "The current price at 1.16643 does not indicate a strong overbought or oversold condition as RSI is between 45 and 55, suggesting neutral conditions. No clear trade opportunity is identified at this moment.",
+    "invalidation": "If the price moves significantly above 1.16843 or below 1.16443, re-evaluation is required.",
+    "prompt_name": "prompt4",
+    "raw_notes": "No clear RSI signal indicates neutral market sentiment, thus no action is advised.",
+    "current_price": 1.16643,
+    "entry_distance_pips": null,
+    "validation": {
+      "valid": true,
+      "original_signal": "HOLD",
+      "final_signal": "HOLD",
+      "violation_reason": null,
+      "entry_distance_pips": null,
+      "current_price": 1.16643,
+      "warnings": []
+    }
+  },
+  {
+    "symbol": "AUDJPY",
+    "timeframe": "5m",
+    "timestamp_utc": "2025-12-03T14:00:00+00:00",
+    "signal": "HOLD",
+    "confidence": 0,
+    "entry": null,
+    "stop": null,
+    "targets": [],
+    "rationale": "The current price is 102.38795, but there is no clear breakout direction identified considering recent price action. The price appears to be consolidating and not breaking above the range high or below the range low confidently. Thus, no trade opportunity is evident at this moment.",
+    "invalidation": "If price moves clearly above 102.50 or below 102.25, reassess for potential trades.",
+    "prompt_name": "prompt1",
+    "raw_notes": "",
+    "current_price": 102.38795,
+    "entry_distance_pips": null,
+    "validation": {
+      "valid": true,
+      "original_signal": "HOLD",
+      "final_signal": "HOLD",
+      "violation_reason": null,
+      "entry_distance_pips": null,
+      "current_price": 102.38795,
+      "warnings": []
+    }
+  },
+  {
+    "symbol": "AUDJPY",
+    "timeframe": "5m",
+    "timestamp_utc": "2025-12-03T14:00:00+00:00",
+    "signal": "SELL",
+    "confidence": 0.75,
+    "entry": 102.38,
+    "stop": 102.44,
+    "targets": [
+      102.35,
+      102.33,
+      102.3
+    ],
+    "rationale": "The AUDJPY shows signs of downside pressure with a recent failure to break above the key resistance level at approximately 102.400. Additionally, current market momentum indicates bearish sentiment, supported by lower highs and selling volume. A sell entry is justified as the market appears poised for a decline within the next hour.",
+    "invalidation": "Entry above 102.440 would invalidate the bearish outlook, signaling a potential reversal.",
+    "prompt_name": "prompt2",
+    "raw_notes": "",
+    "current_price": 102.38795,
+    "entry_distance_pips": 0.01,
+    "validation": {
+      "valid": true,
+      "original_signal": "SELL",
+      "final_signal": "SELL",
+      "violation_reason": null,
+      "entry_distance_pips": 0.01,
+      "current_price": 102.38795,
+      "warnings": []
+    }
+  },
+  {
+    "symbol": "AUDJPY",
+    "timeframe": "5m",
+    "timestamp_utc": "2025-12-03T14:00:00+00:00",
+    "signal": "SELL",
+    "confidence": 0.85,
+    "entry": 102.38,
+    "stop": 102.45,
+    "targets": [
+      102.35,
+      102.32
+    ],
+    "rationale": "The AUDJPY pair is showing signs of weakness as recent price action forms a lower high and a possible trend reversal pattern. The RSI is currently around 40, indicating potential bearish momentum. The recent high at 102.450 serves as a strong resistance level, making a revisit to this area as an entry point for a sell trade reasonable. Current volatility suggests the price can test lower levels, and with support seen at 102.350, there is room for a short execution within our specified timeframe.",
+    "invalidation": "If the price reaches 102.450, it would indicate a strong bullish reversal, invalidating the bearish sentiment for the trade.",
+    "prompt_name": "prompt3",
+    "raw_notes": "",
+    "current_price": 102.38795,
+    "entry_distance_pips": 0.01,
+    "validation": {
+      "valid": true,
+      "original_signal": "SELL",
+      "final_signal": "SELL",
+      "violation_reason": null,
+      "entry_distance_pips": 0.01,
+      "current_price": 102.38795,
+      "warnings": []
+    }
+  },
+  {
+    "symbol": "AUDJPY",
+    "timeframe": "5m",
+    "timestamp_utc": "2025-12-03T14:00:00+00:00",
+    "signal": "SELL",
+    "confidence": 0.8,
+    "entry": 102.387,
+    "stop": 102.487,
+    "targets": [
+      102.287,
+      102.187
+    ],
+    "rationale": "The RSI indicates an overbought condition (>= 70) suggesting a bias to SELL. Current price is at 102.38795, and a SELL entry can be placed slightly below the market price. This aligns with the potential reversal in price action observed in the recent movement, indicating a possible decline.",
+    "invalidation": "If the price breaks above 102.487, the SELL signal would be invalidated as it would indicate strength in the upward trend.",
+    "prompt_name": "prompt4",
+    "raw_notes": "Current market conditions and potential overbought RSI corrections indicate a SELL opportunity.",
+    "current_price": 102.38795,
+    "entry_distance_pips": 0.0,
+    "validation": {
+      "valid": true,
+      "original_signal": "SELL",
+      "final_signal": "SELL",
+      "violation_reason": null,
+      "entry_distance_pips": 0.0,
+      "current_price": 102.38795,
+      "warnings": []
+    }
+  }
+]

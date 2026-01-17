@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-08T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 104.93072,
+  "stop": 105.13072,
+  "targets": [
+    104.83072,
+    104.73072
+  ],
+  "rationale": "The market is showing signs of bearish momentum with recent lower highs and lower lows observed in the 5-minute chart. Current price action suggests a potential move downwards. We set a sell entry around 104.93072, taking advantage of the current trend.",
+  "invalidation": "A close above 105.13072 would invalidate this sell signal, indicating a potential reversal or bullish trend.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Current market shows bearish pressure; entry level chosen based on market structure and achievable movement.",
+  "current_price": 105.03572,
+  "entry_distance_pips": 0.11,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.11,
+    "current_price": 105.03572,
+    "warnings": []
+  }
+}

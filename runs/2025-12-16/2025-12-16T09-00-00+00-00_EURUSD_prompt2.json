@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-16T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.176,
+  "stop": 1.1745,
+  "targets": [
+    1.177,
+    1.178,
+    1.179
+  ],
+  "rationale": "The current market price of 1.1753 shows a bullish trend, with recent price action indicating a consolidation and breakout potential. The market sentiment appears positive, with momentum indicators suggesting upward movement. Hence, a buying opportunity is identified just above the current price.",
+  "invalidation": "If the price drops below 1.1745, it may signal a reversal, indicating a need to exit the position.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.1753,
+  "entry_distance_pips": 0.07,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.07,
+    "current_price": 1.1753,
+    "warnings": []
+  }
+}

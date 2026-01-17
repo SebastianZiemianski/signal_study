@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-02T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The market is currently at 104.9858, and after analyzing the recent price action over the past few hours, there has been no clear breakout above or below defined range levels. Any potential breakout seems weak or unclear, indicating that current price does not offer an actionable opportunity.",
+  "invalidation": "If the price moves decisively above 105.50 or below 104.50 with clear momentum, this could indicate a strong trend. However, as of now, this is not the case.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 104.9858,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 104.9858,
+    "warnings": []
+  }
+}

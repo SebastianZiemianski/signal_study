@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-22T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 104.45,
+  "stop": 104.5,
+  "targets": [
+    104.4,
+    104.35
+  ],
+  "rationale": "The current market price of AUDJPY is experiencing bearish pressure with recent lower highs being established. Additionally, the RSI indicator shows overbought conditions hovering at 70, suggesting a correction is likely. Given these signals, a short entry near 104.450 is justified while aiming for targets of 104.400 and further down to 104.350. The stop loss at 104.500 protects against unexpected upward movement which invalidates the bearish outlook.",
+  "invalidation": "If the price moves above 104.500, it indicates that the bearish pressure has abated, and the upward trend might continue, thus invalidating the current short setup.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 104.45381,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 104.45381,
+    "warnings": []
+  }
+}

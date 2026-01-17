@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-24T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 101.25,
+  "stop": 101.35,
+  "targets": [
+    101.2,
+    101.15
+  ],
+  "rationale": "The market is currently showing bearish momentum as it has recently broken below a minor support level at 101.290. Additionally, the RSI indicates overbought conditions, suggesting a potential reversal. The ideal entry point at 101.250 is realistic within the next hour. The stop loss is set above the recent swing high to minimize risk, while the targets are based on previous support levels.",
+  "invalidation": "Invalidation occurs if the price moves above 101.350, indicating a continuation of bullish sentiment.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 101.285,
+  "entry_distance_pips": 0.03,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.03,
+    "current_price": 101.285,
+    "warnings": []
+  }
+}

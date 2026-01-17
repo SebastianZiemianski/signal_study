@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-03T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.16337,
+  "stop": 1.166,
+  "targets": [
+    1.161,
+    1.16,
+    1.158
+  ],
+  "rationale": "The market is currently showing bearish momentum with recent price action confirming a downward trend. The last few 5-minute candles have closed below previous support levels, indicating potential continuation. Therefore, a short position is warranted.",
+  "invalidation": "Price moves above 1.16600, negating the bearish trend established in recent price action.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Downward pressure noted with recent low and rejection from the upper resistance. Watch for volume confirmation at the entry point.",
+  "current_price": 1.16437,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.16437,
+    "warnings": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-15T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "RSI is not provided, but given the current price context and the lack of a clear directional approach based on the available details, it suggests that trading at this moment might not yield optimal opportunities. Therefore, it is prudent to hold off from entering any positions.",
+  "invalidation": "If EURUSD breaks above 1.17447 (100 pips above current price) or below 1.17247 (100 pips below current price) within the next hour, it could warrant a reassessment of the trade outlook.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 1.17347,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.17347,
+    "warnings": []
+  }
+}

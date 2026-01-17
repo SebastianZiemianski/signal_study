@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-07T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 105.44,
+  "stop": 105.42,
+  "targets": [
+    105.46,
+    105.48,
+    105.5
+  ],
+  "rationale": "The price of AUDJPY at 105.43775 is showing signs of potential upward movement as it is nearing oversold conditions based on RSI implications. A slight bullish momentum is expected as price is approaching 105.4400 for entry, with good proximity, facilitating a buy action.",
+  "invalidation": "Invalidation would occur if the price drops below 105.4200.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 105.43775,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 105.43775,
+    "warnings": []
+  }
+}

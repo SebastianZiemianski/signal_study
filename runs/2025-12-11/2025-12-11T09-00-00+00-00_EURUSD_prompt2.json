@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-11T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.17,
+  "stop": 1.168,
+  "targets": [
+    1.171,
+    1.172,
+    1.173
+  ],
+  "rationale": "The current price shows bullish momentum with increasing buying volume and a recent breakout above a resistance level. The market has displayed positive candlestick patterns indicating potential upward movement. The price action suggests a continuation towards higher levels based on today's trends.",
+  "invalidation": "If the price drops below 1.16800, it would invalidate the bullish setup, indicating a possible reversal or further consolidation.",
+  "prompt_name": "prompt2",
+  "raw_notes": "Market shows bullish behavior today; potential breakout confirmed with positive sentiment.",
+  "current_price": 1.16958,
+  "entry_distance_pips": 0.04,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.04,
+    "current_price": 1.16958,
+    "warnings": []
+  }
+}

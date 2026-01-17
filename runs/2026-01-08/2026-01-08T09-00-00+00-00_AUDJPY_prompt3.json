@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-08T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 104.95,
+  "stop": 105.05,
+  "targets": [
+    104.8,
+    104.75
+  ],
+  "rationale": "The AUDJPY pair is experiencing downward pressure as the price is currently near resistance levels at 105.0000, indicating a potential reversal. The RSI shows overbought conditions, suggesting a high likelihood of a sell-off. Recent price action shows that the pair has struggled to maintain above 105.0000 and has formed a bearish pattern in the last few candles. Given these conditions, a SELL signal is warranted as the market appears to be aligned for a short-term downside move.",
+  "invalidation": "A close above 105.1000 on the 5-minute chart would invalidate this bearish scenario, indicating stronger upward momentum.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 104.9569,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 104.9569,
+    "warnings": []
+  }
+}

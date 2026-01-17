@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-05T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 103.0,
+  "stop": 103.2,
+  "targets": [
+    102.8,
+    102.6
+  ],
+  "rationale": "Current market conditions indicate a bearish trend for AUDJPY, with the price testing a recent resistance level around 103.050. The RSI is showing overbought conditions, signaling potential weakness in upward momentum. Additionally, recent price action shows a clear lower-high setup, reinforcing the bearish outlook. Entering a sell position at 103.000 allows for a strategic setup just below current price levels within a reasonable distance while keeping a stop loss at 103.200 to manage risk effectively. Targets are set at 102.800 and 102.600, which are reasonable support levels in the current market context.",
+  "invalidation": "If the price moves above 103.200, it would invalidate the sell setup, suggesting a stronger bullish movement than anticipated.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 103.04317,
+  "entry_distance_pips": 0.04,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.04,
+    "current_price": 103.04317,
+    "warnings": []
+  }
+}

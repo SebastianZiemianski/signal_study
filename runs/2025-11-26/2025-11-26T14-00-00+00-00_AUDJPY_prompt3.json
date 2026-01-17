@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-26T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Current market conditions show no clear directional bias with volatile price action. Key resistance and support levels are close to the current price, and without a definitive trend or setup within the next hour, there isn't a favorable trade opportunity available. Holding is recommended until clearer signals or setups emerge.",
+  "invalidation": "The signal will shift if price action indicates a strong breakout above 101.80 or below 101.50, providing clearer entry opportunities.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 101.69251,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 101.69251,
+    "warnings": []
+  }
+}

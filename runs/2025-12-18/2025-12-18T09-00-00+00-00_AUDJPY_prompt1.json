@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-18T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The price is currently at 102.97882, and there is no clear breakout above a recent range high or below a recent range low based on the 5-minute chart data. A breakout strategy expects significant momentum, which is not detected at this moment. Therefore, the best trade signal is to HOLD. Wait for clearer indications of upward or downward breakout before executing any trade.",
+  "invalidation": "Look for a breakout from either direction in the next hour to reassess for potential BUY or SELL signals.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 102.97882,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 102.97882,
+    "warnings": []
+  }
+}

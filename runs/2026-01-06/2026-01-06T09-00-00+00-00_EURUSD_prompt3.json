@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-06T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.1725,
+  "stop": 1.1715,
+  "targets": [
+    1.1735,
+    1.1745
+  ],
+  "rationale": "The current market price of 1.17244 shows bullish momentum as indicated by a recent uptrend in the 5-minute chart. The price is above the short-term moving averages, and the RSI is approaching the oversold territory, suggesting a potential price rise. An entry slightly above the current price allows for a tight stop loss, offering a positive risk-to-reward ratio for a short-term trade.",
+  "invalidation": "If the price falls below 1.17150, it would indicate a breakdown of support, leading to a re-evaluation of the bullish outlook.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.17244,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 1.17244,
+    "warnings": []
+  }
+}

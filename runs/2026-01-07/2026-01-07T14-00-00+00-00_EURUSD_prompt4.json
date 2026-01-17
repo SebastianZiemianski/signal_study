@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-07T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.17,
+  "stop": 1.1675,
+  "targets": [
+    1.172,
+    1.174,
+    1.176
+  ],
+  "rationale": "Current market price is 1.16929, predicted bullish momentum as RSI indicates oversold conditions (below 30). Market shows potential for upward movement, making a buy trade favorable.",
+  "invalidation": "Invalidation if price drops below 1.16750, indicating a reversal or continued selling pressure.",
+  "prompt_name": "prompt4",
+  "raw_notes": "RSI conditions indicate oversold market; slight upward momentum observed.",
+  "current_price": 1.16929,
+  "entry_distance_pips": 0.07,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.07,
+    "current_price": 1.16929,
+    "warnings": []
+  }
+}

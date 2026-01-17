@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-25T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.152,
+  "stop": 1.154,
+  "targets": [
+    1.15,
+    1.148
+  ],
+  "rationale": "The EURUSD is exhibiting bearish momentum as indicated by the current price action. Recent fluctuations have shown a lower high and a potential reversal pattern forming near the resistance level. With the market price at 1.15294, a sell entry at 1.15200 captures the impending downward movement within the next hour. This setup is consistent with the market's current volatility, providing a reasonable risk-reward outlook for a short-term trade.",
+  "invalidation": "If the price moves above 1.15400, it would invalidate this bearish setup, indicating that the market is likely shifting to bullish momentum.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Current market sentiment appears bearish as evidenced by recent price action and the formation of lower highs. Utilizing RSI indicators, the market shows overbought conditions, recommending a downward target setup.",
+  "current_price": 1.15294,
+  "entry_distance_pips": 0.09,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.09,
+    "current_price": 1.15294,
+    "warnings": []
+  }
+}

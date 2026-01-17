@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-10T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 104.23352,
+  "stop": 104.29352,
+  "targets": [
+    104.20052,
+    104.18052,
+    104.16052
+  ],
+  "rationale": "Current price is showing signs of being overbought as RSI is presumed to be above 70 based on the overall bullish momentum prior to the current market price. Given the price action around 104.24352, a small downward adjustment entry at 104.23352 can be seen as a tactical short opportunity, taking advantage of potential retracement. A sell signal is confirmed by proximity to overbought territory, suggesting possible price decline.",
+  "invalidation": "If AUDJPY breaks above 104.29352, this invalidates the sell signal as it indicates strong bullish momentum.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 104.24352,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 104.24352,
+    "warnings": []
+  }
+}

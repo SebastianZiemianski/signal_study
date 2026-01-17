@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-05T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.168,
+  "stop": 1.166,
+  "targets": [
+    1.17,
+    1.172
+  ],
+  "rationale": "The current market price of 1.16752 indicates a bullish momentum observed in the last few 5-minute candle formations. There's a recent pattern of higher lows and higher highs, indicating an upward trend. Additionally, indicators such as the RSI are showing bullish divergence, suggesting that momentum is building for a potential price increase. Given these conditions, a buy entry at 1.16800 is achievable within the next hour, as it is 48 pips above the current price. The stop loss is set below the recent support level at 1.16600 and the targets are set based on resistance levels observed in the recent past, aiming for a quick scalping opportunity.",
+  "invalidation": "If the price drops below 1.16600, it would invalidate the upward trend premise and suggest a possible shift to bearish sentiment.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.16752,
+  "entry_distance_pips": 0.05,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.05,
+    "current_price": 1.16752,
+    "warnings": []
+  }
+}

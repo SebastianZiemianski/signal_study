@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-08T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.167,
+  "stop": 1.165,
+  "targets": [
+    1.168,
+    1.169
+  ],
+  "rationale": "The market structure shows a bullish trend due to recent price action bouncing off a support level around 1.1650. RSI indicator suggests that the asset is not in the overbought region, making it viable for a long entry. Current momentum supports a potential rise, and with the entry set at 1.1670, it is within 100 pips of the current price. This setup offers a favorable risk-reward with a maximum drawdown of 20 pips before potential targets at 1.1680 and 1.1690.",
+  "invalidation": "If the price breaks below 1.1650, it indicates a failure of the bullish setup and should be considered for exit or reevaluation.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.16658,
+  "entry_distance_pips": 0.04,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.04,
+    "current_price": 1.16658,
+    "warnings": []
+  }
+}

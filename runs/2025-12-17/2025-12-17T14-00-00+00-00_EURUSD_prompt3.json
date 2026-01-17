@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-17T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.174,
+  "stop": 1.1725,
+  "targets": [
+    1.176,
+    1.1775
+  ],
+  "rationale": "The EURUSD has shown an upward momentum in the last hour with increasing buying pressure. The last few 5-minute candles are forming higher lows and higher highs, indicating a bullish trend. Additionally, the RSI is approaching levels that suggest potential continuation of upward momentum without immediate overbought concerns.",
+  "invalidation": "If the price drops below 1.17250, I will invalidate the BUY signal as it would indicate a reversal of the current uptrend.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Current market sentiment is bullish; valid entry area around 1.17400 is close to the market price, maintaining a 50-pip stop for a risk-reward ratio that accommodates short-term volatility.",
+  "current_price": 1.17371,
+  "entry_distance_pips": 0.03,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.03,
+    "current_price": 1.17371,
+    "warnings": []
+  }
+}

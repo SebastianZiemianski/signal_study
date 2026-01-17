@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-07T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 105.48,
+  "stop": 105.59,
+  "targets": [
+    105.46,
+    105.44
+  ],
+  "rationale": "Current market conditions show a slight bearish trend with downward pressure near the current price of 105.48428. The market has made recent lows, indicating potential continuation of selling pressure. Entry at 105.480 allows for a reasonable stop above recent highs at 105.590, with targets set at 105.460 and 105.440, aiming for quick profits within the next hour given the current volatility.",
+  "invalidation": "If the price exceeds 105.590, indicating a bullish reversal in momentum.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 105.48428,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 105.48428,
+    "warnings": []
+  }
+}

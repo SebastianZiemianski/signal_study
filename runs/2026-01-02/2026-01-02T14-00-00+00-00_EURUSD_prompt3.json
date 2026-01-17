@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-02T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.1731,
+  "stop": 1.1701,
+  "targets": [
+    1.175,
+    1.176
+  ],
+  "rationale": "The market is showing a bullish trend as it has recently broken resistance levels and the RSI indicates increasing momentum with values around 65. The price is expected to consolidate around this level before pushing upwards towards the target levels. There is a clear opportunity for a short-term buy as the price is trading within a reasonable range for an entry.",
+  "invalidation": "If the price falls below 1.1700, it indicates a reversal of the current bullish trend, and the trade should be invalidated.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.1721,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.1721,
+    "warnings": []
+  }
+}

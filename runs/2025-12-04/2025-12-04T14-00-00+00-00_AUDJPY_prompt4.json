@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-04T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The RSI is not available for confirmation, and current market conditions suggest a neutral state. With the price close around 102.29601, no clear overbought or oversold conditions exist.",
+  "invalidation": "If the price breaks below 102.00 or above 102.50 within the next hour, that would suggest a clear direction thus invalidating this hold signal.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 102.29601,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 102.29601,
+    "warnings": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-26T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 101.68,
+  "stop": 101.65,
+  "targets": [
+    101.72,
+    101.74,
+    101.76
+  ],
+  "rationale": "The current price of AUDJPY is displaying upward momentum with recent price action showing higher lows, indicating a potential bullish trend. Additionally, there is supportive economic news that may drive further buying interest. Considering today's volatility, a short-term buy is warranted if entry is achieved at 101.6800, just 10 pips above the current market price, with manageable risk.",
+  "invalidation": "If the price falls below 101.6500, it would invalidate the bullish outlook, signaling a need to exit the position.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 101.67001,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 101.67001,
+    "warnings": []
+  }
+}

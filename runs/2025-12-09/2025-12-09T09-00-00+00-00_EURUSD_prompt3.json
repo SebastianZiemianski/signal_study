@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-09T09:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 1.16352,
+  "stop": 1.16552,
+  "targets": [
+    1.161,
+    1.16
+  ],
+  "rationale": "The current price (1.16452) is showing a bearish trend supported by recent price action indicating selling pressure. The RSI indicates overbought conditions, suggesting a potential pullback. Selling at 1.16352 allows entry within 10 pips of the current market price, which is reasonable given the current volatility.",
+  "invalidation": "If price exceeds 1.16552, this would invalidate the bearish sentiment as it breaks resistance established by recent highs.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Market is experiencing bearish pressure with potential for a short-term sell setup. Indicators such as RSI confirm overbought conditions. Testing lower support levels.",
+  "current_price": 1.16452,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.16452,
+    "warnings": []
+  }
+}

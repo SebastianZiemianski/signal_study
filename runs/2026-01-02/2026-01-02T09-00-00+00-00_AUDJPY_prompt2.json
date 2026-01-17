@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-02T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.7,
+  "entry": 105.1408,
+  "stop": 105.0408,
+  "targets": [
+    105.2408,
+    105.3408
+  ],
+  "rationale": "The current market shows bullish momentum with upward movement observed in the last few minutes. The support level around 105.1400 indicates a potential for a bounce. Despite minor fluctuations, the overall trend leans to the upside due to increased buying activity in the market. Therefore, a buy signal is suggested for a quick uptick in price within the next hour.",
+  "invalidation": "If the price drops below 105.0408, it would invalidate the buying trend as it would suggest a stronger downward momentum.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 105.1408,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 105.1408,
+    "warnings": []
+  }
+}

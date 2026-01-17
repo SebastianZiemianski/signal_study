@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-28T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The analysis reveals that without the actual RSI value, we have to rely on price action. Given that the current market price is 101.97006 and assuming there is no significant directional trend indicated by that price context, we cannot ascertain a strict bias to either buy or sell. The price does not suggest oversold or overbought conditions sufficiently to justify an actionable signal. Thus, the most prudent course is to HOLD until clearer signals emerge based on actual market dynamics.",
+  "invalidation": "If the price moves significantly outside of the current range identified by RSI once available, consider objective re-evaluation.",
+  "prompt_name": "prompt4",
+  "raw_notes": "",
+  "current_price": 101.97006,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 101.97006,
+    "warnings": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-29T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 104.5,
+  "stop": 104.6,
+  "targets": [
+    104.45,
+    104.4
+  ],
+  "rationale": "Current market price is 104.51247. The price has recently exhibited bearish momentum with a rejection observed at approximately 104.600, indicating a potential reversal. Additionally, the Relative Strength Index (RSI) is trending downward, suggesting an overbought condition. A sell entry at 104.500 places the trade near recent resistance while offering a favorable risk-reward ratio, targeting the support levels at 104.450 and 104.400.",
+  "invalidation": "If the price moves above 104.600, this indicates strong bullish momentum, and the trade should be invalidated accordingly.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Market has shown signs of weakness with RSI pointing down. Recent price action indicates a stall around 104.600, opening potential for a short.",
+  "current_price": 104.51247,
+  "entry_distance_pips": 0.01,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.01,
+    "current_price": 104.51247,
+    "warnings": []
+  }
+}

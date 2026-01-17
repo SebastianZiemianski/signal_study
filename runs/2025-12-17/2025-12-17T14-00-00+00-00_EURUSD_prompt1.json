@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-17T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0.0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The current market price of 1.17371 is insufficiently clear for a breakout signal as there is no defined range high or low indicating momentum. Thus, I recommend a HOLD instead of a trade.",
+  "invalidation": "Not applicable as no trade is suggested.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 1.17371,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.17371,
+    "warnings": []
+  }
+}

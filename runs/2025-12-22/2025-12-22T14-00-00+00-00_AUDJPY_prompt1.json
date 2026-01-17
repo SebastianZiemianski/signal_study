@@ -1,0 +1,25 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-22T14:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "Current price is within a ranging period and does not show a clear breakout above the range high or below the range low. Therefore, there's no actionable signal.",
+  "invalidation": "Market remains within the consolidation range without a breakout, no trades recommended.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 104.45381,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 104.45381,
+    "warnings": []
+  }
+}

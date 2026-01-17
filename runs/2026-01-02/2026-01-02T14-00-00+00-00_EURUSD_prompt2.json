@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-02T14:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.8,
+  "entry": 1.1721,
+  "stop": 1.1701,
+  "targets": [
+    1.1731,
+    1.1741,
+    1.1751
+  ],
+  "rationale": "The current market price at 1.1721 has shown bullish momentum on the 5-minute chart, with recent price actions indicating a potential upward trend. Recent bullish candles and increased buying pressure suggest the possibility of a short-term uptrend.",
+  "invalidation": "If the price drops below 1.1701, this would invalidate the bullish case as it would indicate a reversal against the trend.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.1721,
+  "entry_distance_pips": 0.0,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.0,
+    "current_price": 1.1721,
+    "warnings": []
+  }
+}

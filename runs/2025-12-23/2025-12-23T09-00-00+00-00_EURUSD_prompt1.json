@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-23T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "No breakout has been confirmed as the price is still inside the consolidation range.",
+  "invalidation": "If price breaks above 1.17978 or below 1.17778 with momentum, reassess for potential BUY or SELL signals.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 1.17878,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.17878,
+    "warnings": []
+  }
+}

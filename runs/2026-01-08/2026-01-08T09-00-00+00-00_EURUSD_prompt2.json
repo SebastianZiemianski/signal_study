@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-08T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.1675,
+  "stop": 1.1665,
+  "targets": [
+    1.1685,
+    1.169
+  ],
+  "rationale": "The EURUSD is showing a bullish momentum based on today's initial price action. A recent breakout above a minor resistance level at 1.16700 indicates positive sentiment. With current price at 1.16727, an entry slightly above this level shows promise for further upward movement.",
+  "invalidation": "If the price falls below 1.16650, the risk of a reversal increases and would invalidate the bullish outlook.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.16727,
+  "entry_distance_pips": 0.02,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.02,
+    "current_price": 1.16727,
+    "warnings": []
+  }
+}

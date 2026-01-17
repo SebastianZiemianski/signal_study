@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-30T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.8,
+  "entry": 1.17512,
+  "stop": 1.17712,
+  "targets": [
+    1.174,
+    1.1735
+  ],
+  "rationale": "The EURUSD has shown a clear downward trend on the 5-minute timeframe with recent price action reflecting increased selling pressure. Technical indicators like RSI are approaching overbought levels, suggesting a potential reversal from current highs. The market is currently moving below the 50-period moving average, reinforcing the bearish sentiment. Given the current market price of 1.17612, an entry at 1.17512 is feasible within the next hour, only 10 pips away. This aligns with the suggested stop loss of 1.17712 (100 pips away from entry), providing a reasonable risk-reward setup.",
+  "invalidation": "The potential trade scenario would be invalidated if the price breaks above 1.17712 and maintains momentum above this level, indicating a strong bullish trend.",
+  "prompt_name": "prompt3",
+  "raw_notes": "Current market sentiment is bearish with a strong indication of further declines based on technical analysis. Risk-reward is favorable for a short-term sell opportunity.",
+  "current_price": 1.17612,
+  "entry_distance_pips": 0.1,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.1,
+    "current_price": 1.17612,
+    "warnings": []
+  }
+}

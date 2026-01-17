@@ -1,0 +1,29 @@
+{
+  "symbol": "AUDJPY",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-26T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 105.0,
+  "stop": 105.1,
+  "targets": [
+    104.9,
+    104.85,
+    104.75
+  ],
+  "rationale": "The current market price of 105.01706 indicates a bearish trend as it has recently failed to maintain levels above 105.100. Sellers appear to be gaining control, suggesting further declines. The entry point at 105.000 provides a reasonable entry price close to the current market within the 100 pips limit, with a stop loss just above the recent high for safety.",
+  "invalidation": "If the price rises above 105.100, it would invalidate the bearish thesis and signal for a reassessment.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 105.01706,
+  "entry_distance_pips": 0.02,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.02,
+    "current_price": 105.01706,
+    "warnings": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-11-27T09:00:00+00:00",
+  "signal": "BUY",
+  "confidence": 0.75,
+  "entry": 1.1595,
+  "stop": 1.1585,
+  "targets": [
+    1.16,
+    1.1605,
+    1.161
+  ],
+  "rationale": "The current price shows bullish momentum as it recently bounced off a support level around 1.15750. Moreover, recent trends indicate a buying interest which is reinforced by potential upward price targets within the next hour. The entry price of 1.15950 is set to capture this momentum while staying within the 100 pips range given the current price of 1.15919.",
+  "invalidation": "If the price falls below 1.15850, it would invalidate the bullish bias as it would suggest a breakdown of support.",
+  "prompt_name": "prompt2",
+  "raw_notes": "",
+  "current_price": 1.15919,
+  "entry_distance_pips": 0.03,
+  "validation": {
+    "valid": true,
+    "original_signal": "BUY",
+    "final_signal": "BUY",
+    "violation_reason": null,
+    "entry_distance_pips": 0.03,
+    "current_price": 1.15919,
+    "warnings": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2025-12-16T09:00:00+00:00",
+  "signal": "HOLD",
+  "confidence": 0,
+  "entry": null,
+  "stop": null,
+  "targets": [],
+  "rationale": "The market is currently at 1.1753, and I do not have enough information on the recent consolidation or range high/low to determine a clear breakout in either direction. Thus, I cannot issue a BUY or SELL signal at this moment.",
+  "invalidation": "Not applicable as the signal is HOLD.",
+  "prompt_name": "prompt1",
+  "raw_notes": "",
+  "current_price": 1.1753,
+  "entry_distance_pips": null,
+  "validation": {
+    "valid": true,
+    "original_signal": "HOLD",
+    "final_signal": "HOLD",
+    "violation_reason": null,
+    "entry_distance_pips": null,
+    "current_price": 1.1753,
+    "warnings": []
+  }
+}

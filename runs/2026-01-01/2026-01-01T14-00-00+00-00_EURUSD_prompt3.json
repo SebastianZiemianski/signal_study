@@ -1,0 +1,28 @@
+{
+  "symbol": "EURUSD",
+  "timeframe": "5m",
+  "timestamp_utc": "2026-01-01T14:00:00+00:00",
+  "signal": "SELL",
+  "confidence": 0.75,
+  "entry": 1.1735,
+  "stop": 1.175,
+  "targets": [
+    1.171,
+    1.1695
+  ],
+  "rationale": "The EURUSD pair has shown a bearish momentum with recent price action making lower highs and lower lows since the opening of the hour. The Relative Strength Index (RSI) is currently indicating overbought conditions, approaching the 70 mark, suggesting a possible reversal soon. Given the bearish trend and the overbought RSI condition, a sell position is plausible. The entry point is set at 1.17350, which allows for a quick reaction to market movements while keeping the stop loss at a safe distance to allow for some fluctuations. Target levels have been identified at 1.17100 and 1.16950, which are realistic for a quick move within the next hour. Invalidation would be if the price exceeds 1.17500, indicating a stronger upward move contrary to our bearish outlook.",
+  "invalidation": "If the price goes above 1.17500, consider the bearish setup invalidated and reassess market conditions.",
+  "prompt_name": "prompt3",
+  "raw_notes": "",
+  "current_price": 1.17459,
+  "entry_distance_pips": 0.11,
+  "validation": {
+    "valid": true,
+    "original_signal": "SELL",
+    "final_signal": "SELL",
+    "violation_reason": null,
+    "entry_distance_pips": 0.11,
+    "current_price": 1.17459,
+    "warnings": []
+  }
+}
